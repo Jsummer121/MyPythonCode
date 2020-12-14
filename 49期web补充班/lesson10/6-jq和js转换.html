@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>元素一</div>
+    <div>元素二</div>
+    <div class="box">元素三</div>
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    //jq--->js
+    //1.利用数组下标
+    var $div = $("div"); //jq对象
+    var div = $div[0]; // 转换为js对象
+    div.style.color = "red"; // js操作方法
+
+    // 2.通过jq的get方法
+     var $div = $("div"); //jq对象
+     var div = $div.get(1); // 转换为js对象
+     div.style.color = "skyblue";// js操作方法
+
+    //js--->jq
+    var div = document.getElementsByTagName("div");//js对象
+    var $div = $(div);//jq对象
+    $div.last().css("color","blue");
+
+    // this
+    var obj = document.querySelector(".box");
+    obj.onclick=function () {
+        console.log(this); // this指向obj
+    };
+
+    var $obj = $(".box");
+    $obj.click(function(){
+        var $this = $(this);
+        $this.css("fontSize","50px");
+    });
+</script>
+</body>
+</html>

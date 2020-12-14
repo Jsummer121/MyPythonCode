@@ -1,0 +1,345 @@
+/*=====left-con start====*/
+.middle .content .left-con{
+    width:800px;
+    /*height:800px;*/
+    background: white;
+    float:left;
+    margin-top:30px;
+}
+/*=====banner start====*/
+.middle .content .left-con .banner{
+    height:200px;
+    width:800px;
+    background: antiquewhite;
+    position:relative;
+}
+.middle .content .left-con .banner .pic img{
+    height:200px;
+    width:800px;
+    position:absolute;
+    display: none;
+}
+.middle .content .left-con .banner .pic img.show{
+    display: block;
+}
+.middle .content .left-con .banner .btn{
+    /*height:17px;*/
+    /*width:118px;*/
+    /*background: #6fa026;*/
+    position:absolute;
+    left:50%;
+    margin-left:-59px;
+    bottom:20px;
+}
+
+.middle .content .left-con .banner .btn li{
+    height:15px;
+    width:15px;
+    border:1px solid black;
+    border-radius: 50%;
+    float:left;
+    margin-left:10px;
+    cursor: pointer;
+}
+.middle .content .left-con .banner .btn li.active{
+    background: white;
+}
+.middle .content .left-con .banner .btn li:hover{
+    background: white;
+}
+.middle .content .left-con .banner .tab{
+    height:200px;
+    line-height: 200px;
+    display: none;
+}
+.middle .content .left-con .banner:hover .tab{
+    display: block;
+}
+.middle .content .left-con .banner .tab li{
+    color:black;
+    font-size:50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.middle .content .left-con .banner .tab .left{
+    position:absolute;
+    left:20px;
+}
+.middle .content .left-con .banner .tab .right{
+    position:absolute;
+    right:20px;
+}
+/*=====banner end====*/
+/*=====news start====*/
+.middle .content .left-con .news{
+    /*background: deepskyblue;*/
+    /*padding:20px;*/
+    /*B.弹性盒子布局*/
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+    border-bottom:1px solid gainsboro;
+}
+.middle .content .left-con .news li{
+    width:245px;
+    height:180px;
+    background: #6fa026;
+    /*A.浮动*/
+    /*float:left;*/
+    /*margin-left:6px;*/
+    position:relative;
+    overflow:hidden;/*图片放大时，超出部分隐藏*/
+}
+.middle .content .left-con .news li:hover img{
+    transform: scale(1.2);/*鼠标移入到li标签上时，图片放大1.2倍*/
+}
+.middle .content .left-con .news li img{
+    width:245px;
+    height:180px;
+    transition: all 500ms;/*图片放大速度*/
+}
+.middle .content .left-con .news li p{
+    width:245px;
+    height:60px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    background: rgba(0,0,0,0.3);
+    color:white;
+    line-height: 30px;
+}
+/*=====news end====*/
+/*=====news-menu start====*/
+.middle .content .left-con .news-menu{
+    padding:20px;
+    color:black;
+}
+.middle .content .left-con .news-menu .title li{
+    color: #808080;
+    float:left;
+    padding: 0 10px;
+    /*background: #6fa026;*/
+    line-height: 24px;
+}
+li.active{
+    border-left:3px solid rebeccapurple;
+    color:black;
+}
+.middle .content .left-con .news-menu .title li:hover{
+    text-shadow:1px 1px 2px #212121;
+    border-left:3px solid rebeccapurple;
+}
+
+/*=====news-content start====*/
+.middle .content .left-con .news-menu .news-content{
+    width:760px;
+    height:400px;
+    /*background: #5d5dca;*/
+    position:relative;
+}
+.middle .content .left-con .news-menu .news-content li{
+    position:absolute;
+    display: none;
+}
+.middle .content .left-con .news-menu .news-content li.show{
+    display:block;
+}
+.middle .content .left-con .news-menu .news-content li .pic{
+    float:left;
+}
+.middle .content .left-con .news-menu .news-content li img{
+    height:160px;
+    width:230px;
+}
+.middle .content .left-con .news-menu .news-content li .news-list{
+    padding:20px 0;
+    border-bottom: 1px solid gainsboro;
+}
+.middle .content .left-con .news-menu .news-content li .text{
+    height:160px;
+    width:510px;
+    float:right;
+    margin-left:20px;
+}
+.middle .content .left-con .news-menu .news-content li .text h4{
+    font-size:22px;
+    line-height: 26px;
+    height:52px;
+}
+.middle .content .left-con .news-menu .news-content li .text p{
+    color:grey;
+    line-height: 22px;
+}
+.middle .content .left-con .news-menu .news-content li .news-other{
+    margin-top:35px;
+}
+.middle .content .left-con .news-menu .news-content li .news-other .news-type{
+    float:left;
+    color:green;
+}
+.middle .content .left-con .news-menu .news-content li .news-other .news-time,
+.middle .content .left-con .news-menu .news-content li .news-other .news-author{
+    float:right;
+    margin-left:10px;
+    color:grey;
+}
+/*=====news-content end====*/
+/*=====news-menu end====*/
+.middle .content .left-con .more{
+    display: block;
+    width:400px;
+    height:50px;
+    background: deepskyblue;
+    text-align: center;
+    line-height: 50px;
+    color:white;
+    margin:20px auto;
+    border-radius: 8px;
+}
+/*=====left-con end====*/
+/*=====right-con start====*/
+.middle .content .right-con{
+    width:360px;
+    /*height:800px;*/
+    background: white;
+    float:right;
+}
+/*=====class start====*/
+.middle .content .right-con{
+    margin-top: 20px;
+}
+.middle .content .right-con .offline-class h3,
+.middle .content .right-con .online-class h3{
+    line-height: 60px;
+    font-size: 18px;
+    padding:0 20px;
+}
+.middle .content .right-con .offline-class h3 a,
+.middle .content .right-con .online-class h3 a{
+    color:green;
+    font-size: 14px;
+    float:right;
+}
+.middle .content .right-con .offline-class .img,
+.middle .content .right-con .online-class .img{
+    width:320px;
+    height:210px;
+    margin:0 auto;
+    position:relative;
+}
+.middle .content .right-con .offline-class .img img,
+.middle .content .right-con .online-class .img img{
+    width:320px;
+    height:210px;
+}
+.middle .content .right-con .offline-class .img p{
+    position:absolute;
+    height:40px;
+    width:320px;
+    background: rgba(0,0,0,0.3);
+    bottom:0;
+    left:0;
+    color:white;
+    line-height: 40px;
+    text-indent: 1em;
+}
+.middle .content .right-con .offline-class .status{
+    width:320px;
+    padding:0 20px;
+    border-bottom: 1px solid gainsboro;
+}
+.middle .content .right-con .offline-class .status li{
+    height:40px;
+    line-height: 40px;
+}
+.middle .content .right-con .offline-class .status li .one{
+    border: 1px solid skyblue;
+    color: skyblue;
+    margin-right:20px;
+}
+.middle .content .right-con .offline-class .status li .two{
+    border: 1px solid gainsboro;
+    color: gainsboro;
+    margin-right:20px;
+}
+/*=====class end====*/
+/*=====attention-me start====*/
+.middle .content .right-con .attention-me{
+    margin-top:20px;
+    border-top:1px solid gainsboro;
+    width:360px;
+}
+.middle .content .right-con .attention-me h3,
+.middle .content .right-con .hot-recommend h3{
+    padding:0 20px;
+    line-height: 60px;
+    font-size: 18px;
+}
+.middle .content .right-con .attention-me .info{
+    float:left;
+}
+.middle .content .right-con .attention-me .info li{
+    line-height: 50px;
+}
+.middle .content .right-con .attention-me .info li i{
+    font-size:40px;
+    padding:0 20px;
+}
+.middle .content .right-con .attention-me .attention{
+    float:right;
+    height:150px;
+    width:150px;
+    background: url("http://qpic.cn/c5WlGbF6e") no-repeat center/100%;
+    margin-right:20px;
+}
+.middle .content .right-con .attention-me .attention p{
+    line-height:32px;
+    text-align: center;
+    margin-top:130px;
+}
+/*=====attention-me end====*/
+/*=====hot-recommend start====*/
+.middle .content .right-con .hot-recommend{
+    margin-top:20px;
+    border-top:1px solid gainsboro;
+    width:360px;
+}
+.middle .content .right-con .hot-recommend .hot-news li{
+    padding:0 20px;
+    border-bottom: 1px solid gainsboro;
+    margin-top:20px;
+}
+.middle .content .right-con .hot-recommend .hot-news li .news-content p{
+    overflow: hidden;/*超出部分隐藏*/
+    text-overflow: ellipsis;/*文字超出部分省略号显示*/
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;/*省略号显示的行*/
+    width:200px;
+    /*height:80px;*/
+}
+.middle .content .right-con .hot-recommend .hot-news li .other{
+    font-size:15px;
+    margin-top:20px;
+}
+.middle .content .right-con .hot-recommend .hot-news li .other .hot{
+    color:green;
+    float:left;
+}
+.middle .content .right-con .hot-recommend .hot-news li .other .date{
+    float:right;
+}
+.middle .content .right-con .hot-recommend .news-content{
+    float:left;
+}
+.middle .content .right-con .hot-recommend .pic{
+    float:right;
+}
+.middle .content .right-con .hot-recommend .pic img{
+    width:100px;
+    height:80px;
+}
+
+/*=====hot-recommend end====*/
+
+/*=====right-con end====*/

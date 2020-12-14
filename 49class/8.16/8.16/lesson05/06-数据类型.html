@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数据类型</title>
+</head>
+<body>
+<input type="text" name="样式名">
+<input type="button" value="设置">
+<script>
+    var obj = document.querySelectorAll("input");
+    obj[1].onclick = function () {
+        console.log(obj[0].value);
+    };
+    // js六大数据类型
+    /*
+    1. Number类型:整数和小数
+        NaN:not a number
+        isNaN():用来检查参数是否是非数字值
+    2.string类型
+        length属性
+    3.Boolean类型
+        true和false
+    4.Undefined类型
+        只有一个值：undefined，变量声明但未初始化，这个变量的值就是undefined。
+    5.Null类型
+        js里null属于对象类型的，但是它不具有对象的共性，所以，单独归为一类。
+     6.object类型
+        js中对象类型是一组集合。
+    */
+    var a = 5;
+    var b = NaN;
+    console.log(typeof a);
+    console.log(typeof b);
+    var c;
+    console.log(c);  //undefined
+    var d = null;
+    console.log(typeof d);  // object
+
+    // 对象数据类型
+    var user = {name:"dai", age:18};
+    var arr = [1, 2, 3];
+    console.log(typeof user);
+    console.log(typeof arr);
+</script>
+</body>
+</html>

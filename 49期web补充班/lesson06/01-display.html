@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>标签元素：块级元素(block)+行内元素(inline)</title>
+    <style>
+        div{
+            height:200px;
+            width:200px;
+            background: skyblue;
+            /*display: inline;*/
+            display: inline-block;/*元素在一行内显示，同时可以设置宽高*/
+        }
+        span{
+            height:200px;
+            width:200px;
+            background: peru;
+            /*display: block;*/
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div>我是块级元素，我要占一行，我能设置宽高</div>
+    <div>我是块级元素，我要占一行，我能设置宽高</div>
+    <span>我是行内元素，一行里可以有多个我，不能设置宽高</span>
+    <span>我是行内元素，一行里可以有多个我，不能设置宽高</span>
+</body>
+</html>

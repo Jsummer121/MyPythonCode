@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js获取元素</title>
+</head>
+<body>
+    <div class="box" id="box1">我很好</div>
+    <div class="test box"></div>
+    <input type="text" name="usr" placeholder="请输入用户名">
+    <script>
+        var obj = document.getElementsByTagName("div")[0];
+        // console.log(obj);
+        var obj1 = document.getElementsByClassName("box")[0];
+        // console.log(obj1);
+        var obj2 = document.getElementById("box1");
+        // console.log(obj2);
+        var obj3 = document.getElementsByName("usr")[0];
+        // console.log(obj3)
+
+        // 通过css选择器来获取对象
+        var obj4 = document.querySelector('div');
+        var obj5 = document.querySelector('.box');
+        var obj6 = document.querySelector("#box1");
+        console.log(obj4);
+        console.log(obj5);
+        console.log(obj6);
+        var obj7 = document.querySelectorAll('div');
+        console.log(obj7);
+    </script>
+</body>
+</html>

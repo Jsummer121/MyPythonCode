@@ -1,0 +1,7 @@
+n = input()
+li = input().split()
+li = list(map(int,li))
+li_max = max(li)
+li_min = min(li)
+li_sum = sum(li)
+print('{}\n{}\n{}'.format(li_max,li_min,li_sum))

@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ed336bd2-d200-45a1-b557-3854d731f858" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/python-summer-1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1024快乐/1024.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1024快乐/shiyan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/.bumpversion.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/.cookiecutterrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/.coveragerc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/AUTHORS.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/CONTRIBUTING.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/HISTORY.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/MANIFEST.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/README.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/TODO.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/VERSION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/docs/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/docs/authors.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/docs/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/docs/contributing.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/docs/history.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/docs/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/docs/installation.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/docs/make.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/docs/modules.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/docs/readme.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/docs/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/docs/scrapy_redis.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/example-project/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/example-project/README.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/example-project/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/example-project/example/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/example-project/example/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/example-project/example/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/example-project/example/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/example-project/example/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/example-project/example/spiders/dmoz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/example-project/example/spiders/mycrawler_redis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/example-project/example/spiders/myspider_redis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/example-project/process_items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/example-project/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/example-project/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/requirements-dev.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/requirements-install.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/requirements-setup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/requirements-tests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/setup.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/src/scrapy_redis/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/src/scrapy_redis/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/src/scrapy_redis/defaults.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/src/scrapy_redis/dupefilter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/src/scrapy_redis/picklecompat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/src/scrapy_redis/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/src/scrapy_redis/queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/src/scrapy_redis/scheduler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/src/scrapy_redis/spiders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/src/scrapy_redis/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/tests/test_connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/tests/test_dupefilter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/tests/test_package_import.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/tests/test_picklecompat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/tests/test_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/tests/test_scrapy_redis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/tests/test_spiders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/tests/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-scrapy-redis/tox.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage1/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage1/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage2/course.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage2/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage2/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage2/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage2/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage2/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage2/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage2/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage3/WebPage/course.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage3/WebPage/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage3/WebPage/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage3/WebPage/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage3/WebPage/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage3/WebPage/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage3/WebPage/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage3/WebPage/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage3/WebPage/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage4/course.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage4/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage4/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage4/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage4/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage4/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage4/css/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage4/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage4/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage4/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/WebPage4/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/ajxj.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/assets/1565620973578.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/assets/1565620997635.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/assets/css选择器.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/css.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/html.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/jquery.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/js.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson01/02块级标签-列表标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson01/03-div页面布局.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson01/04-图片标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson01/05-超链接a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson01/06-span标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson01/07-特殊符号.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson01/08-表格标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson01/09-form表单.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson01/前端页面模板.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson01/基本模板.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson02/01-css的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson02/02-css选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson02/03-hover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson02/04-字体样式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson02/05-文本样式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson02/homework.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson02/test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson02/日志.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson03/01-背景样式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson03/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson04/01-border.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson04/02-padding.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson04/03-margin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson04/04-内外边距问题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson04/05-浮动.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson04/06-定位.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson04/07-相对定位.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson04/08-绝对定位.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson04/09-父相子绝.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson04/10-zindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson05/01-js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson05/02-js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson05/03-简单事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson05/04-修改样式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson05/05-属性操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson05/06-数据类型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson05/homework.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson05/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson06/01-display.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson06/02-css选择器补充.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson06/03-背景图position.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson06/04-子代和后代选择器的区别.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson06/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson07/0-homework.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson07/01-js操作符.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson07/02-if.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson07/03-switch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson07/04-for.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson07/05-字符串方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson08/0-homework.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson08/05-日期对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson08/06-定时器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson08/07-函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson08/08-函数作用域.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson08/1-homework.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson08/2-数组方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson08/3-补充方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson08/4-math.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson09/0-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson09/1-homework.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson09/1-iframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson09/5-函数作用域.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson09/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson09/日志111.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson10/0-homework.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson10/1-jq导入.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson10/2-jq选择元素.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson10/3-区别.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson10/4-属性操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson10/5-样式操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson10/6-jq和js转换.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson11/1-标签操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson11/2-事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson11/3-动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson11/4-json.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson11/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/lesson11/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/作业/css轮播图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/作业/html01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/作业/js作业.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/作业/shiyan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/作业/单机事件-轮播图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/作业/计时器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../49期web补充班/作业/页面布局.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django框架/assets/1568014263030.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django框架/assets/1568030768496.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django框架/assets/1568038821225.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django框架/assets/1568118434167.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django框架/assets/1568123429099.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django框架/assets/1568123697501.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django框架/assets/1568297428830.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../微信自动回复/ceshi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../微信自动回复/ceshi.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../微信自动回复/shiyan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../微信自动回复/user/扑满森林..txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../微信自动回复/user/梁钢牙.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../微信自动回复/user/橡皮糖.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../微信自动回复/user/没良心小仙女.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../微信自动回复/user/＆.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../微信自动回复/机器人.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../期末作业/id.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../期末作业/zuoye5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../微信自动回复/paper diaper.py" beforeDir="false" afterPath="$PROJECT_DIR$/../微信自动回复/paper diaper.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/提取码.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/百度云/BaiDuYun/BaiDuYun/spiders/BaiDu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="8" column="81" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/新浪微博/SinaSpider/SinaSpider/cookies.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="477">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+              <folding>
+                <element signature="e#24#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/百度云/BaiDuYun/BaiDuYun/提取码.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+              <folding>
+                <element signature="e#24#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/上课文件/urllib爬取图片.py" />
+        <option value="$PROJECT_DIR$/tol" />
+        <option value="$PROJECT_DIR$/tol.txt" />
+        <option value="$PROJECT_DIR$/to1.txt" />
+        <option value="$PROJECT_DIR$/提取码.py" />
+        <option value="$PROJECT_DIR$/百度云/BaiDuYun/BaiDuYun/spiders/BaiDu.py" />
+        <option value="$PROJECT_DIR$/百度云/BaiDuYun/BaiDuYun/提取码.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+        <option value="$PROJECT_DIR$/.idea/35爬虫.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/deployment.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="382" />
+    <option name="y" value="63" />
+    <option name="width" value="556" />
+    <option name="height" value="518" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="35爬虫" type="b2602c69:ProjectViewProjectNode" />
+              <item name="35爬虫" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="35爬虫" type="b2602c69:ProjectViewProjectNode" />
+              <item name="35爬虫" type="462c0819:PsiDirectoryNode" />
+              <item name="新浪微博" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="35爬虫" type="b2602c69:ProjectViewProjectNode" />
+              <item name="35爬虫" type="462c0819:PsiDirectoryNode" />
+              <item name="新浪微博" type="462c0819:PsiDirectoryNode" />
+              <item name="SinaSpider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="35爬虫" type="b2602c69:ProjectViewProjectNode" />
+              <item name="35爬虫" type="462c0819:PsiDirectoryNode" />
+              <item name="新浪微博" type="462c0819:PsiDirectoryNode" />
+              <item name="SinaSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="SinaSpider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="35爬虫" type="b2602c69:ProjectViewProjectNode" />
+              <item name="35爬虫" type="462c0819:PsiDirectoryNode" />
+              <item name="百度云" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="35爬虫" type="b2602c69:ProjectViewProjectNode" />
+              <item name="35爬虫" type="462c0819:PsiDirectoryNode" />
+              <item name="百度云" type="462c0819:PsiDirectoryNode" />
+              <item name="BaiDuYun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="35爬虫" type="b2602c69:ProjectViewProjectNode" />
+              <item name="35爬虫" type="462c0819:PsiDirectoryNode" />
+              <item name="百度云" type="462c0819:PsiDirectoryNode" />
+              <item name="BaiDuYun" type="462c0819:PsiDirectoryNode" />
+              <item name="BaiDuYun" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="E:/Django_pro" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.提取码 (1)">
+    <configuration name="提取码 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="35爬虫" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/百度云/BaiDuYun/BaiDuYun" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/百度云/BaiDuYun/BaiDuYun/提取码.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="提取码" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="35爬虫" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/提取码.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="urllib爬取图片" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="35爬虫" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/上课文件" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/上课文件/urllib爬取图片.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.提取码 (1)" />
+        <item itemvalue="Python.提取码" />
+        <item itemvalue="Python.urllib爬取图片" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed336bd2-d200-45a1-b557-3854d731f858" name="Default Changelist" comment="" />
+      <created>1574047177103</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574047177103</updated>
+      <workItem from="1574047198275" duration="3806000" />
+      <workItem from="1574135372837" duration="112000" />
+      <workItem from="1576238393893" duration="5072000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8990000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37315875" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/35$__1_.coverage" NAME="提取码 (1) Coverage Results" MODIFIED="1576244713365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/百度云/BaiDuYun/BaiDuYun" />
+    <SUITE FILE_PATH="coverage/35$.coverage" NAME="提取码 Coverage Results" MODIFIED="1576240280063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/35$urllib.coverage" NAME="urllib爬取图片 Coverage Results" MODIFIED="1574052312087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/上课文件" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/上课文件/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/上课文件/urllib爬取图片.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="e#25#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tol">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tol.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/to1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新浪微博/SinaSpider/SinaSpider/spiders/Sina.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3975" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新浪微博/SinaSpider/SinaSpider/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3026">
+          <folding>
+            <element signature="e#170#196#0" expanded="true" />
+            <element signature="e#318#1979#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/上课文件/tencent/tencent/spiders/tencent_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/上课文件/tencent/tencent/spiders/baidu_text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/上课文件/seleabc/seleabc/spiders/area.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新浪微博/SinaSpider/SinaSpider/settings.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新浪微博/SinaSpider/SinaSpider/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新浪微博/SinaSpider/SinaSpider/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-987" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/上课文件/selenim测试.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="e#24#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新浪微博/SinaSpider/SinaSpider/cookies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="e#24#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/百度云/BaiDuYun/BaiDuYun/spiders/BaiDu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="8" column="81" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/提取码.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/百度云/BaiDuYun/BaiDuYun/提取码.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="e#24#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

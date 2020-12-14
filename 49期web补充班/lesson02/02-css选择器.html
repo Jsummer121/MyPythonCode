@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css选择器</title>
+    <style>
+        /*标签选择器*/
+        /*p{*/
+           /*font-size:50px;*/
+        /*}*/
+        /*class选择器*/
+        .test1{
+            color:red;
+        }
+        /*id选择器*/
+        #test2{
+            font-weight:bolder;
+        }
+        /*子代选择器*/
+        .box1>span{
+            color:skyblue;
+        }
+        /*后代选择器*/
+        .box1 span{
+            font-size:50px;
+        }
+        /*兄弟选择器*/
+        .box2~p{
+            color:blue;
+        }
+        /*相邻选择器*/
+        .box2+p{
+            font-size:30px;
+        }
+        /*全选择器*/
+        *{
+            font-family: 华文彩云;
+        }
+        /*属性选择器*/
+        div[hh="test"]{
+            color:peru;
+        }
+        div[class="box3"]{
+            font-size:50px;
+        }
+        /*分组选择器*/
+        .box4,.box5{
+            height:200px;
+            width:200px;
+            background: #5b86db;
+        }
+        /*.box4{*/
+            /*height:200px;*/
+            /*width:200px;*/
+            /*background: #5b86db;*/
+        /*}*/
+        /*.box5{*/
+            /*height:200px;*/
+            /*width:200px;*/
+            /*background: #5b86db;*/
+        /*}*/
+    </style>
+</head>
+<body>
+    <!--基本选择器：标签选择器、class选择器、id选择器-->
+    <p class="test1" id="test2">我就是我</p>
+    <!--后代选择器和子代选择器-->
+    <div class="box1">
+        <span>鹅鹅鹅，</span>
+        <p>曲<span>项</span>向天歌。</p>
+    </div>
+    <!--兄弟选择器和相邻选择器-->
+    <p>兄：我就是我不一样的烟火</p>
+    <div class="box2">参照物</div>
+    <p>白毛浮绿水，</p>
+    <p>红掌拨清波。</p>
+    <!--属性选择器-->
+    <div class="box3" hh="test">我是属性选择器</div>
+    <!--分组选择器-->
+    <div class="box4">div</div>
+    <p class="box5">p</p>
+</body>
+</html>

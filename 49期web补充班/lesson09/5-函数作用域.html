@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <script>
+        // f();
+        // function f() {
+        //     console.log(a); // undefined
+        //     var a = "ok";
+        //     console.log(a); // "ok"
+        // }
+
+        /*
+        提前声明：函数执行前，所有的变量都进行了声明，但未赋值
+        1.function f + var a---->a==undefined;
+        2.函数从上往下执行
+        */
+
+        // function a() {
+        //     console.log("ok");
+        // }
+        // a();
+        // function a() {
+        //     console.log("hello");
+        // }
+        // a();
+
+        /*
+        1.function a ---->console.log("ok");
+          function a ---->console.log("hello");
+          =====> a ----->console.log("hello");
+         2. a();====>console.log("hello");
+            a();====>console.log("hello");
+        */
+
+        function a() {
+            console.log("ok");
+        }
+        a();
+        function a() {
+            console.log("hello");
+        }
+        a();
+        var a=function () {
+            console.log("hi");
+        };
+        a();
+
+        /* 变量和函数
+        1.function a ---->console.log("ok");
+          function a ---->console.log("hello");
+          =====>function a ----->console.log("hello");
+          var a;变量
+         2. a();===>function a ----->console.log("hello");
+            a();=====>function a ----->console.log("hello");
+            a变量赋值=console.log("hi");
+            a();====>console.log("hi");
+        */
+
+        // 外面var全局变量整个js生效，函数内var函数内生效
+        var name="阙林国";
+        function f() {
+            var name="张学成";
+            console.log("1:"+name);
+        }
+        console.log("2:"+name);
+        f();
+        console.log("3:"+name);
+
+        /*
+        1.var name="阙林国";
+          function f + var name
+        2.执行
+          console.log("2:"+name);===>"2:阙林国"
+          f();===>name="张学成";console.log("1:"+name);===>1:张学成
+          console.log("3:"+name);====>3:阙林国
+        */
+        // 变量都有自己的作用范围，函数内var的变量，它的作用范围就是函数本身，外部是访问不到；
+
+    </script>
+</body>
+</html>

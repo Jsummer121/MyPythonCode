@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul>
+        <li>足球</li>
+        <li>篮球</li>
+        <li>乒乓球</li>
+    </ul>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $("li:eq(1)").css("color", "skyblue"); // 选择器
+        $("li").eq(2).css("color","red"); // 筛选器
+
+        function f(obj, index){
+            obj.eq(index).css("color","red");
+        }
+        f($("li"), 1);
+    //    总结
+        // 简单操作时，选择器和筛选器效果是一样的
+        // 但是在函数操作中，筛选器在字符拼接上有优势
+    </script>
+</body>
+</html>

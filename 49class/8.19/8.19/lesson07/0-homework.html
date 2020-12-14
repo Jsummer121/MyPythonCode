@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js一</title>
+    <style>
+        /**{*/
+            /*margin:0;*/
+            /*padding:0;*/
+        /*}*/
+        .btn{
+            width:80px;
+            background: #0e0e0e;
+            color:white;
+            font-family: 华文楷体;
+            font-size:16px;
+            border-radius: 6px;
+            text-align: center;
+            line-height:30px;
+        }
+        div{
+            height:200px;
+            width:200px;
+            background: #54b9e2;
+            text-align: center;
+            line-height:200px;
+            font-family: 华文楷体;
+            font-size:30px;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <label for="attr">样&emsp;式：</label><input type="text" id="attr" placeholder="
+请输入css样式">
+    </p>
+    <p>
+       <label for="attV">样式值：</label><input type="text" id="attV" placeholder="
+请输入css样式值">
+    </p>
+    <p>
+        <input type="button" class="btn" value="设置">
+    </p>
+    <div>我就是我</div>
+
+    <script>
+        // 实现鼠标移入移出事件
+        var obj = document.querySelector("div");
+        obj.onmouseenter = function () {
+            obj.innerText = "我还是我！";
+        };
+        obj.onmouseleave = function () {
+            obj.innerText = "我就是我";
+        };
+
+        // 实现点击按钮修改div的样式
+        var input = document.querySelectorAll("input");
+        input[2].onclick = function () {
+            var attr = input[0].value;
+            var attV = input[1].value;
+            obj.style[attr] = attV;
+
+        }
+    </script>
+</body>
+</html>

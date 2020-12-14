@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css选择器补充</title>
+    <style>
+        /*div .test{*/  /*div标签下后代元素中class="test"的对象*/
+            /*height:200px;*/
+            /*width:200px;*/
+            /*border:1px solid red;*/
+        /*}*/
+        div.test{   /*class="test"的div标签元素*/
+            height:200px;
+            width:200px;
+            border:1px solid red;
+        }
+        #test{
+
+        }
+        .test{
+
+        }
+    </style>
+</head>
+<body>
+   <div class="test" id="test">我是div1</div>
+   <div class="tar">我是div2
+        <div class="test">我是div3</div>
+   </div>
+    <div class="test"></div>
+    <!--css选择器有哪些-->
+    <!--基本选择器：标签选择器（标签名）；id选择器（#id名）; class选择器（.class名）-->
+    <!--复合选择器：子代选择器（基本选择器>基本选择器）；后代选择器（基本选择器 基本选择器）；相邻+；兄弟~-->
+</body>
+</html>

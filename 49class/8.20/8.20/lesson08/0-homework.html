@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图点击事件</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        ul{
+            list-style:none;
+        }
+        .btn{
+            height:50px;
+            width:800px;
+            margin-bottom: 20px;
+        }
+        .btn li{
+            height:30px;
+            width:30px;
+            background: peru;
+            float:left;
+            margin-left:10px;
+            text-align: center;
+            line-height: 30px;
+        }
+        .pic{
+            height:200px;
+            width:800px;
+            position:relative;
+        }
+        .pic img{
+            height:200px;
+            width:800px;
+            position:absolute;
+        }
+    </style>
+</head>
+<body>
+    <ul class="btn">
+        <li>一</li>
+        <li>二</li>
+        <li>三</li>
+        <li>四</li>
+    </ul>
+    <ul class="pic">
+        <li><img src="https://res.shiguangkey.com//file/201806/19/20180619142252602590185.jpg" alt=""></li>
+       <li><img src="https://res.shiguangkey.com//file/201806/19/20180619141337485823895.jpg" alt=""></li>
+       <li><img src="https://res.shiguangkey.com//file/201806/21/20180621150342030454625.jpg" alt=""></li>
+       <li><img src="https://res.shiguangkey.com//file/201805/17/20180517113424433990524.jpg" alt=""></li>
+    </ul>
+
+    <script>
+        var btn = document.querySelectorAll(".btn li");
+        var pic = document.querySelectorAll(".pic img");
+        // 第一种：z-index:显示的图值为10不显示的设为0
+        for(let i=0;i<btn.length;i++){
+            btn[i].onclick=function () {// 给btn绑定事件
+                for(let j=0;j<pic.length;j++){ // 循环的图片
+                    if(i===j){ // 点击的btn的下标，对应的图片显示
+                        pic[j].style.zIndex="10";
+                    }else{
+                        pic[j].style.zIndex="0";
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>

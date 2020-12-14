@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件操作</title>
+    <style>
+        ul{
+            list-style:none;
+        }
+        li{
+            height:20px;
+            width:20px;
+            background:#a7ca1b;
+            float:left;
+            margin-left:10px;
+        }
+        div{
+            height:100px;
+            width:100px;
+            background: #a7ca1b;
+        }
+    </style>
+</head>
+<body>
+    <!--<ul>-->
+        <!--<li></li>-->
+        <!--<li></li>-->
+        <!--<li></li>-->
+        <!--<li></li>-->
+    <!--</ul>-->
+
+    <div>我就是我</div>
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        // each遍历
+        // $("li").each(function (index) {
+        //     console.log(index);
+        // });
+        // for循环+绑定事件
+        // var btn = document.querySelectorAll("li");
+        // for(let i=0; i<btn.length;i++){
+        //     btn[i].onclick=function () {
+        //         console.log(i);
+        //     }
+        // }
+        // $("li").each(function (index) {
+        //     $("li").eq(index).click(function () {
+        //         console.log(index);
+        //     });
+        // });
+
+        // index
+        // $("li").click(function () {
+        //     console.log($(this).index());
+        // });
+
+        // 鼠标的移入移出事件hover
+        // $("div").hover(f1,f2);
+        $("div").hover(function () {
+            console.log("我是鼠标移入函数");
+        },function () {
+            console.log("我是鼠标移出函数");
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>作业讲解</title>
+    <style>
+        .time{
+            color:red;
+            font-size:30px;
+        }
+        .test{
+            color:skyblue;
+            font-size:30px;
+        }
+    </style>
+</head>
+<body>
+    <h4>敌军还有<span class="time">5</span>秒到达战场</h4>
+    <h4>现在是北京时间:<span class="date"></span></h4>
+
+    <script>
+        // 实现倒计时
+        var obj = document.querySelector(".time");
+        var time = obj.innerText;
+        function f() {
+        // 实现时间减少的
+            if(time==0){
+                clearInterval(sI);
+                document.querySelector("h4").innerText = "全军出击!!!";
+            }
+            time -=1;
+            obj.innerText=time;
+        }
+        var sI = setInterval(f,1000);
+
+        // 实现时间
+        function f1() {
+            // 获取当前时间
+            // 获取时间对象
+            var time=new Date();
+            // 年月日时分秒，月份和星期
+            var year = time.getFullYear();
+            var mon = time.getMonth()+1;
+            var date = time.getDate();
+            var hour = time.getHours();
+            var min = time.getMinutes();
+            var sec = time.getSeconds();
+
+            mon = change(mon);
+            date = change(date);
+            hour = change(hour);
+            min = change(min);
+            sec = change(sec);
+            // 小于10的数字补全为两位
+            function change(n){
+                n = "0"+n; // 2--->02    15---->015
+                n=n.slice(-2); //  02            15
+                return n
+            }
+
+            // document.querySelector(".date").innerText = year+"年"+mon+"月"+date+"日"+hour+":"+min+":"+sec;
+            document.querySelector(".date").innerHTML = year+"<span class='test'>年</span>"+mon+"<span class='test'>月</span>"+date+"<span class='test'>日</span>"+hour+":"+min+":"+sec;
+        }
+        f1(); // 消除延迟
+        setInterval(f1, 1000);
+   </script>
+</body>
+</html>

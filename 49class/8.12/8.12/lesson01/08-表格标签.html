@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格</title>
+    <style>
+        td,th{
+            border: 1px solid black;
+            width:50px;
+        }
+    </style>
+</head>
+<body>
+    <table style="border-collapse: collapse">
+        <caption>表格名</caption>
+        <thead>
+        <tr>
+            <th>名字</th>
+            <th>年龄</th>
+            <th>爱好</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td colspan="3">1</td>
+        </tr>
+        <tr>
+            <td rowspan="2">4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        /*（*）为通配符选择器*/
+
+        .top{
+            width:100%;
+            height:64px;
+            background: black;
+        }
+        .top .menu{
+            width:1200px;
+            height:100%;
+            background: blue;
+            margin:0 auto;
+        }
+
+
+        .middle{
+            width:100%;
+            height:800px;
+            background: antiquewhite;
+        }
+        .middle .content{
+            width:1200px;
+            height:100%;
+            background: #9090fb;
+            margin: 0 auto;
+        }
+
+        .middle .content div{
+            float: left;
+            /*因为盒子是自动换行的，所以这里创建的盒子都需要进行浮动布局才能在一个盒子内显示*/
+        }
+        .middle .content .left{
+            width:65%;
+            height: 100%;
+            background-color: green;
+        }
+        .middle .content .left .roll{
+            height:200px;
+            width:100%;
+            background: #6fa026;
+            position:relative;
+        }
+        .middle .content .left .roll img{
+            height:200px;
+            width:100%;
+            position:absolute;
+        }
+        .middle .content .left .roll ul{
+            list-style: none;
+        }
+        .middle .content .left .roll .but{
+            position:absolute;
+            left:50%;
+            margin-left: -44px;
+            bottom:10px;
+        }
+        .middle .content .left .roll .but li{
+            height:10px;
+            width:10px;
+            border:1px solid white;
+            float:left;
+            border-radius: 50%;
+            margin-left:10px;
+        }
+        .middle .content .left .roll .but li:hover{
+            background-color: white;
+            cursor:pointer;
+        }
+        .middle .content .left .roll .btn{
+            font-size: 50px;
+            color:white;
+            height:200px;
+            line-height: 200px;
+            display:none;
+
+        }
+        .middle .content .left .roll:hover .btn{
+            display:block;
+            cursor:pointer;
+        }
+        .middle .content .left .roll .btn #left{
+            position: absolute;
+            left: 20px;
+        }
+        .middle .content .left .roll .btn #right{
+            position: absolute;
+            right:20px;
+        }
+
+        .middle .content .middle{
+            width:5%;
+            height: 100%;
+            background-color: #cccccc;
+        }
+
+        .middle .content .right{
+            width:30%;
+            height: 100%;
+            background-color: rebeccapurple;
+        }
+
+
+        .bottom1{
+            width:100%;
+            height:120px;
+            background: #212121;
+        }
+        .bottom1 .bot1-con{
+            width:1200px;
+            height:100%;
+            background: #54b9e2;
+            margin:0 auto;
+        }
+
+
+        .bottom2{
+            width:100%;
+            height:60px;
+            background: #0e0e0e;
+        }
+        .bottom2 .bot2-con{
+            width:1200px;
+            height:100%;
+            background: peru;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="top" id="test">
+        <div class="menu top"></div>
+    </div>
+    <div class="middle">
+        <div class="content">
+            <div class="left">
+               <div class="roll">
+                   <ul class="img">
+                       <li><img src="https://res.shiguangkey.com//file/201806/19/20180619141337485823895.jpg" alt=""></li>
+                       <li><img src="https://res.shiguangkey.com//file/201806/19/20180619142252602590185.jpg" alt=""></li>
+                       <li><img src="https://res.shiguangkey.com//file/201806/21/20180621150342030454625.jpg" alt=""></li>
+                       <li><img src="https://res.shiguangkey.com//file/201805/17/20180517113424433990524.jpg" alt=""></li>
+                   </ul>
+                   <ul class="btn">
+                       <li id="left">&lt;</li>
+                       <li id="right">&gt;</li>
+                   </ul>
+                   <ul class="but">
+                       <li></li>
+                       <li></li>
+                       <li></li>
+                       <li></li>
+                   </ul>
+               </div>
+            </div>
+            <div class="middle"></div>
+            <div class="right"></div>
+        </div>
+    </div>
+    <div class="bottom1">
+        <div class="bot1-con"></div>
+    </div>
+    <div class="bottom2">
+        <div class="bot2-con"></div>
+    </div>
+</body>
+</html>

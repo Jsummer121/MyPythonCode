@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绝对定位</title>
+    <style>
+        div{
+            height:200px;
+            width:200px;
+            background: peru;
+        }
+        .test{
+            background: red;
+            position:absolute;
+            left:300px;
+        }
+    </style>
+</head>
+<body>
+<!--绝对定位：脱离文档流。参照物：浏览器/已定位的父元素-->
+<div class="test"></div>
+<div class="tar">参照物</div>
+</body>
+</html>

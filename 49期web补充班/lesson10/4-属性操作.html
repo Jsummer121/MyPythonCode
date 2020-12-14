@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .test{
+            color:peru;
+            font-size:30px;
+        }
+        .test1{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <div>1<span>你好</span></div>
+    <div>2</div>
+    <input type="text" name="usr"><br>
+    <input type="text" name="psw"><br>
+    <input class="btn" type="button" value="获取value值">
+
+    <h4>属性操作</h4>
+    <ul>
+        <li>足球</li>
+        <li>篮球</li>
+        <li>乒乓球</li>
+    </ul>
+
+    <h4>class属性操作</h4>
+    <p>我是一段文字</p>
+    <button>addClass</button>
+    <button>removeClass</button>
+    <button>toggleClass</button>
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    // html():多个元素，取第一个
+    console.log($("div").html());
+    // text():取全部的文本内容
+    console.log($("div").text());
+    // val():多个元素，取第一个
+    $(".btn").click(function () {
+        console.log($("input").val());
+    });
+
+    // 属性的增删改查
+    $("li").attr("class", "test"); // 增
+    $("li").attr("class", "test1"); // 改
+    console.log($("li").attr("class")); // 查
+
+    // 删除
+     $("li").removeAttr("class");
+
+     // class属性操作addClass()/removeClass().toggleClass()
+      $("button").eq(0).click(function () {
+          $("p").addClass("test");
+      });
+      $("button").eq(1).click(function () {
+          $("p").removeClass("test");
+      });
+      $("button").eq(2).click(function () {
+          $("p").toggleClass("test");
+      });
+</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    欢迎{{ name }}访问
+
+    {% if request.session.name %}
+    <a href="{% url "student:logout" %}">退出</a>
+    {% else %}
+     <a href="{% url "student:login" %}">登录</a>
+    {% endif %}
+</body>
+</html>

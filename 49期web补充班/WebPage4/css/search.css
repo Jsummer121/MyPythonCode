@@ -1,0 +1,44 @@
+/*=====left-con start====*/
+.middle .content .left-con{
+    width:800px;
+    height:800px;
+    background: white;
+    float:left;
+    margin-top:30px;
+}
+/*=====search start====*/
+.middle .content .left-con .form{
+    background: white;
+    border-bottom: 2px solid gainsboro;
+    padding: 40px;
+}
+.middle .content .left-con .form .text{
+    width:600px;
+    height:40px;
+    border-radius: 20px 0 0 20px;
+    border: 1px solid gainsboro;
+    text-indent: 1em;
+    font-size: 20px;
+}
+.middle .content .left-con .form .btn{
+    width:100px;
+    height:44px;
+    background: red;
+    border-radius: 0 20px 20px 0;
+    border: 1px solid red;
+    font-size:20px;
+    margin-left:-4px;
+    vertical-align: bottom;
+    color:white;
+}
+/*=====search end====*/
+
+/*=====left-con end====*/
+/*=====right-con start====*/
+.middle .content .right-con{
+    width:360px;
+    height:800px;
+    background: white;
+    float:right;
+}
+/*=====right-con end====*/

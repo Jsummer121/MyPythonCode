@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动画操作</title>
+    <style>
+        .box1{
+            height:400px;
+            width:400px;
+            background: skyblue;
+        }
+        .div1,.div2,.div3{
+            height:100px;
+            width:100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <div class="div1" style="background: #a7ca1b"></div>
+        <div class="div2" style="background: red"></div>
+        <div class="div3" style="background: blue"></div>
+    </div>
+    <div class="box2">
+        <button>隐藏</button>
+        <button>显示</button>
+        <button>切换</button>
+    </div>
+    <div class="box3">
+        <button>淡出</button>
+        <button>淡入</button>
+        <button>切换</button>
+        <button>fadeTo</button>
+    </div>
+
+    <div class="box4" style="height:200px;width:200px;background: peru; display: none;">
+        <h4>标题</h4>
+        <p>段落一</p>
+        <p>段落二</p>
+    </div>
+    <div class="box5">
+        <button>slideDown</button>
+        <button>slideUp</button>
+        <button>slideToggle</button>
+    </div>
+    <div class="box6">
+        <button>自定义动画1</button>
+        <button>自定义动画2</button>
+    </div>
+
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    // 隐藏和显示
+    var $box = $(".box1");
+    $("button").first().click(function () {
+        $box.hide(3000);
+    });
+    $("button").eq(1).click(function () {
+        $box.show(3000);
+    });
+    $("button").eq(2).click(function () {
+        $box.toggle(3000);
+    });
+    // 淡入淡出:fadeOut/fadeIn/fadeToggle/fadeTo
+    var $button = $(".box3>button");
+    $button.first().click(function () {
+        $box.fadeOut(3000).css("backgroundColor", "red");
+    });
+    $button.eq(1).click(function () {
+        $box.fadeIn(3000).css("backgroundColor", "skyblue");
+    });
+    $button.eq(2).click(function () {
+        $box.fadeToggle(3000).css("backgroundColor", "skyblue");
+    });
+    $button.eq(3).click(function () {
+        $(".div1").fadeTo("slow",0.15);
+        $(".div2").fadeTo("slow",0.5);
+        $(".div3").fadeTo("slow",0.7);
+    });
+
+    // 滑动
+    var $button = $(".box5>button");
+    var $box = $(".box4");
+    $button.first().click(function () {
+        $box.slideDown("slow");
+    });
+    $button.eq(1).click(function () {
+        $box.slideUp("slow");
+    });
+    $button.eq(2).click(function () {
+        $box.slideToggle("slow");
+    });
+
+    // animate:自定义动画
+    var $button = $(".box6>button");
+    $button.first().click(function () {
+        $box.animate({height:"300px"}).delay(5000); // 延迟5s后再发生下一个动画
+    });
+    $button.eq(1).click(function () {
+        $box.animate({height:"200px"});
+    });
+</script>
+</body>
+</html>

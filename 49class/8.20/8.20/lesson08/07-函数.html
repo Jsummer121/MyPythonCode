@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    f();
+    // 函数定义
+    // 有名函数
+    function f() {
+        console.log("ok");
+    }
+    // 函数执行
+    // f();
+   // 匿名函数
+   // obj.onclick=function () {
+   //     console.log("匿名函数");
+   // }
+   // 有名函数调用是函数名（）
+    // 匿名函数我也想象有名函数一样执行
+    // 1.匿名函数加上（+，-，！，~，())--->函数表达式
+    // 2.函数表达式()
+    // +function(){
+    //     alert("1");
+    // }();
+    // (function(){
+    //     alert("2");
+    // })();
+    // (function(){
+    //     alert("1");
+    // }());
+
+    // 函数参数
+    function sum(x,y,z){
+        var s = x+y+z;
+        console.log(s);
+        console.log("x:"+x+";y:"+y+";z:"+z);
+    }
+    // sum(1,2,3); // 6 x:1;y:2;z:3
+    // sum(1,2);//NaN x:1;y:2;z:undefined
+    // sum(1,2,3,4); // 6 x:1;y:2;z:3
+
+    // 优化
+    function sum(){
+        console.log(arguments);
+        console.log(arguments.length);
+        var s = 0;
+        for(var i=0;i<arguments.length;i++){
+            s += arguments[i];
+        }
+        console.log(s);
+        return("我return什么，返回值就是什么")
+        // var s = x+y+z;
+        // console.log(s);
+        // console.log("x:"+x+";y:"+y+";z:"+z);
+    }
+    y = sum(1,2,3); //
+    console.log("返回值："+y); // 不用return，undefined；用return，return什么，返回值就是什么
+    sum(1,2);//
+    sum(1,2,3,4); //
+</script>
+</body>
+</html>

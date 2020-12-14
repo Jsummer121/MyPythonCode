@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内外边距问题总结</title>
+    <style>
+        .pad{
+            height:200px;
+            width:200px;
+            background: skyblue;
+            /*padding-left:100px;*/
+            margin-bottom:50px;
+        }
+        .mar{
+            height:200px;
+            width:200px;
+            background: #9090fb;
+            border:1px solid red;
+            margin-top:100px;
+        }
+        .mar>div{
+            height:100px;
+            width:100px;
+            background: plum;
+            /*margin-left:500px;*/
+            /*margin-top:100px;*/
+        }
+    </style>
+</head>
+<body>
+    <div class="pad">padding测试</div>
+    <div class="mar"><div>margin测试</div></div>
+</body>
+</html>

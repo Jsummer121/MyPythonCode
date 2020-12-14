@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js作业</title>
+    <style>
+        .btn{
+            background-color: #0e0e0e;
+            color: white;
+            width: 100px;
+            height: 40px;
+            border-radius: 6px;
+        }
+        .test{
+            background-color: #6fa026;
+            width: 200px;
+            height: 100px;
+            font-size: 40px;
+            padding-top: 40px;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+    </style>
+</head>
+<body>
+<p>
+    属&emsp;性：
+    <input type="text" class="sx" placeholder="请输入css属性">
+</p>
+<p>
+    属性值：
+    <input type="text" class="sxz" placeholder="请输入css属性值">
+</p>
+<p>
+    <input type="button" align="center" value="设置" class="btn">
+</p>
+<div class="test" align="center">
+    我就是我
+</div>
+
+<script>
+    //获取元素
+    var btn = document.querySelector('.btn');
+    var sx = document.querySelector('.sx');
+    var sxz = document.querySelector('.sxz');
+    var test = document.querySelector('.test');
+
+    //绑定移入移出事件
+    test.onmouseenter = function () {
+        test.style.backgroundColor="pink";
+        test.innerText = '我还是我';
+    };
+    test.onmouseleave = function () {
+        test.style.backgroundColor="skyblue";
+        test.innerText = '我就是我';
+    };
+
+    //绑定修改属性事件
+    btn.onclick = function (){
+        var sx1 = sx.value;
+        var sxz2 = sxz.value;
+        test.style[sx1] = sxz2;
+    };
+</script>
+</body>
+</html>

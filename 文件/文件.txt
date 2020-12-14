@@ -1,0 +1,21 @@
+f=open('shiyan.txt','w')#w表示write 写入
+f.write('hello\n')
+f.write('nihao\n')
+f.close
+
+创建了一个名为shiyan.txt的文本文档 ，放在python的母目录中。
+
+
+f=open('shiyan.txt')
+text=f.read
+text
+'hello\nnihao\n'
+
+print(text)
+hello
+nihao
+
+text.split('*')  以*为分隔符进行划分为新的列表
+['hello','nihao']
+
+

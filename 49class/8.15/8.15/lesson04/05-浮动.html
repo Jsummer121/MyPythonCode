@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动</title>
+    <style>
+        ul{
+            list-style: none;
+        }
+        li{
+            float:left;
+            margin-left:20px;
+        }
+
+        .box{
+            border: 10px solid red;
+            /*overflow: hidden;*//*只在纯浮动时有效*/
+        }
+        .box div{
+            height:100px;
+            width:100px;
+        }
+        .left{
+            background: #54b9e2;
+            float:left;
+        }
+        .right{
+            background: #6fa026;
+            float:right;
+        }
+        .clearfix::after{
+            display: block;
+            clear:both;
+            content:"";
+        }
+    </style>
+</head>
+<body>
+    <!--浮动的应用：一列变一行-->
+    <!--<ul>-->
+        <!--<li>首页</li>-->
+        <!--<li>在线课堂</li>-->
+        <!--<li>搜索</li>-->
+    <!--</ul>-->
+    <!--浮动带来的问题：高度塌陷-->
+    <div class="box clearfix">
+        <div class="left"></div>
+        <div class="right"></div>
+        <!--<div></div>--><!--如果浮动布局多，要增加很多的div-->
+    </div>
+</body>
+</html>

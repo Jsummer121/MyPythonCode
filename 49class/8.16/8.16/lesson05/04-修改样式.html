@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>修改样式</title>
+</head>
+<body>
+    <div class="box">我就是我，我很好，我很棒</div>
+    <script>
+        var obj = document.querySelector(".box");
+        // 单个样式修改
+        obj.style.color = "red";
+        var a = "background";
+        var b = "blue";
+        obj.style[a] = b;
+        // obj.style["background"] = "blue"
+        // 多个样式修改
+        obj.style.cssText = "width:200px; height:200px;background:skyblue;";
+        obj.style.cssText = "width:200px; height:200px;"+ a+":"+b+";";
+        // 属性操作
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>if...else...</title>
+</head>
+<body>
+
+<script>
+    var name = "朦胧";
+    if(name === "飞飞"){
+        console.log(name + "好漂亮");
+    }else if(name==="朦胧"){
+        console.log(name+"美丽");
+    }else{
+        console.log("who?");
+    }
+    // 三目运算
+    if(name){
+        console.log(name+'好');
+    }
+    // 上例优化写法
+    if(name)console.log(name+'好');
+
+    if(name === "朦胧"){
+        console.log(name + "好漂亮");
+    }else{
+        console.log(name + "好帅气");
+    }
+    // 上例优化写法
+    name === "朦胧"?console.log(name + "好漂亮"):console.log(name + "好帅气");
+</script>
+</body>
+</html>

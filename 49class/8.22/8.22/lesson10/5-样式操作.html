@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*div{*/
+            /*height:200px;*/
+            /*width:200px;*/
+            /*background: skyblue;*/
+        /*}*/
+        .one{
+            height:200px;
+            width:200px;
+            background: antiquewhite;
+            position:relative;
+        }
+        .two{
+            height:100px;
+            width:100px;
+            background: peru;
+            position:absolute;
+            top:20px;
+            left:20px;
+        }
+        .three{
+            margin-top:100px;
+            border:1px solid red;
+            width:100px;
+            height:100px;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <div>我就是我</div>
+    <h4>offset和position</h4>
+    <div class="one">
+        <div class="two">测试对象</div>
+    </div>
+
+    <div class="three">基本选择器：标签选择器$("p")、id选择器$("#id名")、class选择器(".class名")层级选择器：子代$("parent>child")，后代$("parent child")，相邻$("prev+next")，兄弟$("prev~siblings")</div>
+    <button>获取scrollTop</button>
+    <button>设置scrollTop</button>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        // 获取样式
+        // console.log($("div").css("background-color")); //rgb(135, 206, 235)
+        // console.log($("div").css(["background-color","height", "width"])); // {background-color: "rgb(135, 206, 235)", height: "200px", width: "200px"}
+
+        // 设置
+        // $("div").css("backgroundColor","red");
+        // $("div").css({ // 设置多个样式
+        //     "backgroundColor":"red",
+        //     "font-size":"30px",
+        //     "text-align":"center",
+        //     "line-height":"200px"
+        // });
+
+        // 位置offset()/position()/scrollTop/scrollLeft
+        // offset():距离窗口的top/left值
+        var $obj=$(".two").offset();
+        console.log($obj); // {top: 92.53125, left: 8}
+        console.log($obj.left);
+        console.log($obj.top);
+
+        // position():定位
+        var $obj1=$(".two").position();
+        console.log($obj1); // {top: 20, left: 20}
+        console.log($obj1.left);
+        console.log($obj1.top);
+
+        // scrollTop()/height()/width()
+        $("button").eq(0).click(function () {
+            alert($(".three").scrollTop()+"px");
+            alert($(".three").height()+"px");
+
+        });
+        $("button").eq(1).click(function () {
+            $(".three").scrollTop(200);
+            $(".three").height(200);
+        });
+
+    </script>
+</body>
+</html>

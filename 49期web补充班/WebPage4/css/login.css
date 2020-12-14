@@ -1,0 +1,58 @@
+.middle .content{
+    border: 1px solid #e8dede;
+}
+.middle .content .login-content{
+    width:480px;
+    height:400px;
+    background: white;
+    margin:20px auto;
+}
+.middle .content .login-content .top-content{
+    height:50px;
+    width:440px;
+    margin-left:20px;
+    line-height: 50px;
+    border-bottom: 1px solid gainsboro;
+}
+.middle .content .login-content .top-content h3{
+    float:left;
+    font-size:20px;
+    border-bottom: 3px solid purple;
+    box-sizing: border-box;
+    height:50px;
+}
+.middle .content .login-content .top-content a{
+    float:right;
+    font-size:20px;
+    color:skyblue;
+}
+.middle .content .login-content form{
+    margin-left:20px;
+}
+.middle .content .login-content form>input{
+    height:50px;
+    width:440px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size:20px;
+    text-indent: 1em;
+    border:1px solid gainsboro;
+}
+.middle .content .login-content form .form-item{
+    width:440px;
+    height:50px;
+    line-height: 50px;
+    margin-top: 20px;
+}
+.middle .content .login-content form .form-item input{
+    float:left;
+    height:50px;
+    line-height: 50px;
+}
+.middle .content .login-content form .form-item a{
+    float:right;
+}
+.middle .content .login-content form .btn{
+    background: deepskyblue;
+    margin-left:-20px;
+}

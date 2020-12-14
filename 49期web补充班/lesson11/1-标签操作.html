@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>标签操作</title>
+</head>
+<body>
+    <div class="div1">
+        <div class="div2">div2</div>
+        <div class="div3">div3</div>
+        <div class="div4">div4</div>
+        <div class="div5">div5</div>
+    </div>
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        // 内部插入：append()/appendTo()/prepend()/prependTo()
+        // 在目标元素的内容后添加一个"<p>append</p>"
+        // $(".div3").append("<p>append</p>");
+        // prepend()在目标元素的内容前添加一个"<p>prepend</p>"
+        //  $(".div3").prepend("<p>prepend</p>");
+         // appendTo():将"<p>appendTo</p>"添加到目标元素的内容后
+        // $("<p>appendTo</p>").appendTo(".div3");
+        // prependTo():将"<p>prependTo</p>"添加到目标元素的内容前
+        // $("<p>prependTo</p>").prependTo(".div3");
+
+        // 外部插入：before()/insertBefore()/after()/insertAfter()/replaceWith()/remove()/empty()/clone()
+        // before()/insertBefore()/after()/insertAfter()
+        //  after:在目标元素后添加一个"<p>after</p>"
+        //  before:在目标元素前添加一个"<p>before</p>"
+        // $(".div4").after("<p>after</p>");
+        // $(".div4").before("<p>before</p>");
+        // insertBefore()
+        // insertAfter()
+        // $("<p>insertBefore</p>").insertBefore(".div4");
+        // $("<p>insertAfter</p>").insertAfter(".div4");
+
+        // replaceWith()/remove()/empty()/clone()
+        // replaceWith():替换标签及内容
+         $(".div3").replaceWith("<p>我是来替换div3的</p>")
+        // remove():移除标签及内容
+        $(".div2").remove();
+        // empty():清空标签内容（标签保留）
+        $(".div4").empty();
+        // clone()
+        $(".div5").clone().appendTo("p");
+    </script>
+</body>
+</html>

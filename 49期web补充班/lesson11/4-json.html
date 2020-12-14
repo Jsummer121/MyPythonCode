@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    // json数据类型
+    // json对象
+    var user={
+        "name": "feifei",
+        "age":18,
+        "sex": "female"
+    };
+    // json读
+    console.log(user.name);
+    console.log(user.age);
+    // json写
+    user.name="邱子宸";
+    console.log(user.name);
+    // json数据遍历
+    for(var key in user){
+        console.log(key+":"+user[key]);
+    }
+    // json转字符串
+    var str = JSON.stringify(user);
+    console.log(str);
+    console.log(typeof str);
+
+    // 字符串转json
+    var obj = JSON.parse(str);
+    console.log(obj);
+    console.log(typeof obj);
+</script>
+</body>
+</html>

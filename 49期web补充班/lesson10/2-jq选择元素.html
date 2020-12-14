@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>筛选器</title>
+</head>
+<body>
+    <div>元素一</div>
+    <div>元素二</div>
+    <div>元素三</div>
+    <h4>以下为children</h4>
+    <div class="box">
+        <span>无class</span><br>
+        <span class="test">有class</span><br>
+        <p>无class</p>
+        <p class="test">有class</p>
+        <div>无class</div>
+        <div class="test">有class</div>
+    </div>
+
+    <h4>以下是parent</h4>
+    <div class="div1">div1
+        <div class="div2">div2
+            <div class="div3">div3
+                <div class="div4">div4
+                    <div class="div5">div5
+                        <div class="div6">div6
+                            <div class="div7">div7</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h4>以下是sibling</h4>
+    <div>1</div>
+    <div class="box2">2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        // first、last、eq
+        // $("div").first().css('font-size', '30px');//第一个，设置样式
+        // $("div").last().text("ok");//最后一个，修改元素文本内容
+        // $("div").eq(1).css("color", "skyblue");// 指定元素，设置颜色
+
+        // children、find:后代选择器,注意，find必须含参
+        // $(".box").children().css("color", "skyblue");
+        // $(".box").children(".test").css("font-size", "20px");
+        //
+        // $(".box").find(".test").css("color", "red");
+
+        // parent、parents、parentsUntil
+        // parent:唯一父级和全部子级
+        // $(".div5").parent().css("color","red"); // 4567
+        // parents：祖先元素及全部后代
+        // $(".div5").parents().css("fontSize", "30px"); //1-7全变
+        // parentsUntil: 祖先元素及全部后代(除掉until指定的元素以及它之前的全部祖先元素）
+        // $(".div5").parentsUntil(".div2").css("color", "skyblue"); //3-7
+
+        // siblings:找到全部同级元素
+        $(".box2").siblings().css("color","red");
+    </script>
+</body>
+</html>

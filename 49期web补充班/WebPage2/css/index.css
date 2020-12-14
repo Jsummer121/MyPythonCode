@@ -1,0 +1,85 @@
+/*=====left-con start====*/
+.middle .content .left-con{
+    width:800px;
+    height:800px;
+    background: skyblue;
+    float:left;
+}
+/*=====banner start====*/
+.middle .content .left-con .banner{
+    height:200px;
+    width:800px;
+    background: white;
+    margin-top:30px;
+    position:relative;
+}
+.middle .content .left-con .banner .pic img{
+    height:200px;
+    width:800px;
+    position:absolute;
+    display: none;
+}
+.middle .content .left-con .banner .pic img.show{
+    display: block;
+}
+.middle .content .left-con .banner .btn{
+    /*height:17px;*/
+    /*width:118px;*/
+    /*background: #6fa026;*/
+    position:absolute;
+    left:50%;
+    margin-left:-59px;
+    bottom:20px;
+}
+
+.middle .content .left-con .banner .btn li{
+    height:15px;
+    width:15px;
+    border:1px solid black;
+    border-radius: 50%;
+    float:left;
+    margin-left:10px;
+    cursor: pointer;
+}
+.middle .content .left-con .banner .btn li.active{
+    background: white;
+}
+.middle .content .left-con .banner .btn li:hover{
+    background: white;
+}
+.middle .content .left-con .banner .tab{
+    height:200px;
+    line-height: 200px;
+    display: none;
+}
+.middle .content .left-con .banner:hover .tab{
+    display: block;
+}
+.middle .content .left-con .banner .tab li{
+    color:black;
+    font-size:50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.middle .content .left-con .banner .tab .left{
+    position:absolute;
+    left:20px;
+}
+.middle .content .left-con .banner .tab .right{
+    position:absolute;
+    right:20px;
+}
+/*=====banner end====*/
+
+
+
+
+/*=====left-con end====*/
+/*=====right-con start====*/
+.middle .content .right-con{
+    width:360px;
+    height:800px;
+    background: #6fa026;
+    float:right;
+}
+/*=====right-con end====*/

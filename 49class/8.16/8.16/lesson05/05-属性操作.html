@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>属性操作</title>
+    <style>
+        .box{
+            height:200px;
+            width:200px;
+            background: skyblue;
+        }
+        .test{
+            height:400px;
+            width:400px;
+            background: antiquewhite;
+            color:peru;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">属性操作</div>
+    <script>
+        // 获取元素
+        var box = document.querySelector(".box");
+        //js操作标签属性（增删改查）
+        // 合法属性
+        // 增
+        // box.className = "box";
+        // 删
+        // box.removeAttribute("class");
+        // 改
+        // box.className="test";
+        // 查（获取）
+        // console.log(box.className)
+        // 自定义属性
+        // 增
+        box.setAttribute("hh", "ww");
+        // 改
+        box.setAttribute("hh", "tt");
+        // 查(判断）
+        console.log(box.hasAttribute("hh"));
+        // 删
+        box.removeAttribute("hh");
+    </script>
+</body>
+</html>

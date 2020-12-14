@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            height:200px;
+            width:200px;
+            background: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <!--<div onclick="test();">点击事情</div>-->
+    <div>点击事件</div>
+    <select name="addr" id="">
+        <option value="yy">岳阳</option>
+        <option value="wh">武汉</option>
+        <option value="cs">长沙</option>
+    </select>
+    <script>
+        // 函数定义
+        // function test(){
+        //     console.log("我是点击事件");
+        // }
+        var box = document.querySelector("div");
+        box.onclick = function () {
+            console.log("单击");
+        };
+        box.ondblclick = function () {
+            console.log("双击");
+        };
+        box.onmouseenter = function () {
+            box.style.backgroundColor="pink";
+        };
+        box.onmouseleave = function () {
+            box.style.backgroundColor="skyblue";
+        };
+        var sel = document.querySelector("select");
+        sel.onchange=function () {
+            console.log("内容改变了");
+        };
+        window.onresize = function () {
+            console.log("窗口变化了");
+        }
+    </script>
+</body>
+</html>

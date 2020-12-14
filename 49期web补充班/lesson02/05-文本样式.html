@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文本样式</title>
+    <style>
+        p{
+            text-indent:2em;    /*首行缩进*/
+            line-height:32px;   /*行高*/
+        }
+        div{
+            height:200px;
+            width:200px;
+            border:1px solid red;
+            /*文字上下居中：line-height = height*/
+            /*line-height:200px;*/
+            /*文字左右居中*/
+            /*text-align: center;*/
+            /*文本大小写*/
+            text-transform: lowercase;
+        }
+        a{
+            /*text-decoration: none;*/
+            /*text-decoration: underline;*/
+            /*text-decoration: overline;*/
+            /*text-decoration: line-through;*/
+        }
+        .box{
+            white-space: nowrap;    /*换行方式：不换行*/
+            overflow:hidden;/*超出部分隐藏*/
+            text-overflow: ellipsis;/*文字超出部分用...显示*/
+        }
+        .box1{
+            height:500px;
+            width:800px;
+            background: #54b9e2;
+        }
+        .box2{
+            height:500px;
+            width:200px;
+            background: #9090fb;
+            margin: 0 auto; /*div居中*/
+        }
+    </style>
+</head>
+<body>
+    <div class="box">我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火</div>
+    <div>文字居中,hello, world!hello,TZ</div>
+    <p>我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火我就是我不一样的烟火</p>
+    <a href="javascript:void(0);">我是a标签</a>
+    <div class="box1"><div class="box2"></div></div>
+</body>
+</html>

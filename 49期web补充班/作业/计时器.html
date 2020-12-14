@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计时器</title>
+    <style>
+        .zhanchang {
+            height:100px;
+            width: 1500px;
+            margin: 30px auto;
+            font-size: 50px;
+            text-align: center;
+            color: #6fa026;
+        }
+        .shijian{
+            height:100px;
+            width: 1500px;
+            margin: 30px auto;
+            font-size: 50px;
+            text-align: center;
+        }
+        .zhanchang span{
+            color:black;
+        }
+        .shijian span{
+            color:skyblue;
+        }
+    </style>
+</head>
+<body>
+<div class="zhanchang"></div>
+<div class="shijian"></div>
+<script>
+    var zc = document.querySelector('.zhanchang');
+    var sj = document.querySelector('.shijian');
+    var i = 31;
+    var a = setInterval(function () {
+          i -= 1;
+          zc.innerHTML="<span>敌军还有</span>"+i+"<span>秒到达战场</span>";
+        },1000);
+
+    setTimeout(function(){
+        clearInterval(a);
+        zc.innerText='全军出击';
+    },31000);
+
+    setInterval(function () {
+        var time = new Date();
+        var year = time.getFullYear();
+        var month = time.getMonth()+1;
+        var date = time.getDate();
+        var hour = time.getHours();
+        var min = time.getMinutes();
+        var sec = time.getSeconds();
+        // 页面显示
+        sj.innerHTML='现在是北京时间：'+year+"<span> 年 </span>"+month+"<span> 月 </span>"+date+"<span> 日 </span>"+hour+"" +
+            "<span>:</span>"+min+"<span>:</span>"+sec;
+    }, 1000);
+
+
+</script>
+</body>
+</html>

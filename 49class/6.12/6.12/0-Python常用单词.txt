@@ -1,0 +1,189 @@
+path 			[ pɑ:θ ] 路径
+class			[klɑ:s] 类	
+public  		['p ʌblik] 公共的,公用的        
+private 		['praivit]  私有的,私人的  
+static			['stæ tik] 静的;静态的;静止的
+void  			[vɔid] 空的,没有返回值的	
+main    		[mein] 主要的,重要的
+system  		['sistəm] 系统
+out				[aut] 往外,出现,出外
+print			[print ] 打印
+demo			[ 'deməu ]	 演示，例子
+define			[dɪˈfaɪn] 定义
+syntax			[ˈsɪnˌtæks] 语法
+invalid			[ɪnˈvælɪd] 无效的
+indentation  	[ˌɪndenˈteɪʃn] 缩进
+unexpected  	[ˌʌnɪkˈspektɪd] 不期望的
+usage   		[ˈju:sɪdʒ] 使用
+version 		[ˈvɜ:ʃn] 版本      
+author  		[ˈɔ:θə(r)] 作者 
+int				[int] 整型
+char			[tʃɑ:] 字符型 
+string			[striŋ] 字符串类型
+float 			[fləut] 单精度浮点类型
+type			[taip] 类型
+bool  			['bu:li:ən] 布尔类型，真假
+True 			[tru:] 真，正确的(成立的)
+False 			[fɔ:ls] 假，错误的(不成立的)
+encode   		[ɪnˈkəʊd] 编码
+decode	    	[ˌdi:ˈkəʊd] 解码
+integrated		[ˈɪntɪgreɪtɪd] 集成
+development  	[dɪˈveləpmənt] 开发
+environment     [ɪnˈvaɪrənmənt] 环境
+count 			[kaunt]  计数；计算
+sum 			[ s ʌm]  总数,总计
+salary 	    	[ 'sæləri ] 薪水
+random	    	['ræn dəm] 	随机的
+import			[im' pɔ:t] 导入,输入
+if				[if]  	如果
+else 			[els] 	否则
+switch   		[switʃ] 	判断语句
+case 			[keis]	实例,情况
+break   		[breik] 退出
+continue		[kən 'tinju] 跳出...继续
+return			[ri tə:n] 返回
+default 		[di'fɔ:lt] 默认的
+while  	    	[wail]	当……的时候
+interpreter  	[ɪnˈtɜ:prɪtə(r)] 解释器
+configured  	[kən'fɪɡəd] 配置
+variables    	['veərɪəblz] 变量
+unreachable     ['ʌn'ri:tʃəbl] 不能达到的
+colum			[ˈkɔləm] 列
+row 			[rəʊ] 行
+index			[ˈɪndeks] 索引
+max		    	[ ma: k s] 最大的
+min		    	[ mi n] 最小的
+function		[ 'fʌŋ k ʃən ] 功能,函数
+method		    [ 'meθə d] 方法
+result			[ ri'zʌlt ] 结果
+compare		    [ kəm' pεə ] 比较
+temp 			[ tem p ] 临时工
+null			[nʌl] 空,无效的
+exception		[ ik 'sep ʃən] 异常
+error 			[erə] 错误
+index 			['indeks] 角标,索引,指针
+out of 	    	[ a:ut ɔf] 在...之外
+length 		    [ leŋθ] 长度
+sort 			[sɔ:t] 将...排序
+change 	     	[ tʃeindʒ ] 改变，交换
+swap 			[ swɔp ] 交换
+half		    [ hɑ:f  ] 一半的,半个的
+search 			[ sə: tʃ] 搜索,查找
+mid				[ mid] 中间的
+number			[ 'nʌmbə ] 数字,号码
+transition		[ træn'ziʃən]
+object			[ 'ɔbdʒi kt ] 对象, 物体
+class member	[ 'membə ] 类成员
+class method	[ 'meθəd] 类方法
+package			[ 'pækidʒ] 包
+car				[ kɑ: ] 汽车,小轿车
+color			[ 'kʌlə]  颜色
+red				[ red ]	红色
+blue			[ blu: ]	蓝色
+black			[ blæ k]	黑色
+white			[ hwait ] 白色
+run				[ run] 跑, 运行
+person	    	[ 'pə:sən ] 人
+people		    [ 'pi:pl ] 人,人们
+age		    	[ eidʒ] 年龄
+name			[ neim ] 名字,名称,名誉,名人
+speak			[ spi:k] 说话,讲话,
+set				[ set] 设置
+reset			[r i set] 重新设置
+get				[get ] 获取,获得
+multiply 		[ˈmʌltɪplaɪ] 乘
+division 		[dɪˈvɪʒn] 除法
+iterable		['itəreibl] 可迭代的
+attribute 		[əˈtrɪbju:t] 属性
+code			[kəud ] 代码,代号,编码
+country			['kʌn tri ] 	国家,国土
+university		[ju:ni'və:siti]	大学
+college			['kɔlidʒ]  大学
+private			['praivit ] 私有的,私人的
+show			[ ʃəu] 显示,展示
+sleep			[sli:p ] 睡, 睡觉, 睡眠 1秒=1000毫秒
+single			['siŋgl] 单一的,单独的,单身的,单程的
+instance		['instəns ] 实例,情况
+tool			[tu:l] 工具
+data			['deitə]	 资料 
+develop			[di'veləp ] 开发
+extends			[ ik'stends] 继承,延伸,推广
+phone			[ fəun ] 电话
+call			[ kɔ:l] 呼叫,给...打电话
+study			[ 'stʌdi] 学习,研究
+work			[ wə:k ] 工作,操作
+location		[ ləu'keiʃən]  位置(文件在电脑中的位置)
+encoding   		[in'kəudiŋ] 编码
+super			['sju: pə]  父类的,超级的,,超类的
+final			['fai nl] 最终的
+finally			[ˈfaɪnəli] 最后
+interface		[ 'intəfeis ] 接口
+implements		['impliments]	实现
+mouse			[maus ] 鼠标, 老鼠
+bonus			[ 'bəunəs ] 奖金
+inner			[ 'inə ] 内部的
+protect			[prəu'tekt] 保护，受保护的， 防卫
+file			[ 'fail]  文件
+folder			['fəʊldə] 文件夹
+view			[ vju: ] 视图, 视线,看
+equals			['i:kwəls]判断两个字符串是否相等
+memory			['meməri] 记忆，内存，存储器
+heap 			[hi:p] 堆
+space			[speis] 空间
+throw			[θrəu] 抛出,投掷
+finally			['fainəli] 最后,最终
+message			['mesidʒ] 消息,信息,通知
+try				[trai]  尝试,试图
+catch			[kætʃ] 捕获,捕捉,抓住
+close			[kləuz] 关闭,结束
+open			['əupən] 打开,公开
+add				[æd] 添加,增加
+edit			['edit]  编辑
+project			[prədʒekt] 项目,工程,计
+directory		[ di'rektəri ]  目录
+runtime			[run'taim] 运行时间    
+current 		['kʌrənt] 当前的,现在的
+preference		['prefə rəns] 个人喜好
+rename 			[,ri:'neim] 重命名
+template 		['templit] 模板
+method 			[ˈmeθəd] 方法
+static 			[ˈstætɪk] 静态
+runnable        [ 'rʌnəbl] 可捕捉的
+interrupted 			[,intə'rʌptid]  中断的,被阻止的
+ticket					['tikit] 票
+bank 					[bæŋk]  银行
+tank 					[tæŋk] 坦克
+flag 					[flæɡ] 标记, 旗帜
+dead 					[ded] 死亡的,无生命的
+lock    				[ lɔk] 锁
+unlock					[ˌʌnˈlɒk] 解锁
+console			    	[kən'səul] 控制台
+font    				[fɔnt] 字体 
+resource  	    		[ ri'sɔ:s] 资源
+notify					['nəutifai ] 唤醒, 告知
+input 					['input]  输入
+output					[ 'autput ] 输出
+bounded                 ['baundid] 有界限的
+buffer					['bʌfə]  缓冲区
+signal 			     	['siɡ nəl]  信号,标志
+condition 	     		[kən'diʃən]	条件
+producer				[prə'du:sə] 生产者
+consumer				[ kən'sju:mə ] 消费者
+substring   			[ 'sʌb striŋ] 子字符串
+append     	     		[ə'pend]  添加
+add				    	[ æd]  增加
+insert 					[in'sə:t] 插入
+delete 			    	[di'li:t] 删除
+replace 				[ri'pleis]  代替,取代,更换 
+update          		[ ʌp'deit] 更新
+create 		     		[ kri'eit ] 创造,创作
+builder 				['bildə] 构建器
+char					[tʃɑ:]  字符型
+character  	     		['kærəktə] 字符
+int						[int]   整型
+reverse 				[ ri'və:s ] 反转,翻转
+collection 	    		[kə'lekʃən] 集合,聚集,采集
+remove		    		[ri'mu:v]  移除,删除
+clear 					[kliə]  清空,清除,清楚的.
+iterator 				[itə'rei tə] 迭代器
+list 					[list] 列表,清单(集合之一)

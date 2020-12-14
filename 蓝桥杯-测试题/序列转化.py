@@ -1,0 +1,5 @@
+n = int(input())
+m = input().split()
+m = sorted(list(map(int,m)))
+m = list(map(str,m))
+print(' '.join(m))

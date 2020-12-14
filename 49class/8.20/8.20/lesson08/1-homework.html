@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>静态轮播图</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        ul{
+            list-style: none;
+        }
+        .top{
+            width:100%;
+            height:64px;
+            background: black;
+        }
+        .top .menu{
+            width:1200px;
+            height:100%;
+            background: #6fa026;
+            margin:0 auto;
+        }
+        .middle{
+            width:100%;
+            height:800px;
+            background: antiquewhite;
+        }
+        .middle .content{
+            width:1200px;
+            height:100%;
+            background: #9090fb;
+            margin: 0 auto;
+        }
+        .middle .content .left{
+            width:800px;
+            height:100%;
+            background: pink;
+            float:left;
+        }
+        .middle .content .left .banner{
+            height:200px;
+            width:800px;
+            background: skyblue;
+            position:relative;
+        }
+        .middle .content .left .banner img{
+            height:200px;
+            width:800px;
+            position:absolute;
+            display: none;
+        }
+        .middle .content .left .banner img.show{
+            display:block;
+        }
+        .middle .content .left .banner .btn{
+            font-size:50px;
+            color:white;
+            height:200px;
+            line-height: 200px;
+            display: none;
+            cursor: pointer;
+        }
+        .middle .content .left .banner:hover .btn{
+            display: block;
+        }
+        .middle .content .left .banner .btn #left{
+            position:absolute;
+            left:20px;
+        }
+        .middle .content .left .banner .btn #right{
+            position:absolute;
+            right:20px;
+        }
+        .middle .content .left .banner .tab{
+            /*height:17px;*/
+            /*width:118px;*/
+            /*background: red;*/
+            position:absolute;
+            bottom:20px;
+            left:50%;
+            margin-left:-59px;
+        }
+        .middle .content .left .banner .tab li{
+            height:15px;
+            width:15px;
+            border:1px solid white;
+            border-radius: 50%;
+            float:left;
+            margin-left:10px;
+            cursor: pointer;
+        }
+        .middle .content .left .banner .tab li:hover{
+            background: white;
+        }
+        .middle .content .right{
+            width:360px;
+            height:100%;
+            background: blue;
+            float:right;
+        }
+        .bottom1{
+            width:100%;
+            height:120px;
+            background: #212121;
+        }
+        .bottom1 .bot1-con{
+            width:1200px;
+            height:100%;
+            background: #54b9e2;
+            margin:0 auto;
+        }
+        .bottom2{
+            width:100%;
+            height:60px;
+            background: #0e0e0e;
+        }
+        .bottom2 .bot2-con{
+            width:1200px;
+            height:100%;
+            background: peru;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="top" id="test">
+        <div class="menu top"></div>
+    </div>
+    <div class="middle">
+        <div class="content">
+           <div class="left">
+               <div class="banner">
+                   <ul class="pic">
+                       <li><img src="https://res.shiguangkey.com//file/201806/19/20180619142252602590185.jpg" alt=""></li>
+                       <li><img class="show" src="https://res.shiguangkey.com//file/201806/19/20180619141337485823895.jpg" alt=""></li>
+                       <li><img src="https://res.shiguangkey.com//file/201806/21/20180621150342030454625.jpg" alt=""></li>
+                       <li><img src="https://res.shiguangkey.com//file/201805/17/20180517113424433990524.jpg" alt=""></li>
+                   </ul>
+                   <ul class="btn">
+                       <li id="left">&lt;</li>
+                       <li id="right">&gt;</li>
+                   </ul>
+                   <ul class="tab">
+                       <li></li>
+                       <li></li>
+                       <li></li>
+                       <li></li>
+                   </ul>
+               </div>
+           </div>
+           <div class="right"></div>
+        </div>
+    </div>
+    <div class="bottom1">
+        <div class="bot1-con"></div>
+    </div>
+    <div class="bottom2">
+        <div class="bot2-con"></div>
+    </div>
+
+    <script>
+        var tab = document.querySelectorAll(".tab li");
+        var pic = document.querySelectorAll(".pic img");
+        for(let i=0;i<tab.length;i++){
+            tab[i].onclick=function () {
+                for(let j=0;j<pic.length;j++){
+                    if(i===j){
+                        pic[j].className="show";
+                    }else{
+                        pic[j].className="";
+                    }
+                }
+            };
+        }
+    </script>
+</body>
+</html>

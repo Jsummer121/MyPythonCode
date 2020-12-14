@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>海绵宝宝</title>
+    <style>
+        .box{
+            width:350px;
+            height:350px;
+            background: url("1.jpg");
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <p>
+        <input type="button" value="上">
+        <input type="button" value="下">
+        <input type="button" value="左">
+        <input type="button" value="右">
+    </p>
+    <script>
+        // 获取元素
+        var box = document.querySelector(".box");
+        var btn = document.querySelectorAll("input");
+
+        // 绑定事件
+        btn[0].onclick=function () {
+            box.style.backgroundPositionX="0px";
+            box.style.backgroundPositionY="0px";
+        };
+        btn[1].onclick=function () {
+            box.style.backgroundPositionX="0px";
+            box.style.backgroundPositionY="350px";
+        };
+        btn[2].onclick=function () {
+            box.style.backgroundPositionX="350px";
+            box.style.backgroundPositionY="0px";
+        };
+        btn[3].onclick=function () {
+            box.style.backgroundPositionX="350px";
+            box.style.backgroundPositionY="350px";
+        };
+    </script>
+</body>
+</html>
