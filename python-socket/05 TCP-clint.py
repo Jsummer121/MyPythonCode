@@ -17,7 +17,6 @@ def main():
     send_data = input("请输入要发送的数据：")
     tcp_client_socket.send(send_data.encode("gbk"))
 
-
     # 4.关闭套接字
     tcp_client_socket.close()
 
