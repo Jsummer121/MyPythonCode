@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86c7daed-ec16-4fd7-befa-636b97585178" name="Default Changelist" comment="增加单调递增数字">
-      <change afterPath="$PROJECT_DIR$/LeeCode测试题/删除链表中重复元素.py" afterDir="false" />
+    <list default="true" id="86c7daed-ec16-4fd7-befa-636b97585178" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/python-socket/06 TCP-server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-socket/07 TCP-Server-update1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-socket/文件下载器_Server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,37 +19,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeeCode测试题/单调递增数字.py">
+        <entry file="file://$PROJECT_DIR$/python-socket/文件下载器_Server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python-socket/05 TCP-clint.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeeCode测试题/删除链表中重复元素.py">
+        <entry file="file://$PROJECT_DIR$/python-socket/文件下载器_Client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state>
+              <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数据结构_python/03_1Single_Link_List.py">
+        <entry file="file://$PROJECT_DIR$/python-socket/07 TCP-Server-update1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="40" selection-start-line="40" selection-end-line="46" selection-end-column="17" />
+            <state>
+              <caret lean-forward="true" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -64,6 +60,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/python-socket/07 TCP-Server-update1.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -72,6 +71,11 @@
         <option value="$PROJECT_DIR$/LeeCode测试题/单调递增数字.py" />
         <option value="$PROJECT_DIR$/python-socket/05 TCP-clint.py" />
         <option value="$PROJECT_DIR$/LeeCode测试题/删除链表中重复元素.py" />
+        <option value="$PROJECT_DIR$/python-socket/06 TCP-server.py" />
+        <option value="$PROJECT_DIR$/python-socket/07 TCP-Server-update1.py" />
+        <option value="$PROJECT_DIR$/python-socket/文件下载器.py" />
+        <option value="$PROJECT_DIR$/python-socket/文件下载器_Server.py" />
+        <option value="$PROJECT_DIR$/python-socket/文件下载器_Client.py" />
       </list>
     </option>
   </component>
@@ -98,17 +102,12 @@
             <path>
               <item name="MyPythonCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyPythonCode" type="462c0819:PsiDirectoryNode" />
-              <item name="LeeCode测试题" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPythonCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPythonCode" type="462c0819:PsiDirectoryNode" />
               <item name="python-socket" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyPythonCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyPythonCode" type="462c0819:PsiDirectoryNode" />
-              <item name="数据结构_python" type="462c0819:PsiDirectoryNode" />
+              <item name="Python高级-全部（html版）" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -282,7 +281,7 @@
       <workItem from="1607957911318" duration="921000" />
       <workItem from="1607959052695" duration="1214000" />
       <workItem from="1608000618167" duration="6949000" />
-      <workItem from="1608036311360" duration="4358000" />
+      <workItem from="1608036311360" duration="10501000" />
     </task>
     <task id="LOCAL-00001" summary="增加单调递增数字">
       <created>1608039231826</created>
@@ -298,18 +297,25 @@
       <option name="project" value="LOCAL" />
       <updated>1608039612714</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="删除链表中的重复元素">
+      <created>1608041080745</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608041080745</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13442000" />
+    <option name="totallyTimeSpent" value="19585000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50130546" side_tool="true" weight="0.28971255" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4986945" visible="true" weight="0.26096824" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4986945" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="2" weight="0.24962178" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -349,7 +355,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加单调递增数字" />
     <MESSAGE value="修改TCP程序" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改TCP程序" />
+    <MESSAGE value="删除链表中的重复元素" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除链表中的重复元素" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyPythonCode$.coverage" NAME="删除链表中重复元素 Coverage Results" MODIFIED="1608041040521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeeCode测试题" />
@@ -416,20 +423,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeeCode测试题/单调递增数字.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python-socket/05 TCP-clint.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据结构_python/03_1Single_Link_List.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -439,8 +432,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeeCode测试题/删除链表中重复元素.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-socket/04 udp.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-socket/05 TCP-clint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-socket/06 TCP-server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="29" column="29" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeeCode测试题/单调递增数字.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python高级-全部（html版）/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-socket/07 TCP-Server-update1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-socket/文件下载器_Server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-socket/文件下载器_Client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
