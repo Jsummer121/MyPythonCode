@@ -24,7 +24,7 @@ def main():
         while True:  # 循环多次为同一个客户端服务多次
             # 5.recv/send接收发送数据
             # 接受对方发送过来的数据
-            # 如果recv接堵塞，有两种方式，1.客户端发送过来数据，2.客户端调用close。
+            # 如果recv解堵塞，有两种方式，1.客户端发送过来数据，2.客户端调用close。
             recv_data = client_socket.recv(1024)  # 接收1024个字节，如果客户端关闭，意味着对方调用了close，此时返回的recv_data为空
             print("接收到的数据为：%s" % (recv_data.decode("gbk")))
             if recv_data:
