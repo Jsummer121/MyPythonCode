@@ -29,6 +29,7 @@ def main():
         if length <= 1:
             break
         time.sleep(0.5)
+    # 并且主线程肯定在子线程结束之后在停止运行，如果主线程提前结束，那么子线程也会被迫停止。
 
 
 if __name__ == '__main__':
