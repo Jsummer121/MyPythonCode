@@ -41,7 +41,6 @@ def main_thread():
         dance.start()
 
 
-
 if __name__ == '__main__':
     # main()
     main_thread()
