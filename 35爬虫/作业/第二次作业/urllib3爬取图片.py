@@ -37,7 +37,7 @@ def save_images(items):
         # # 单线程
         t.start()
         t.join()
-        # #多线程
+        # #多任务
     #     t_list.append(t)
     #
     # for t in t_list:
