@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86c7daed-ec16-4fd7-befa-636b97585178" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/多任务/协程/01 使用yield完成多任务.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/多任务/协程/01 迭代器/01 可迭代对象.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/多任务/协程/01 迭代器/02 判断对象是否是可迭代对象.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/多任务/协程/01 迭代器/03 创建一个可迭代对象.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/多任务/协程/01 迭代器/04 iter与next.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/多任务/协程/01 迭代器/05 判断对象是否是迭代器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/多任务/协程/01 迭代器/06 自写迭代器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/多任务/协程/01 迭代器/06-1 加工迭代器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/多任务/协程/01 迭代器/07 斐波那契迭代器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/多任务/协程/02 使用greenlet完成多任务.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/多任务/协程/02 生成器/01 创建生成器方法1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/多任务/协程/02 生成器/02 创建生成器方法2-实现斐波那契.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/多任务/协程/02 生成器/03 探究yield的断点与挂起状态.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/多任务/协程/02 生成器/04 send唤醒.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/多任务/协程/02 生成器/05 使用__next__方法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/多任务/协程/03 使用gevent完成多任务.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/多任务/协程/04 gevent交替执行.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/多任务/协程/05 gevent升级版.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/多任务/协程/06 爬取网页.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_web/01 最简单的HTTP服务器1.0版本.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python内置(库)函数/collections模块.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python内置(库)函数/python-print函数.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/娱乐/进度条.py" beforeDir="false" afterPath="$PROJECT_DIR$/娱乐/进度条.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,18 +19,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/多任务/协程/04 gevent交替执行.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mini_web/01 最简单的HTTP服务器1.0版本.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="513">
+              <caret line="23" column="66" lean-forward="true" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/多任务/协程/07 爬取视频.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -67,11 +47,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/多线程/04 共享全局变量.py" />
-        <option value="$PROJECT_DIR$/多线程/05 共享全局变成存在的问题.py" />
-        <option value="$PROJECT_DIR$/多线程/06 利用同步互斥锁解决资源共享问题.py" />
-        <option value="$PROJECT_DIR$/49期数据库操作/线程池_py/one.py" />
-        <option value="$PROJECT_DIR$/多线程/01-1 设置与获取线程名字.py" />
         <option value="$PROJECT_DIR$/多线程/01-2 线程守护.py" />
         <option value="$PROJECT_DIR$/多线程/01-3 阻塞.py" />
         <option value="$PROJECT_DIR$/多任务/线程/02-1 动态传参.py" />
@@ -95,7 +70,6 @@
         <option value="$PROJECT_DIR$/多任务/进程/04 -2 进程池中的Queue.py" />
         <option value="$PROJECT_DIR$/多任务/进程/04-2 进程池中的Queue.py" />
         <option value="$PROJECT_DIR$/多任务/进程/案例：文件夹拷贝器.py" />
-        <option value="$PROJECT_DIR$/娱乐/进度条.py" />
         <option value="$PROJECT_DIR$/多任务/协程/01 迭代器.py" />
         <option value="$PROJECT_DIR$/多任务/协程/02 判断对象是否是可迭代对象.py" />
         <option value="$PROJECT_DIR$/多任务/协程/test.py" />
@@ -118,6 +92,12 @@
         <option value="$PROJECT_DIR$/多任务/协程/06 爬取玩野.py" />
         <option value="$PROJECT_DIR$/多任务/协程/06 爬取网页.py" />
         <option value="$PROJECT_DIR$/多任务/协程/07 爬取视频.py" />
+        <option value="$PROJECT_DIR$/娱乐/进度条.py" />
+        <option value="$PROJECT_DIR$/shiyan.py" />
+        <option value="$PROJECT_DIR$/python内置(库)函数/python-print.py" />
+        <option value="$PROJECT_DIR$/mini_web/01 显示固定页面.py" />
+        <option value="$PROJECT_DIR$/mini_web/01 最简单的HTTP服务器1.0版本.py" />
+        <option value="$PROJECT_DIR$/mini_web/Test-re.py" />
       </list>
     </option>
   </component>
@@ -133,7 +113,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,16 +125,11 @@
               <item name="MyPythonCode" type="462c0819:PsiDirectoryNode" />
               <item name="多任务" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MyPythonCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPythonCode" type="462c0819:PsiDirectoryNode" />
-              <item name="多任务" type="462c0819:PsiDirectoryNode" />
-              <item name="协程" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,7 +142,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/多任务/进程/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/python内置(库)函数" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -180,12 +154,13 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyPythonCode\python内置(库)函数" />
+      <recent name="E:\MyPythonCode\多任务\进程\test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\MyPythonCode\多任务\协程\迭代器" />
       <recent name="E:\MyPythonCode\多任务\多线程" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\MyPythonCode\多任务\进程\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -200,8 +175,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.05 gevent升级版">
-    <configuration name="01 使用yield完成多任务" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Test-re">
+    <configuration name="进度条" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyPythonCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,12 +184,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/多任务/协程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/娱乐" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/多任务/协程/01 使用yield完成多任务.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/娱乐/进度条.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -223,7 +198,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02 使用greenlet完成多任务" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="01 显示固定页面" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyPythonCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -231,56 +206,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/多任务/协程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mini_web" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/多任务/协程/02 使用greenlet完成多任务.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="03 使用gevent完成多任务" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyPythonCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/多任务/协程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/多任务/协程/03 使用gevent完成多任务.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="04 gevent交替执行" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyPythonCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/多任务/协程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/多任务/协程/04 gevent交替执行.py" />
+      <option name="SCRIPT_NAME" value="E:\MyPythonCode\mini_web\01 最简单的HTTP服务器1.0版本.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -311,7 +242,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="生成有效的括号组合" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Test-re" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyPythonCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -319,12 +250,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeeCode测试题" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mini_web" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeeCode测试题/生成有效的括号组合.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mini_web/Test-re.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -377,13 +308,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="python-print" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyPythonCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python内置(库)函数" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python内置(库)函数/python-print.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Test-re" />
+        <item itemvalue="Python.01 显示固定页面" />
+        <item itemvalue="Python.python-print" />
+        <item itemvalue="Python.进度条" />
         <item itemvalue="Python.05 gevent升级版" />
-        <item itemvalue="Python.04 gevent交替执行" />
-        <item itemvalue="Python.03 使用gevent完成多任务" />
-        <item itemvalue="Python.02 使用greenlet完成多任务" />
-        <item itemvalue="Python.01 使用yield完成多任务" />
       </list>
     </recent_temporary>
   </component>
@@ -407,7 +360,9 @@
       <workItem from="1608203282544" duration="7987000" />
       <workItem from="1608358184403" duration="21388000" />
       <workItem from="1608623648560" duration="10192000" />
-      <workItem from="1608636741122" duration="1780000" />
+      <workItem from="1608636741122" duration="1908000" />
+      <workItem from="1608692386691" duration="1487000" />
+      <workItem from="1608694882329" duration="9268000" />
     </task>
     <task id="LOCAL-00001" summary="增加单调递增数字">
       <created>1608039231826</created>
@@ -521,18 +476,24 @@
       <option name="project" value="LOCAL" />
       <updated>1608604354492</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="多任务-协程">
+      <created>1608640365228</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1608640365229</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69804000" />
+    <option name="totallyTimeSpent" value="80687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50130546" side_tool="true" weight="0.28971255" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4986945" visible="true" weight="0.19667171" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4986945" visible="true" weight="0.20272315" />
       <window_info id="Structure" order="2" weight="0.24962178" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
@@ -547,7 +508,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.44189852" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="bottom" id="Run" order="13" weight="0.62193125" />
+      <window_info anchor="bottom" id="Run" order="13" weight="0.57119477" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.3289689" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -581,7 +542,8 @@
     <MESSAGE value="多任务-线程" />
     <MESSAGE value="多任务-进程" />
     <MESSAGE value="leetcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
+    <MESSAGE value="多任务-协程" />
+    <option name="LAST_COMMIT_MESSAGE" value="多任务-协程" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyPythonCode$05_gevent.coverage" NAME="05 gevent升级版 Coverage Results" MODIFIED="1608637741850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
@@ -594,9 +556,10 @@
     <SUITE FILE_PATH="coverage/MyPythonCode$03_Queue.coverage" NAME="03 Queue Coverage Results" MODIFIED="1608598535115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$05_.coverage" NAME="05 判断对象是否是迭代器 Coverage Results" MODIFIED="1608629684650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$02_1_.coverage" NAME="02-1 动态传参 Coverage Results" MODIFIED="1608365409611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/线程" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$python_print.coverage" NAME="python-print Coverage Results" MODIFIED="1608703974879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python内置(库)函数" />
     <SUITE FILE_PATH="coverage/MyPythonCode$03_yield.coverage" NAME="03 探究yield的断点与挂起状态 Coverage Results" MODIFIED="1608632283705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
     <SUITE FILE_PATH="coverage/MyPythonCode$04_send.coverage" NAME="04 send唤醒 Coverage Results" MODIFIED="1608633280924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$01_.coverage" NAME="01 简单的多线程 Coverage Results" MODIFIED="1608173206750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多线程" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$01_.coverage" NAME="01 显示固定页面 Coverage Results" MODIFIED="1608777115065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
     <SUITE FILE_PATH="coverage/MyPythonCode$five.coverage" NAME="five Coverage Results" MODIFIED="1608363943479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/49期数据库操作/线程池_py" />
     <SUITE FILE_PATH="coverage/MyPythonCode$two.coverage" NAME="two Coverage Results" MODIFIED="1608364024446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/49期数据库操作/线程池_py" />
     <SUITE FILE_PATH="coverage/MyPythonCode$05___next__.coverage" NAME="05 使用__next__方法 Coverage Results" MODIFIED="1608633005642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
@@ -609,7 +572,7 @@
     <SUITE FILE_PATH="coverage/MyPythonCode$2.coverage" NAME="重复元素2 Coverage Results" MODIFIED="1608003901867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeeCode测试题" />
     <SUITE FILE_PATH="coverage/MyPythonCode$06_1_.coverage" NAME="06-1 加工迭代器 Coverage Results" MODIFIED="1608629917268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$01_2_.coverage" NAME="01-2 主进程与子进程之间的关系 Coverage Results" MODIFIED="1608597029691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$.coverage" NAME="进度条 Coverage Results" MODIFIED="1608600751701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/娱乐" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$.coverage" NAME="进度条 Coverage Results" MODIFIED="1608693711523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/娱乐" />
     <SUITE FILE_PATH="coverage/MyPythonCode$06_.coverage" NAME="06 自写迭代器 Coverage Results" MODIFIED="1608629824636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$02_2_.coverage" NAME="02 创建生成器方法2-实现斐波那契 Coverage Results" MODIFIED="1608631946318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
     <SUITE FILE_PATH="coverage/MyPythonCode$02_greenlet.coverage" NAME="02 使用greenlet完成多任务 Coverage Results" MODIFIED="1608636935563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
@@ -621,242 +584,10 @@
     <SUITE FILE_PATH="coverage/MyPythonCode$01_4_.coverage" NAME="01-4 进程阻塞 Coverage Results" MODIFIED="1608597948966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$A.coverage" NAME="A Coverage Results" MODIFIED="1608372563745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeeCode测试题/字节比赛" />
     <SUITE FILE_PATH="coverage/MyPythonCode$01_1.coverage" NAME="01 创建生成器方法1 Coverage Results" MODIFIED="1608631492686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$Test_re.coverage" NAME="Test-re Coverage Results" MODIFIED="1608783842153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
     <SUITE FILE_PATH="coverage/MyPythonCode$01_yield.coverage" NAME="01 使用yield完成多任务 Coverage Results" MODIFIED="1608634889473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/多任务/线程/03 共享全局变量.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#24#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/线程/03-1 共享全局变成存在的问题.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/线程/03-2 利用同步互斥锁解决资源共享问题.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="10" column="26" lean-forward="true" selection-end-line="29" />
-          <folding>
-            <element signature="e#24#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/线程/多任务版 udp聊天器.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeeCode测试题/单调递增数字.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-303" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeeCode测试题/最近三数之和.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-468">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeeCode测试题/字节比赛/A.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <element signature="e#24#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/线程/04 死锁.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding>
-            <element signature="e#24#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../summer/Lib/_dummy_thread.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../summer/Lib/multiprocessing/queues.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5637">
-          <caret line="127" column="8" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
-          <folding>
-            <element signature="e#205#215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/进程/03-2 用Queue实现进程之间的通信.html" />
-    <entry file="file://$PROJECT_DIR$/../summer/Lib/multiprocessing/pool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="355" column="8" selection-start-line="355" selection-start-column="8" selection-end-line="355" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/进程/test/01-1 用进程实现多任务.py" />
-    <entry file="file://$PROJECT_DIR$/娱乐/进度条.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/笔记/多任务-进程.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/进程/01-2 主进程与子进程之间的关系.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="15" selection-end-line="21" />
-          <folding>
-            <element signature="e#24#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/multiprocessing/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/进程/01-1 用进程实现多任务.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/线程/01-2 线程守护.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="e#24#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/进程/01-4 进程阻塞.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="14" column="26" lean-forward="true" selection-end-line="21" />
-          <folding>
-            <element signature="e#24#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/进程/01-3 给子进程传参.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <element signature="e#23#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/进程/01-6 获取当前进程和子进程的进程号.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/进程/01-5 提前关闭子线程.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="8" selection-end-line="20" />
-          <folding>
-            <element signature="e#24#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/进程/02 进程之间不共享全局变成.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" lean-forward="true" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/进程/03-2 用Queue实现进程之间的通信.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="30" column="14" lean-forward="true" selection-end-line="39" />
-          <folding>
-            <element signature="e#24#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/进程/04-2 进程池中的Queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="10" lean-forward="true" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/进程/案例：文件夹拷贝器.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-          <folding>
-            <element signature="e#24#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/进程/04-1 进程池.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="20" lean-forward="true" selection-end-line="25" />
-          <folding>
-            <element signature="e#24#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/进程/03-1 Queue基本知识.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3564" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/协程/test.py" />
     <entry file="file://$PROJECT_DIR$/多任务/协程/01 迭代器/01 可迭代对象.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -984,8 +715,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/多任务/协程/06 爬取网页.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
+        <state relative-caret-position="252">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#24#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/多任务/协程/07 爬取视频.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
           <folding>
             <element signature="e#24#49#0" expanded="true" />
           </folding>
@@ -999,8 +740,243 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/协程/07 爬取视频.py">
+    <entry file="file://$PROJECT_DIR$/娱乐/进度条.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python内置(库)函数/collections模块.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/70813030/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="488" column="54" lean-forward="true" selection-start-line="488" selection-start-column="54" selection-end-line="488" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiyan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python内置(库)函数/python-print函数.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/id.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back_num.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/虚拟机操作/vim.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/虚拟机操作/Linux+vim简版.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/虚拟机操作/虚拟机操作.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python内置(库)函数/a.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/文件/上下文管理.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/文件/with函数.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python内置(库)函数/python-print.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/多任务/进程/03-2 用Queue实现进程之间的通信.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <element signature="e#24#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/多任务/进程/03-1 Queue基本知识.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/多任务/进程/04-2 进程池中的Queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="e#24#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/多任务/进程/01-6 获取当前进程和子进程的进程号.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/多任务/进程/01-5 提前关闭子线程.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/多任务/进程/01-4 进程阻塞.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/多任务/进程/01-2 主进程与子进程之间的关系.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="7" column="15" selection-end-line="21" />
+          <folding>
+            <element signature="e#24#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/多任务/进程/01-1 用进程实现多任务.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/多任务/进程/案例：文件夹拷贝器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="e#24#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/多任务/进程/04-1 进程池.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#24#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-socket/06 TCP-server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/35爬虫/上课文件/socket爬取图片.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../summer/Lib/ssl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-677">
+          <caret line="1120" column="8" selection-start-line="1120" selection-start-column="8" selection-end-line="1120" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/socket.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="525" column="32" lean-forward="true" selection-start-line="525" selection-start-column="32" selection-end-line="525" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-socket/05 TCP-clint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mini_web/Test-re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mini_web/01 最简单的HTTP服务器1.0版本.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="23" column="66" lean-forward="true" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
