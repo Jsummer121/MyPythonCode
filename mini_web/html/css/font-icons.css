@@ -1,14 +1,14 @@
 @font-face {
-  font-family: 'ui-icons';
-  src: url('../fonts/ui-icons.eot?45216955');
-  src: url('../fonts/ui-icons.eot?45216955#iefix') format('embedded-opentype'),
-       url('../fonts/ui-icons.woff2?45216955') format('woff2'),
-       url('../fonts/ui-icons.woff?45216955') format('woff'),
-       url('../fonts/ui-icons.ttf?45216955') format('truetype'),
-       url('../fonts/ui-icons.svg?45216955#ui-icons') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+    font-family: 'ui-icons';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/ui-icons.eot'),
+        url('../fonts/ui-icons.eot#iefix') format('embedded-opentype'),
+        url('../fonts/ui-icons.woff2') format('woff2'),
+        url('../fonts/ui-icons.woff') format('woff'),
+        url('../fonts/ui-icons.ttf') format('truetype'),
+        url('../fonts/ui-icons.svg#ui-icons') format('svg');
+    }
 /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
 /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
 /*
@@ -46,7 +46,7 @@
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
- 
+
 .ui-information:before { content: '\e800'; } /* '' */
 .ui-home:before { content: '\e801'; } /* '' */
 .ui-error:before { content: '\e802'; } /* '' */

@@ -9,7 +9,7 @@ DOCUMENTS_ROOT = "./html"
 def recv(clint_socket):
     # 获取客户端发送的信息
     global f, response_headers
-    recv_data = clint_socket.recv(1024).decode()
+    recv_data = clint_socket.recv(1024).decode('utf-8')
     # print(recv_data)    # 获取该信息的第一行GET / HTTP/1.1
     request_header_line_0 = recv_data.splitlines()[0]
 

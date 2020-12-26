@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86c7daed-ec16-4fd7-befa-636b97585178" name="Default Changelist" comment="TCP相关知识点">
-      <change afterPath="$PROJECT_DIR$/mini_web/03 实现多进程版服务器.py" afterDir="false" />
+    <list default="true" id="86c7daed-ec16-4fd7-befa-636b97585178" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mini_web/02 实现显示需要的内容的服务器.py" beforeDir="false" afterPath="$PROJECT_DIR$/mini_web/02 实现显示需要的内容的服务器.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-socket/笔记/TCP三次握手、四次挥手.md" beforeDir="false" afterPath="$PROJECT_DIR$/python-socket/笔记/TCP三次握手、四次挥手.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_web/03 实现多进程版服务器.py" beforeDir="false" afterPath="$PROJECT_DIR$/mini_web/03 实现多进程版服务器.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_web/04 实现多线程版服务器.py" beforeDir="false" afterPath="$PROJECT_DIR$/mini_web/04 实现多线程版服务器.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_web/html/css/font-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/mini_web/html/css/font-icons.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,13 +21,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mini_web/03 实现多进程版服务器.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/mini_web/04 实现多线程版服务器.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+              <folding>
+                <element signature="e#24#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mini_web/04 实现多线程版服务器.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/mini_web/03 实现多进程版服务器.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+              <folding>
+                <element signature="e#24#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -38,6 +54,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>https://cdn.syndication.twimg.com</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -47,7 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/多任务/线程/01 简单的多线程.py" />
         <option value="$PROJECT_DIR$/多任务/线程/03 共享全局变量.py" />
         <option value="$PROJECT_DIR$/LeeCode测试题/最近三数之和.py" />
         <option value="$PROJECT_DIR$/LeeCode测试题/字节比赛/A.py" />
@@ -95,9 +115,10 @@
         <option value="$PROJECT_DIR$/正则表达式/匹配邮箱.py" />
         <option value="$PROJECT_DIR$/正则表达式/脱字符的使用小知识点.py" />
         <option value="$PROJECT_DIR$/mini_web/01 最简单的HTTP服务器1.0版本.py" />
-        <option value="$PROJECT_DIR$/mini_web/02 实现显示需要的内容的服务器.py" />
-        <option value="$PROJECT_DIR$/mini_web/03 实现多进程版服务器.py" />
+        <option value="$PROJECT_DIR$/mini_web/html/css/font-icons.css" />
         <option value="$PROJECT_DIR$/mini_web/04 实现多线程版服务器.py" />
+        <option value="$PROJECT_DIR$/mini_web/03 实现多进程版服务器.py" />
+        <option value="$PROJECT_DIR$/mini_web/02 实现显示需要的内容的服务器.py" />
       </list>
     </option>
   </component>
@@ -142,7 +163,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mini_web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mini_web/html" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -155,6 +176,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyPythonCode\mini_web\html" />
       <recent name="E:\MyPythonCode\mini_web" />
       <recent name="E:\MyPythonCode\python内置(库)函数" />
       <recent name="E:\MyPythonCode\多任务\进程\test" />
@@ -177,7 +199,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.02 实现显示需要的内容的服务器">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyPythonCode/mini_web/html/Documentation/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="脱字符的使用小知识点" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyPythonCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,28 +217,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/正则表达式/脱字符的使用小知识点.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="01 显示固定页面" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyPythonCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mini_web" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\MyPythonCode\mini_web\01 最简单的HTTP服务器1.0版本.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -244,29 +247,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="匹配邮箱" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyPythonCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/正则表达式" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/正则表达式/匹配邮箱.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test-re" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="03 实现多进程版服务器" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyPythonCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -279,7 +260,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mini_web/Test-re.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mini_web/03 实现多进程版服务器.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="04 实现多线程版服务器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyPythonCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mini_web" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mini_web/04 实现多线程版服务器.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -334,11 +337,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.04 实现多线程版服务器" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Python.03 实现多进程版服务器" />
         <item itemvalue="Python.02 实现显示需要的内容的服务器" />
         <item itemvalue="Python.脱字符的使用小知识点" />
-        <item itemvalue="Python.匹配邮箱" />
-        <item itemvalue="Python.Test-re" />
-        <item itemvalue="Python.01 显示固定页面" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +367,7 @@
       <workItem from="1608623648560" duration="10192000" />
       <workItem from="1608636741122" duration="1908000" />
       <workItem from="1608692386691" duration="1487000" />
-      <workItem from="1608694882329" duration="17276000" />
+      <workItem from="1608694882329" duration="24531000" />
     </task>
     <task id="LOCAL-00001" summary="增加单调递增数字">
       <created>1608039231826</created>
@@ -506,18 +509,25 @@
       <option name="project" value="LOCAL" />
       <updated>1608787956690</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="自写mini服务器">
+      <created>1608970468539</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1608970468539</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88695000" />
+    <option name="totallyTimeSpent" value="95950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50130546" side_tool="true" weight="0.28971255" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4986945" visible="true" weight="0.20272315" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4986945" visible="true" weight="0.20574887" />
       <window_info id="Structure" order="2" weight="0.24962178" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
@@ -569,7 +579,8 @@
     <MESSAGE value="小总结" />
     <MESSAGE value="自写nimi版的服务器" />
     <MESSAGE value="TCP相关知识点" />
-    <option name="LAST_COMMIT_MESSAGE" value="TCP相关知识点" />
+    <MESSAGE value="自写mini服务器" />
+    <option name="LAST_COMMIT_MESSAGE" value="自写mini服务器" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyPythonCode$05_gevent.coverage" NAME="05 gevent升级版 Coverage Results" MODIFIED="1608637741850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
@@ -592,7 +603,7 @@
     <SUITE FILE_PATH="coverage/MyPythonCode$01_5_.coverage" NAME="01-5 提前关闭子线程 Coverage Results" MODIFIED="1608598095463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$one.coverage" NAME="one Coverage Results" MODIFIED="1608364120782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/49期数据库操作/线程池_py" />
     <SUITE FILE_PATH="coverage/MyPythonCode$04_2_Queue.coverage" NAME="04-2 进程池中的Queue Coverage Results" MODIFIED="1608599941797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$03_.coverage" NAME="03 创建一个可迭代对象 Coverage Results" MODIFIED="1608627192007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$03_.coverage" NAME="03 实现多进程版服务器 Coverage Results" MODIFIED="1608980054624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
     <SUITE FILE_PATH="coverage/MyPythonCode$copyANDfuzhi.coverage" NAME="copyANDfuzhi Coverage Results" MODIFIED="1608211642142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/赋值与深浅拷贝" />
     <SUITE FILE_PATH="coverage/MyPythonCode$04_gevent.coverage" NAME="04 gevent交替执行 Coverage Results" MODIFIED="1608637698657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$2.coverage" NAME="重复元素2 Coverage Results" MODIFIED="1608003901867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeeCode测试题" />
@@ -602,11 +613,11 @@
     <SUITE FILE_PATH="coverage/MyPythonCode$06_.coverage" NAME="06 自写迭代器 Coverage Results" MODIFIED="1608629824636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$02_2_.coverage" NAME="02 创建生成器方法2-实现斐波那契 Coverage Results" MODIFIED="1608631946318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
     <SUITE FILE_PATH="coverage/MyPythonCode$02_greenlet.coverage" NAME="02 使用greenlet完成多任务 Coverage Results" MODIFIED="1608636935563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$02_.coverage" NAME="02 实现显示需要的内容的服务器 Coverage Results" MODIFIED="1608799319580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$02_.coverage" NAME="02 实现显示需要的内容的服务器 Coverage Results" MODIFIED="1608979986841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
     <SUITE FILE_PATH="coverage/MyPythonCode$test.coverage" NAME="test Coverage Results" MODIFIED="1608625831634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$03_gevent.coverage" NAME="03 使用gevent完成多任务 Coverage Results" MODIFIED="1608637157967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$01_6_.coverage" NAME="01-6 获取当前进程和子进程的进程号 Coverage Results" MODIFIED="1608598380665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$04_.coverage" NAME="04 进程池 Coverage Results" MODIFIED="1608599816124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$04_.coverage" NAME="04 实现多线程版服务器 Coverage Results" MODIFIED="1608984415835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
     <SUITE FILE_PATH="coverage/MyPythonCode$01_4_.coverage" NAME="01-4 进程阻塞 Coverage Results" MODIFIED="1608597948966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$A.coverage" NAME="A Coverage Results" MODIFIED="1608372563745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeeCode测试题/字节比赛" />
     <SUITE FILE_PATH="coverage/MyPythonCode$01_1.coverage" NAME="01 创建生成器方法1 Coverage Results" MODIFIED="1608631492686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
@@ -614,105 +625,6 @@
     <SUITE FILE_PATH="coverage/MyPythonCode$01_yield.coverage" NAME="01 使用yield完成多任务 Coverage Results" MODIFIED="1608634889473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/多任务/协程/02 生成器/05 使用__next__方法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/协程/02 生成器/03 探究yield的断点与挂起状态.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/协程/02 生成器/04 send唤醒.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/协程/01 使用yield完成多任务.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/协程/02 使用greenlet完成多任务.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#24#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/协程/03 使用gevent完成多任务.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/协程/05 gevent升级版.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#24#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/协程/06 爬取网页.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="e#24#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/协程/07 爬取视频.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
-          <folding>
-            <element signature="e#24#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多任务/协程/04 gevent交替执行.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/娱乐/进度条.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python内置(库)函数/collections模块.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/70813030/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -913,13 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python-socket/05 TCP-clint.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mini_web/Test-re.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -964,13 +869,6 @@
     <entry file="file://$PROJECT_DIR$/mini_web/html/404.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mini_web/01 最简单的HTTP服务器1.0版本.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python-socket/笔记/TCP三次握手、四次挥手.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -982,10 +880,84 @@
       </provider>
       <provider editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/python-socket/05 TCP-clint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-socket/01-2 recv-upd-socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-socket/02-1 SendAndRecv_udp_socket.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mini_web/html/img/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mini_web/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5004">
+          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mini_web/html/fonts/ui-icons.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mini_web/html/fonts/ui-icons.woff2">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mini_web/html/Documentation/img/contact-form.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mini_web/html/Documentation/img/color.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mini_web/html/Documentation/img/footer.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mini_web/html/Documentation/img/typography.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mini_web/html/css/font-icons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mini_web/html/Documentation/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mini_web/04 实现多线程版服务器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mini_web/01 最简单的HTTP服务器1.0版本.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mini_web/02 实现显示需要的内容的服务器.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="180">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
           </folding>
@@ -993,10 +965,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mini_web/03 实现多进程版服务器.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini_web/04 实现多线程版服务器.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
