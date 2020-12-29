@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86c7daed-ec16-4fd7-befa-636b97585178" name="Default Changelist" comment="自写mini服务器">
+    <list default="true" id="86c7daed-ec16-4fd7-befa-636b97585178" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GIL/单进程死循环.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GIL/多线程死循环.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GIL/多进程死循环.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,9 +45,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/多任务/进程/01-6 获取当前进程和子进程的进程号.py" />
-        <option value="$PROJECT_DIR$/多任务/进程/02 进程之间不共享全局变成.py" />
-        <option value="$PROJECT_DIR$/多任务/进程/03 Queue.py" />
         <option value="$PROJECT_DIR$/多任务/进程/03-2 用Queue实现进程之间的通信.html" />
         <option value="$PROJECT_DIR$/多任务/进程/03-2 用Queue实现进程之间的通信.py" />
         <option value="$PROJECT_DIR$/多任务/进程/04 进程池.py" />
@@ -93,10 +93,13 @@
         <option value="$PROJECT_DIR$/mini_web/07 单进程、线程-非堵塞-长链接.py" />
         <option value="$PROJECT_DIR$/mini_web/epoll_model/epoll_model.py" />
         <option value="$PROJECT_DIR$/mini_web/08 epoll实现服务器.py" />
+        <option value="$PROJECT_DIR$/GIL/单进程死循环.py" />
+        <option value="$PROJECT_DIR$/GIL/多线程死循环.py" />
+        <option value="$PROJECT_DIR$/GIL/多进程死循环.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
@@ -115,6 +118,11 @@
             <path>
               <item name="MyPythonCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyPythonCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyPythonCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyPythonCode" type="462c0819:PsiDirectoryNode" />
+              <item name="GIL" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -141,7 +149,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -169,7 +177,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.02 实现显示需要的内容的服务器">
+  <component name="RunManager" selected="Python.多进程死循环">
+    <configuration name="单进程死循环" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyPythonCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GIL" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GIL/单进程死循环.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="01 最简单的HTTP服务器1.0版本" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyPythonCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,7 +244,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="05 实现gevent版服务器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="多线程死循环" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyPythonCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,12 +252,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mini_web" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GIL" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mini_web/05 实现gevent版服务器.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GIL/多线程死循环.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -236,7 +266,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="06 单进程非堵塞" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="多进程死循环" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyPythonCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,34 +274,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mini_web" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GIL" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mini_web/06 单进程非堵塞.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="07 单进程、线程-非堵塞-长链接" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyPythonCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mini_web" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mini_web/07 单进程、线程-非堵塞-长链接.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GIL/多进程死循环.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,11 +290,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.多进程死循环" />
+        <item itemvalue="Python.单进程死循环" />
+        <item itemvalue="Python.多线程死循环" />
         <item itemvalue="Python.02 实现显示需要的内容的服务器" />
         <item itemvalue="Python.01 最简单的HTTP服务器1.0版本" />
-        <item itemvalue="Python.07 单进程、线程-非堵塞-长链接" />
-        <item itemvalue="Python.06 单进程非堵塞" />
-        <item itemvalue="Python.05 实现gevent版服务器" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +323,7 @@
       <workItem from="1608694882329" duration="25720000" />
       <workItem from="1608986171088" duration="8255000" />
       <workItem from="1609039604673" duration="6783000" />
-      <workItem from="1609249883910" duration="599000" />
+      <workItem from="1609249883910" duration="3996000" />
     </task>
     <task id="LOCAL-00001" summary="增加单调递增数字">
       <created>1608039231826</created>
@@ -492,11 +500,18 @@
       <option name="project" value="LOCAL" />
       <updated>1609077888044</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="自写mini服务器">
+      <created>1609250645433</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1609250645433</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112776000" />
+    <option name="totallyTimeSpent" value="116173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -586,7 +601,7 @@
     <SUITE FILE_PATH="coverage/MyPythonCode$2.coverage" NAME="重复元素2 Coverage Results" MODIFIED="1608003901867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeeCode测试题" />
     <SUITE FILE_PATH="coverage/MyPythonCode$06_1_.coverage" NAME="06-1 加工迭代器 Coverage Results" MODIFIED="1608629917268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$01_2_.coverage" NAME="01-2 主进程与子进程之间的关系 Coverage Results" MODIFIED="1608597029691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$.coverage" NAME="脱字符的使用小知识点 Coverage Results" MODIFIED="1608785863716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/正则表达式" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$.coverage" NAME="多进程死循环 Coverage Results" MODIFIED="1609251071763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GIL" />
     <SUITE FILE_PATH="coverage/MyPythonCode$06_.coverage" NAME="06 单进程非堵塞 Coverage Results" MODIFIED="1608992235110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
     <SUITE FILE_PATH="coverage/MyPythonCode$02_2_.coverage" NAME="02 创建生成器方法2-实现斐波那契 Coverage Results" MODIFIED="1608631946318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
     <SUITE FILE_PATH="coverage/MyPythonCode$02_greenlet.coverage" NAME="02 使用greenlet完成多任务 Coverage Results" MODIFIED="1608636935563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
@@ -602,22 +617,6 @@
     <SUITE FILE_PATH="coverage/MyPythonCode$01_yield.coverage" NAME="01 使用yield完成多任务 Coverage Results" MODIFIED="1608634889473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/虚拟机操作/虚拟机操作.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python内置(库)函数/a.txt" />
-    <entry file="file://$PROJECT_DIR$/文件/上下文管理.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/文件/with函数.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -943,6 +942,27 @@
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GIL/多进程死循环.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="11" column="11" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GIL/单进程死循环.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GIL/多线程死循环.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
