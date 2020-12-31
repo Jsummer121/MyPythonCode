@@ -13,7 +13,7 @@ class pig:
     def alike(self):
         print('%s喜欢%s，不喜欢%s'%(self.name,self.like,self.dislike))
 
-wanting = pig('周婉婷',300,140,'肉肉','葱花')
+wanting = pig('summer',300,140,'肉肉','葱花')
 wanting.pi()
 wanting.alike()
 
