@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86c7daed-ec16-4fd7-befa-636b97585178" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python进阶/私有化/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python进阶/私有化/pre_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python进阶/私有化/pre_02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python进阶/私有化/pre_03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python进阶/私有化/私有化.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/赋值与深浅拷贝/列表与元组.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/赋值与深浅拷贝/浅拷贝.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/赋值与深浅拷贝/深拷贝.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/赋值与深浅拷贝/深拷贝和浅拷贝.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/赋值与深浅拷贝/赋值.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python进阶/import模块导入/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python进阶/import模块导入/handle_msg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python进阶/import模块导入/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python进阶/import模块导入/recv_msg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python进阶/import模块导入/test1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/赋值与深浅拷贝/浅拷贝.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/赋值与深浅拷贝/深拷贝.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/赋值与深浅拷贝/赋值.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python进阶/import模块导入/模块导入" beforeDir="false" afterPath="$PROJECT_DIR$/Python进阶/import模块导入/模块导入.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,10 +22,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python进阶/私有化/私有化.py">
+        <entry file="file://$PROJECT_DIR$/Python进阶/import模块导入/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="153">
+              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="e#24#46#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,12 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/多任务/协程/07 斐波那契迭代器.py" />
-        <option value="$PROJECT_DIR$/多任务/协程/02 生成器/01 创建生成器方法1.py" />
-        <option value="$PROJECT_DIR$/多任务/协程/02 生成器/02 创建生成器方法2-实现斐波那契.py" />
-        <option value="$PROJECT_DIR$/多任务/协程/02 生成器/03 探究yield的断点与挂起状态.py" />
-        <option value="$PROJECT_DIR$/多任务/协程/02 生成器/05 使用__next__方法.py" />
-        <option value="$PROJECT_DIR$/多任务/协程/02 生成器/04 send唤醒.py" />
         <option value="$PROJECT_DIR$/多任务/协程/01 使用yield完成多任务.py" />
         <option value="$PROJECT_DIR$/多任务/协程/02 使用greenlet完成多任务.py" />
         <option value="$PROJECT_DIR$/多任务/协程/03 使用gevent完成多任务.py" />
@@ -116,6 +106,12 @@
         <option value="$PROJECT_DIR$/Python进阶/私有化/main.py" />
         <option value="$PROJECT_DIR$/Python进阶/私有化/pre_03.py" />
         <option value="$PROJECT_DIR$/Python进阶/私有化/私有化.py" />
+        <option value="$PROJECT_DIR$/Python进阶/import模块导入/test2.py" />
+        <option value="$PROJECT_DIR$/Python进阶/import模块导入/test1.py" />
+        <option value="$PROJECT_DIR$/Python进阶/import模块导入/main.py" />
+        <option value="$PROJECT_DIR$/Python进阶/import模块导入/common.py" />
+        <option value="$PROJECT_DIR$/Python进阶/import模块导入/handle_msg.py" />
+        <option value="$PROJECT_DIR$/Python进阶/import模块导入/recv_msg.py" />
       </list>
     </option>
   </component>
@@ -143,12 +139,6 @@
               <item name="MyPythonCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyPythonCode" type="462c0819:PsiDirectoryNode" />
               <item name="Python进阶" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPythonCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPythonCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Python进阶" type="462c0819:PsiDirectoryNode" />
-              <item name="私有化" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -204,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.私有化">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="私有化" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyPythonCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,28 +209,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python进阶/私有化/私有化.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="单前置下划线" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyPythonCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python进阶/私有化" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\MyPythonCode\Python进阶\私有化\pre_02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -293,6 +261,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyPythonCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python进阶/import模块导入" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python进阶/import模块导入/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyPythonCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -307,28 +297,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python进阶/私有化/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pre_02" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyPythonCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python进阶/私有化" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python进阶/私有化/pre_02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -359,13 +327,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyPythonCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python进阶/import模块导入" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python进阶/import模块导入/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.test2" />
         <item itemvalue="Python.私有化" />
         <item itemvalue="Python.pre_03" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.pre_02" />
-        <item itemvalue="Python.单前置下划线" />
       </list>
     </recent_temporary>
   </component>
@@ -395,7 +385,7 @@
       <workItem from="1608986171088" duration="8255000" />
       <workItem from="1609039604673" duration="6783000" />
       <workItem from="1609249883910" duration="5200000" />
-      <workItem from="1609407689226" duration="7805000" />
+      <workItem from="1609407689226" duration="10012000" />
     </task>
     <task id="LOCAL-00001" summary="增加单调递增数字">
       <created>1608039231826</created>
@@ -600,18 +590,24 @@
       <option name="project" value="LOCAL" />
       <updated>1609407838900</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Python进阶">
+      <created>1609415737088</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1609415737088</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125182000" />
+    <option name="totallyTimeSpent" value="127389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50130546" side_tool="true" weight="0.28971255" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4986945" visible="true" weight="0.21785174" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4986945" visible="true" weight="0.21785174" />
       <window_info id="Structure" order="2" weight="0.24962178" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
@@ -626,7 +622,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.65302783" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="bottom" id="Run" order="13" weight="0.5171849" />
+      <window_info anchor="bottom" id="Run" order="13" weight="0.5155483" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.3289689" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -665,7 +661,8 @@
     <MESSAGE value="TCP相关知识点" />
     <MESSAGE value="自写mini服务器" />
     <MESSAGE value="GIL理解" />
-    <option name="LAST_COMMIT_MESSAGE" value="GIL理解" />
+    <MESSAGE value="Python进阶" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python进阶" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyPythonCode$05_gevent.coverage" NAME="05 实现gevent版服务器 Coverage Results" MODIFIED="1608988067313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
@@ -682,6 +679,7 @@
     <SUITE FILE_PATH="coverage/MyPythonCode$03_yield.coverage" NAME="03 探究yield的断点与挂起状态 Coverage Results" MODIFIED="1608632283705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
     <SUITE FILE_PATH="coverage/MyPythonCode$04_send.coverage" NAME="04 send唤醒 Coverage Results" MODIFIED="1608633280924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
     <SUITE FILE_PATH="coverage/MyPythonCode$01_.coverage" NAME="01 显示固定页面 Coverage Results" MODIFIED="1608777115065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1609417512670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/import模块导入" />
     <SUITE FILE_PATH="coverage/MyPythonCode$five.coverage" NAME="five Coverage Results" MODIFIED="1608363943479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/49期数据库操作/线程池_py" />
     <SUITE FILE_PATH="coverage/MyPythonCode$07___.coverage" NAME="07 单进程、线程-非堵塞-长链接 Coverage Results" MODIFIED="1608993340765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
     <SUITE FILE_PATH="coverage/MyPythonCode$two.coverage" NAME="two Coverage Results" MODIFIED="1608364024446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/49期数据库操作/线程池_py" />
@@ -701,6 +699,7 @@
     <SUITE FILE_PATH="coverage/MyPythonCode$06_.coverage" NAME="06 单进程非堵塞 Coverage Results" MODIFIED="1608992235110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
     <SUITE FILE_PATH="coverage/MyPythonCode$02_2_.coverage" NAME="02 创建生成器方法2-实现斐波那契 Coverage Results" MODIFIED="1608631946318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
     <SUITE FILE_PATH="coverage/MyPythonCode$02_greenlet.coverage" NAME="02 使用greenlet完成多任务 Coverage Results" MODIFIED="1608636935563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1609416556684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/import模块导入" />
     <SUITE FILE_PATH="coverage/MyPythonCode$02_.coverage" NAME="02 实现显示需要的内容的服务器 Coverage Results" MODIFIED="1609074723263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
     <SUITE FILE_PATH="coverage/MyPythonCode$test.coverage" NAME="test Coverage Results" MODIFIED="1608625831634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$main.coverage" NAME="main Coverage Results" MODIFIED="1609414409745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/私有化" />
@@ -715,52 +714,6 @@
     <SUITE FILE_PATH="coverage/MyPythonCode$pre_02.coverage" NAME="pre_02 Coverage Results" MODIFIED="1609414373025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/私有化" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../summer/Lib/ssl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-677">
-          <caret line="1120" column="8" selection-start-line="1120" selection-start-column="8" selection-end-line="1120" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/socket.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="525" column="32" lean-forward="true" selection-start-line="525" selection-start-column="32" selection-end-line="525" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini_web/Test-re.py" />
-    <entry file="file://$PROJECT_DIR$/正则表达式/笔记.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="306">
-            <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/正则表达式/two_预定义字符组.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/正则表达式/匹配邮箱.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/正则表达式/脱字符的使用小知识点.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mini_web/html/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1050,6 +1003,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
           <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python进阶/import模块导入/模块导入.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python进阶/import模块导入/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python进阶/import模块导入/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python进阶/import模块导入/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python进阶/import模块导入/recv_msg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <element signature="e#24#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python进阶/import模块导入/handle_msg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="e#24#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python进阶/import模块导入/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#24#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
