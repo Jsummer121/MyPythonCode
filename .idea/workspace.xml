@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86c7daed-ec16-4fd7-befa-636b97585178" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python进阶/静态方法和类方法/静态方法和类方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python进阶/property属性/01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python进阶/property属性/02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python进阶/property属性/03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python进阶/property属性/04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python进阶/property属性/05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python进阶/property属性/06.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,12 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/多任务/协程/06 爬取网页.py" />
-        <option value="$PROJECT_DIR$/多任务/协程/07 爬取视频.py" />
-        <option value="$PROJECT_DIR$/娱乐/进度条.py" />
-        <option value="$PROJECT_DIR$/shiyan.py" />
-        <option value="$PROJECT_DIR$/python内置(库)函数/python-print.py" />
-        <option value="$PROJECT_DIR$/mini_web/01 显示固定页面.py" />
         <option value="$PROJECT_DIR$/mini_web/Test-re.py" />
         <option value="$PROJECT_DIR$/正则表达式/匹配邮箱.py" />
         <option value="$PROJECT_DIR$/正则表达式/脱字符的使用小知识点.py" />
@@ -94,6 +93,12 @@
         <option value="$PROJECT_DIR$/Python进阶/多继承/多继承和super.py" />
         <option value="$PROJECT_DIR$/Python进阶/多继承/单继承中的surper.py" />
         <option value="$PROJECT_DIR$/Python进阶/静态方法和类方法/静态方法和类方法.py" />
+        <option value="$PROJECT_DIR$/Python进阶/property属性/01.py" />
+        <option value="$PROJECT_DIR$/Python进阶/property属性/02.py" />
+        <option value="$PROJECT_DIR$/Python进阶/property属性/03.py" />
+        <option value="$PROJECT_DIR$/Python进阶/property属性/04.py" />
+        <option value="$PROJECT_DIR$/Python进阶/property属性/05.py" />
+        <option value="$PROJECT_DIR$/Python进阶/property属性/06.py" />
       </list>
     </option>
   </component>
@@ -121,6 +126,12 @@
               <item name="MyPythonCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyPythonCode" type="462c0819:PsiDirectoryNode" />
               <item name="Python进阶" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyPythonCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyPythonCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Python进阶" type="462c0819:PsiDirectoryNode" />
+              <item name="property属性" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -176,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.02">
     <configuration name="私有化" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyPythonCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,6 +202,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python进阶/私有化/私有化.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyPythonCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python进阶/property属性" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python进阶/property属性/02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,6 +366,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.02" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.test2" />
         <item itemvalue="Python.私有化" />
@@ -366,7 +400,7 @@
       <workItem from="1609039604673" duration="6783000" />
       <workItem from="1609249883910" duration="5200000" />
       <workItem from="1609407689226" duration="12788000" />
-      <workItem from="1609480835243" duration="894000" />
+      <workItem from="1609480835243" duration="2444000" />
     </task>
     <task id="LOCAL-00001" summary="增加单调递增数字">
       <created>1608039231826</created>
@@ -606,11 +640,18 @@
       <option name="project" value="LOCAL" />
       <updated>1609422478166</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Python进阶_静态方法">
+      <created>1609483331085</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1609483331086</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131059000" />
+    <option name="totallyTimeSpent" value="132609000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -674,7 +715,8 @@
     <MESSAGE value="Python进阶_模块导入" />
     <MESSAGE value="Python进阶_面向对象三大特性" />
     <MESSAGE value="Python进阶_多继承" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python进阶_多继承" />
+    <MESSAGE value="Python进阶_静态方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python进阶_静态方法" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyPythonCode$05_gevent.coverage" NAME="05 实现gevent版服务器 Coverage Results" MODIFIED="1608988067313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
@@ -698,6 +740,7 @@
     <SUITE FILE_PATH="coverage/MyPythonCode$05___next__.coverage" NAME="05 使用__next__方法 Coverage Results" MODIFIED="1608633005642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
     <SUITE FILE_PATH="coverage/MyPythonCode$01_HTTP1_0.coverage" NAME="01 最简单的HTTP服务器1.0版本 Coverage Results" MODIFIED="1609074152963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
     <SUITE FILE_PATH="coverage/MyPythonCode$pre_03.coverage" NAME="pre_03 Coverage Results" MODIFIED="1609415049148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/私有化" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$02.coverage" NAME="02 Coverage Results" MODIFIED="1609483881195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/property属性" />
     <SUITE FILE_PATH="coverage/MyPythonCode$01_5_.coverage" NAME="01-5 提前关闭子线程 Coverage Results" MODIFIED="1608598095463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$one.coverage" NAME="one Coverage Results" MODIFIED="1608364120782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/49期数据库操作/线程池_py" />
     <SUITE FILE_PATH="coverage/MyPythonCode$04_2_Queue.coverage" NAME="04-2 进程池中的Queue Coverage Results" MODIFIED="1608599941797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
@@ -726,38 +769,6 @@
     <SUITE FILE_PATH="coverage/MyPythonCode$pre_02.coverage" NAME="pre_02 Coverage Results" MODIFIED="1609414373025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/私有化" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mini_web/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5004">
-          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini_web/html/fonts/ui-icons.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini_web/html/fonts/ui-icons.woff2">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini_web/html/Documentation/img/contact-form.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini_web/html/Documentation/img/color.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini_web/html/Documentation/img/footer.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini_web/html/Documentation/img/typography.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini_web/html/css/font-icons.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mini_web/html/Documentation/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1071,6 +1082,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1008">
           <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python进阶/property属性/property属性">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python进阶/property属性/01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python进阶/property属性/02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python进阶/property属性/03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="20" column="12" lean-forward="true" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python进阶/property属性/04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python进阶/property属性/05.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="24" lean-forward="true" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/70813030/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2700">
+          <caret line="2945" column="71" lean-forward="true" selection-start-line="2945" selection-start-column="71" selection-end-line="2945" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python进阶/property属性/06.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
