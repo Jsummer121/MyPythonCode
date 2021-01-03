@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86c7daed-ec16-4fd7-befa-636b97585178" name="Default Changelist" comment="">
+    <list default="true" id="86c7daed-ec16-4fd7-befa-636b97585178" name="Default Changelist" comment="Python进阶_mysql知识点">
+      <change afterPath="$PROJECT_DIR$/Mysql知识点/mysql03-mysql与python交互.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MyPythonCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyPythonCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +36,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="D:\GitHub\Git\bin\git.exe" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -100,6 +103,7 @@
     <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
+  <component name="ProjectId" id="1mWRkIfq4SzBV6hCh5BFO9ZLP7w" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -127,9 +131,16 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
@@ -137,7 +148,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mini_web/html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -146,7 +157,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -162,18 +173,6 @@
       <recent name="E:\MyPythonCode\python-socket\笔记" />
       <recent name="E:\MyPythonCode\多任务\协程\迭代器" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.02">
     <configuration name="私有化" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -361,6 +360,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -390,7 +390,9 @@
       <workItem from="1609407689226" duration="12788000" />
       <workItem from="1609480835243" duration="3835000" />
       <workItem from="1609500945850" duration="1807000" />
-      <workItem from="1609554650932" duration="1250000" />
+      <workItem from="1609554650932" duration="2897000" />
+      <workItem from="1609607514838" duration="616000" />
+      <workItem from="1609608235924" duration="4921000" />
     </task>
     <task id="LOCAL-00001" summary="增加单调递增数字">
       <created>1608039231826</created>
@@ -658,17 +660,24 @@
       <option name="project" value="LOCAL" />
       <updated>1609486110973</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Python进阶_mysql知识点">
+      <created>1609584221297</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1609584221297</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137057000" />
+    <option name="totallyTimeSpent" value="138704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50130546" side_tool="true" weight="0.28971255" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4986945" visible="true" weight="0.24357034" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4986945" visible="true" weight="0.19591528" />
       <window_info id="Structure" order="2" weight="0.24962178" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
@@ -694,7 +703,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -704,6 +713,17 @@
         <option value="3" />
         <option value="1" />
       </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
@@ -729,66 +749,60 @@
     <MESSAGE value="Python进阶_静态方法" />
     <MESSAGE value="Python进阶_property属性" />
     <MESSAGE value="Python进阶_上下文与魔法属性" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python进阶_上下文与魔法属性" />
+    <MESSAGE value="Python进阶_mysql知识点" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python进阶_mysql知识点" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MyPythonCode$05_gevent.coverage" NAME="05 实现gevent版服务器 Coverage Results" MODIFIED="1608988067313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$01_1_.coverage" NAME="01-1 设置与获取线程名字 Coverage Results" MODIFIED="1608364336055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多线程" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$01_3_.coverage" NAME="01-3 给子进程传参 Coverage Results" MODIFIED="1608598201769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$01_HTTP1_0.coverage" NAME="01 最简单的HTTP服务器1.0版本 Coverage Results" MODIFIED="1609074152963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$one.coverage" NAME="one Coverage Results" MODIFIED="1608364120782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/49期数据库操作/线程池_py" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$.coverage" NAME="多态 Coverage Results" MODIFIED="1609419003758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/面向对象的三大特性" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$02_greenlet.coverage" NAME="02 使用greenlet完成多任务 Coverage Results" MODIFIED="1608636935563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$01_yield.coverage" NAME="01 使用yield完成多任务 Coverage Results" MODIFIED="1608634889473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$07_.coverage" NAME="07 斐波那契迭代器 Coverage Results" MODIFIED="1608630137986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$3.coverage" NAME="重复元素3 Coverage Results" MODIFIED="1608004702372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeeCode测试题" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$03_2_Queue.coverage" NAME="03-2 用Queue实现进程之间的通信 Coverage Results" MODIFIED="1608599048185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$04_iternext.coverage" NAME="04 iter与next Coverage Results" MODIFIED="1608627437186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$03_Queue.coverage" NAME="03 Queue Coverage Results" MODIFIED="1608598535115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$02.coverage" NAME="02 Coverage Results" MODIFIED="1609483881195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/property属性" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$pre_02.coverage" NAME="pre_02 Coverage Results" MODIFIED="1609414373025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/私有化" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$03_gevent.coverage" NAME="03 使用gevent完成多任务 Coverage Results" MODIFIED="1608637157967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1609417512670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/import模块导入" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$two.coverage" NAME="two Coverage Results" MODIFIED="1608364024446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/49期数据库操作/线程池_py" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$01_2_.coverage" NAME="01-2 主进程与子进程之间的关系 Coverage Results" MODIFIED="1608597029691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$05_gevent.coverage" NAME="05 实现gevent版服务器 Coverage Results" MODIFIED="1608988067313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$02_.coverage" NAME="02 实现显示需要的内容的服务器 Coverage Results" MODIFIED="1609074723263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$03_.coverage" NAME="03 实现多进程版服务器 Coverage Results" MODIFIED="1608980054624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$A.coverage" NAME="A Coverage Results" MODIFIED="1608372563745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeeCode测试题/字节比赛" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$pre_03.coverage" NAME="pre_03 Coverage Results" MODIFIED="1609415049148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/私有化" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$02_2_.coverage" NAME="02 创建生成器方法2-实现斐波那契 Coverage Results" MODIFIED="1608631946318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$main.coverage" NAME="main Coverage Results" MODIFIED="1609414409745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/私有化" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$01_1.coverage" NAME="01 创建生成器方法1 Coverage Results" MODIFIED="1608631492686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
     <SUITE FILE_PATH="coverage/MyPythonCode$05_.coverage" NAME="05 判断对象是否是迭代器 Coverage Results" MODIFIED="1608629684650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$test.coverage" NAME="test Coverage Results" MODIFIED="1608625831634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$01_4_.coverage" NAME="01-4 进程阻塞 Coverage Results" MODIFIED="1608597948966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$04_send.coverage" NAME="04 send唤醒 Coverage Results" MODIFIED="1608633280924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$04_iternext.coverage" NAME="04 iter与next Coverage Results" MODIFIED="1608627437186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$07___.coverage" NAME="07 单进程、线程-非堵塞-长链接 Coverage Results" MODIFIED="1608993340765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$03_2_Queue.coverage" NAME="03-2 用Queue实现进程之间的通信 Coverage Results" MODIFIED="1608599048185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$04_gevent.coverage" NAME="04 gevent交替执行 Coverage Results" MODIFIED="1608637698657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$06_.coverage" NAME="06 单进程非堵塞 Coverage Results" MODIFIED="1608992235110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$01_6_.coverage" NAME="01-6 获取当前进程和子进程的进程号 Coverage Results" MODIFIED="1608598380665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$01_1_.coverage" NAME="01-1 设置与获取线程名字 Coverage Results" MODIFIED="1608364336055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多线程" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$03_Queue.coverage" NAME="03 Queue Coverage Results" MODIFIED="1608598535115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$01_.coverage" NAME="01 显示固定页面 Coverage Results" MODIFIED="1608777115065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1609416556684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/import模块导入" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$copyANDfuzhi.coverage" NAME="copyANDfuzhi Coverage Results" MODIFIED="1608211642142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/赋值与深浅拷贝" />
     <SUITE FILE_PATH="coverage/MyPythonCode$02_1_.coverage" NAME="02-1 动态传参 Coverage Results" MODIFIED="1608365409611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/线程" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$04_2_Queue.coverage" NAME="04-2 进程池中的Queue Coverage Results" MODIFIED="1608599941797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$Test_re.coverage" NAME="Test-re Coverage Results" MODIFIED="1608783842153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$2.coverage" NAME="重复元素2 Coverage Results" MODIFIED="1608003901867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeeCode测试题" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$04_.coverage" NAME="04 实现多线程版服务器 Coverage Results" MODIFIED="1608984415835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$01_3_.coverage" NAME="01-3 给子进程传参 Coverage Results" MODIFIED="1608598201769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$05___next__.coverage" NAME="05 使用__next__方法 Coverage Results" MODIFIED="1608633005642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$01_5_.coverage" NAME="01-5 提前关闭子线程 Coverage Results" MODIFIED="1608598095463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$python_print.coverage" NAME="python-print Coverage Results" MODIFIED="1608703974879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python内置(库)函数" />
     <SUITE FILE_PATH="coverage/MyPythonCode$03_yield.coverage" NAME="03 探究yield的断点与挂起状态 Coverage Results" MODIFIED="1608632283705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$04_send.coverage" NAME="04 send唤醒 Coverage Results" MODIFIED="1608633280924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$01_.coverage" NAME="01 显示固定页面 Coverage Results" MODIFIED="1608777115065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1609417512670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/import模块导入" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$five.coverage" NAME="five Coverage Results" MODIFIED="1608363943479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/49期数据库操作/线程池_py" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$07___.coverage" NAME="07 单进程、线程-非堵塞-长链接 Coverage Results" MODIFIED="1608993340765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$two.coverage" NAME="two Coverage Results" MODIFIED="1608364024446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/49期数据库操作/线程池_py" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$05___next__.coverage" NAME="05 使用__next__方法 Coverage Results" MODIFIED="1608633005642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$01_HTTP1_0.coverage" NAME="01 最简单的HTTP服务器1.0版本 Coverage Results" MODIFIED="1609074152963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$pre_03.coverage" NAME="pre_03 Coverage Results" MODIFIED="1609415049148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/私有化" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$02.coverage" NAME="02 Coverage Results" MODIFIED="1609483881195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/property属性" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$01_5_.coverage" NAME="01-5 提前关闭子线程 Coverage Results" MODIFIED="1608598095463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$one.coverage" NAME="one Coverage Results" MODIFIED="1608364120782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/49期数据库操作/线程池_py" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$04_2_Queue.coverage" NAME="04-2 进程池中的Queue Coverage Results" MODIFIED="1608599941797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$03_.coverage" NAME="03 实现多进程版服务器 Coverage Results" MODIFIED="1608980054624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$copyANDfuzhi.coverage" NAME="copyANDfuzhi Coverage Results" MODIFIED="1608211642142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/赋值与深浅拷贝" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$04_gevent.coverage" NAME="04 gevent交替执行 Coverage Results" MODIFIED="1608637698657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$2.coverage" NAME="重复元素2 Coverage Results" MODIFIED="1608003901867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeeCode测试题" />
     <SUITE FILE_PATH="coverage/MyPythonCode$06_1_.coverage" NAME="06-1 加工迭代器 Coverage Results" MODIFIED="1608629917268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$01_2_.coverage" NAME="01-2 主进程与子进程之间的关系 Coverage Results" MODIFIED="1608597029691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$.coverage" NAME="多态 Coverage Results" MODIFIED="1609419003758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/面向对象的三大特性" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$06_.coverage" NAME="06 单进程非堵塞 Coverage Results" MODIFIED="1608992235110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$02_2_.coverage" NAME="02 创建生成器方法2-实现斐波那契 Coverage Results" MODIFIED="1608631946318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$02_greenlet.coverage" NAME="02 使用greenlet完成多任务 Coverage Results" MODIFIED="1608636935563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1609416556684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/import模块导入" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$02_.coverage" NAME="02 实现显示需要的内容的服务器 Coverage Results" MODIFIED="1609074723263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$test.coverage" NAME="test Coverage Results" MODIFIED="1608625831634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$main.coverage" NAME="main Coverage Results" MODIFIED="1609414409745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/私有化" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$03_gevent.coverage" NAME="03 使用gevent完成多任务 Coverage Results" MODIFIED="1608637157967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$01_6_.coverage" NAME="01-6 获取当前进程和子进程的进程号 Coverage Results" MODIFIED="1608598380665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$04_.coverage" NAME="04 实现多线程版服务器 Coverage Results" MODIFIED="1608984415835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$01_4_.coverage" NAME="01-4 进程阻塞 Coverage Results" MODIFIED="1608597948966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$A.coverage" NAME="A Coverage Results" MODIFIED="1608372563745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeeCode测试题/字节比赛" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$01_1.coverage" NAME="01 创建生成器方法1 Coverage Results" MODIFIED="1608631492686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$Test_re.coverage" NAME="Test-re Coverage Results" MODIFIED="1608783842153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$01_yield.coverage" NAME="01 使用yield完成多任务 Coverage Results" MODIFIED="1608634889473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$pre_02.coverage" NAME="pre_02 Coverage Results" MODIFIED="1609414373025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/私有化" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$five.coverage" NAME="five Coverage Results" MODIFIED="1608363943479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/49期数据库操作/线程池_py" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python进阶/私有化/pre_03.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="15" column="22" lean-forward="true" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python进阶/私有化/私有化.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
@@ -1088,6 +1102,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/正则表达式/脱字符的使用小知识点.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mysql知识点/mysql03-mysql与pycharm交互">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
