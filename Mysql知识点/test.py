@@ -1,51 +1,3 @@
-# 用python实现简单版的京东商城
-
-## 一、数据库准备
-
-### 1. 商品表
-
-```sql
-create table goods(
-    id int unsigned primary key auto_increment not null,
-    name varchar(150) not null,
-    cate_id int unsigned not null,
-    brand_id int unsigned not null,
-    price decimal(10,3) not null default 0,
-    is_show bit not null default 1,
-    is_saleoff bit not null default 0
-);
-```
-
-### 2. 商品分类表
-
-```sql
-create table if not exists goods_cates(
-    id int unsigned primary key auto_increment,
-    name varchar(40) not null
-);
-```
-
-### 3. 商品品牌分类表
-
-```sql
-create table goods_brands (
-    id int unsigned primary key auto_increment,
-    name varchar(40) not null
-);
-```
-
-## 二、相应的库准备
-
-应为我的数据库放在云服务器上，因此在准备库的时候需要多加上一个`sshtunnel`库。(具体原因在上一章)
-
--   pymysql安装命令：`pip install pymysql`
--   sshtunnel安装命令：`pip install sshtunnel`
-
-## 三、基本骨架
-
-整个代码我们可以利用一个JD类来实现，利用他的`__init__`方法来构建ssh的连接和mysql的连接，利用`__del__`方法来释放关闭连接。然后写一个run方法，在此基础上将增删改查四个步骤写入，在将这四个步骤分别细分成每个表即可。话不多说，上代码：
-
-```python
 # -*- coding: utf-8 -*-
 # @Author  : summer
 from sshtunnel import SSHTunnelForwarder
@@ -63,8 +15,7 @@ class JD:
                                       )
         self.ssh.start()
         self.coon = pymysql.connect(host='127.0.0.1',  # 此处必须是是127.0.0.1
-                                    port=self.ssh.local_bind_port, 
-                                    user=admin,  # mysql的登录账号admin
+                                    port=self.ssh.local_bind_port, user=admin,  # mysql的登录账号admin
                                     password=pwd,  # mysql的登录密码pwd
                                     db=db,  # mysql中要访问的数据表
                                     charset='utf8')  # 表的字符集
@@ -219,7 +170,6 @@ class JD:
             elif num == "4":
                 self.do_add()
             elif num == "0":
-                self.coon.commit() # 这里最好也添加一个
                 print("")
                 break
             else:
@@ -234,18 +184,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-```
-
-## 四、“添油加醋”
-
-有了这个骨架，我们就可以添加相关的操作即可，这里需要注意几点：
-
--   查找操作不需要提交，因此可以单独写一个执行代码
--   增删改操作在整个退出以后，需要执行一次commit操作
--   再写增删改的sql语句时，需要注意sql注入，因此可以使用列表等元素进行相应的防护
-
-## 五、总代码
-
-
-

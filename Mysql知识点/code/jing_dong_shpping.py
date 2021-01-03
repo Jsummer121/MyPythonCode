@@ -296,6 +296,7 @@ class JD:
             elif num == "4":
                 self.do_add()
             elif num == "0":
+                self.coon.commit()
                 print("")
                 break
             else:
