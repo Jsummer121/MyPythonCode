@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86c7daed-ec16-4fd7-befa-636b97585178" name="Default Changelist" comment="Python进阶_mysql知识点">
-      <change afterPath="$PROJECT_DIR$/Mysql知识点/mysql03-mysql与python交互.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MyPythonCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyPythonCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mysql知识点/code/python_to_aliyun_mysql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mysql知识点/mysql03-mysql与python交互.md" beforeDir="false" afterPath="$PROJECT_DIR$/Mysql知识点/mysql03-mysql与python交互.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +43,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../summer/Lib/site-packages/pymysql/__init__.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/python-socket/07 TCP-Server-update1.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -138,6 +142,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -157,7 +162,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -174,29 +180,7 @@
       <recent name="E:\MyPythonCode\多任务\协程\迭代器" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.02">
-    <configuration name="私有化" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyPythonCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python进阶/私有化" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python进阶/私有化/私有化.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.python_to_aliyun_mysql">
     <configuration name="02" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyPythonCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -329,6 +313,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="python_to_aliyun_mysql" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyPythonCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mysql知识点/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\MyPythonCode\Mysql知识点\code\python_to_aliyun_mysql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyPythonCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mysql知识点/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mysql知识点/code/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyPythonCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -353,14 +381,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.python_to_aliyun_mysql" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.02" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.test2" />
-        <item itemvalue="Python.私有化" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -393,6 +426,9 @@
       <workItem from="1609554650932" duration="2897000" />
       <workItem from="1609607514838" duration="616000" />
       <workItem from="1609608235924" duration="4921000" />
+      <workItem from="1609646013467" duration="168000" />
+      <workItem from="1609646230206" duration="10019000" />
+      <workItem from="1609662461647" duration="5438000" />
     </task>
     <task id="LOCAL-00001" summary="增加单调递增数字">
       <created>1608039231826</created>
@@ -725,6 +761,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加单调递增数字" />
@@ -775,7 +812,7 @@
     <SUITE FILE_PATH="coverage/MyPythonCode$main.coverage" NAME="main Coverage Results" MODIFIED="1609414409745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/私有化" />
     <SUITE FILE_PATH="coverage/MyPythonCode$01_1.coverage" NAME="01 创建生成器方法1 Coverage Results" MODIFIED="1608631492686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
     <SUITE FILE_PATH="coverage/MyPythonCode$05_.coverage" NAME="05 判断对象是否是迭代器 Coverage Results" MODIFIED="1608629684650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$test.coverage" NAME="test Coverage Results" MODIFIED="1608625831634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$test.coverage" NAME="test Coverage Results" MODIFIED="1609667125297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql知识点/code" />
     <SUITE FILE_PATH="coverage/MyPythonCode$01_4_.coverage" NAME="01-4 进程阻塞 Coverage Results" MODIFIED="1608597948966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$04_send.coverage" NAME="04 send唤醒 Coverage Results" MODIFIED="1608633280924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
     <SUITE FILE_PATH="coverage/MyPythonCode$04_iternext.coverage" NAME="04 iter与next Coverage Results" MODIFIED="1608627437186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
@@ -786,7 +823,7 @@
     <SUITE FILE_PATH="coverage/MyPythonCode$01_6_.coverage" NAME="01-6 获取当前进程和子进程的进程号 Coverage Results" MODIFIED="1608598380665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$01_1_.coverage" NAME="01-1 设置与获取线程名字 Coverage Results" MODIFIED="1608364336055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多线程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$03_Queue.coverage" NAME="03 Queue Coverage Results" MODIFIED="1608598535115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$01_.coverage" NAME="01 显示固定页面 Coverage Results" MODIFIED="1608777115065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$01_.coverage" NAME="01 基本操作 Coverage Results" MODIFIED="1609667762563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql知识点/code" />
     <SUITE FILE_PATH="coverage/MyPythonCode$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1609416556684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/import模块导入" />
     <SUITE FILE_PATH="coverage/MyPythonCode$copyANDfuzhi.coverage" NAME="copyANDfuzhi Coverage Results" MODIFIED="1608211642142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/赋值与深浅拷贝" />
     <SUITE FILE_PATH="coverage/MyPythonCode$02_1_.coverage" NAME="02-1 动态传参 Coverage Results" MODIFIED="1608365409611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/线程" />
