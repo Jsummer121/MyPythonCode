@@ -14,7 +14,7 @@ class JD:
                                       remote_bind_address=('localhost', 3306)
                                       )
         self.ssh.start()
-        self.coon = pymysql.connect(host='127.0.0.1',  # 此处必须是是127.0.0.1
+        self.coon = pymysql.connect(host='localhost',  # 此处必须是是127.0.0.1
                                     port=self.ssh.local_bind_port, user="summer",  # mysql的登录账号admin
                                     password="summer",  # mysql的登录密码pwd
                                     db="jing_dong",  # mysql中要访问的数据表
