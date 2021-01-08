@@ -2,44 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86c7daed-ec16-4fd7-befa-636b97585178" name="Default Changelist" comment="相关课件">
-      <change afterPath="$PROJECT_DIR$/类/code/单例模式.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/类/node/单例模式.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/闭包/code/01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/闭包/code/02函数法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/闭包/code/03面向对象法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/闭包/code/04闭包法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/闭包/笔记/闭包.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_web/笔记/WSGI.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_web/笔记/imgs/Snip20161117_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_web/笔记/imgs/new_QQ20171102-101413@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_web/笔记/imgs/part2-after-wsgi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_web/笔记/imgs/part2-before-wsgi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_web/笔记/imgs/part2-wsgi-idea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_web/笔记/imgs/part2-wsgi-interop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_web/笔记/imgs/web服务器示意图.002.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/异常/imgs/001_异常示意图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/异常/imgs/024_自定义异常.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/类/node/imgs/022_对象分配空间和初始化.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/类/node/imgs/023_单例流程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/装饰器/node/new_装饰器.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/装饰器/再议装饰器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/装饰器/函数包含retuen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/装饰器/装饰器带参数.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/07-python3内置函数大全 (1).html" beforeDir="false" afterPath="$PROJECT_DIR$/函数/node/07-python3内置函数大全 (1).html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/1561121236729.png" beforeDir="false" afterPath="$PROJECT_DIR$/函数/imgs/1561121236729.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/1561121542832.png" beforeDir="false" afterPath="$PROJECT_DIR$/函数/imgs/1561121542832.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/1561383958219.png" beforeDir="false" afterPath="$PROJECT_DIR$/函数/imgs/1561383958219.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/1561384765091.png" beforeDir="false" afterPath="$PROJECT_DIR$/函数/imgs/1561384765091.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/1561386666886.png" beforeDir="false" afterPath="$PROJECT_DIR$/函数/imgs/1561386666886.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/def定义函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/函数/code/def定义函数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/lambda匿名函数.md" beforeDir="false" afterPath="$PROJECT_DIR$/函数/node/lambda匿名函数.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/内置函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/函数/code/内置函数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/函数.md" beforeDir="false" afterPath="$PROJECT_DIR$/函数/node/函数.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/函数作用域.py" beforeDir="false" afterPath="$PROJECT_DIR$/函数/code/函数作用域.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/函数基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/函数/node/函数基础.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/动态参数args.py" beforeDir="false" afterPath="$PROJECT_DIR$/函数/code/动态参数args.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/匿名函数lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/函数/code/匿名函数lambda.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/工厂函数-闭包.py" beforeDir="false" afterPath="$PROJECT_DIR$/函数/code/工厂函数-闭包.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/工厂函数—闭包.md" beforeDir="false" afterPath="$PROJECT_DIR$/函数/node/工厂函数—闭包.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/形式，实际参数.py" beforeDir="false" afterPath="$PROJECT_DIR$/函数/code/形式，实际参数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/递归函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/函数/code/递归函数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/字符串/python格式化输出.md" beforeDir="false" afterPath="$PROJECT_DIR$/字符串/node/python格式化输出.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/字符串/strip与split比较.md" beforeDir="false" afterPath="$PROJECT_DIR$/字符串/node/strip与split比较.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/字符串/字符串.md" beforeDir="false" afterPath="$PROJECT_DIR$/字符串/node/字符串.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/字符串/字符串格式化代码.png" beforeDir="false" afterPath="$PROJECT_DIR$/字符串/node/字符串格式化代码.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/类/1561466649829.png" beforeDir="false" afterPath="$PROJECT_DIR$/类/imgs/1561466649829.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/类/创建类.py" beforeDir="false" afterPath="$PROJECT_DIR$/类/code/创建类.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/类/方法def.py" beforeDir="false" afterPath="$PROJECT_DIR$/类/code/方法def.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/类/类.md" beforeDir="false" afterPath="$PROJECT_DIR$/类/node/类.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/类/类—小实验.py" beforeDir="false" afterPath="$PROJECT_DIR$/类/code/类—小实验.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/类/类定义.md" beforeDir="false" afterPath="$PROJECT_DIR$/类/node/类定义.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/类/类定义class.py" beforeDir="false" afterPath="$PROJECT_DIR$/类/code/类定义class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/装饰器/单例模式new.py" beforeDir="false" afterPath="$PROJECT_DIR$/装饰器/单例模式new.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/装饰器/内置装饰器.py" beforeDir="false" afterPath="$PROJECT_DIR$/类/code/类_内置装饰器.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/装饰器/单例模式new.py" beforeDir="false" afterPath="$PROJECT_DIR$/类/code/单例模式new.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/装饰器/定制属性.py" beforeDir="false" afterPath="$PROJECT_DIR$/类/code/定制属性.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/装饰器/描述符.py" beforeDir="false" afterPath="$PROJECT_DIR$/类/code/描述符.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/装饰器/装饰器.md" beforeDir="false" afterPath="$PROJECT_DIR$/装饰器/node/装饰器.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,14 +191,14 @@
       <recent name="E:\MyPythonCode\多任务\进程\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\MyPythonCode\类\code" />
+      <recent name="E:\MyPythonCode\装饰器\node" />
       <recent name="E:\MyPythonCode\字符串\node" />
       <recent name="E:\MyPythonCode\函数\node" />
       <recent name="E:\MyPythonCode\函数\code" />
-      <recent name="E:\MyPythonCode\函数\imgs" />
-      <recent name="E:\MyPythonCode\类\code" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.单例模式">
+  <component name="RunManager" selected="Python.再议装饰器">
     <configuration name="单例模式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPythonCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,7 +221,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02函数法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="装饰器带参数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPythonCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -245,12 +229,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/闭包/code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/装饰器" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\MyPythonCode\闭包\code\02函数法.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/装饰器/装饰器带参数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,7 +243,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03面向对象法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="再议装饰器" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPythonCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -267,34 +251,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/闭包/code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/装饰器" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\MyPythonCode\闭包\code\03面向对象法.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="04闭包法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MyPythonCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/闭包/code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/闭包/code/04闭包法.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/装饰器/再议装饰器.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -360,7 +322,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/装饰器/单例模式new.py" />
+      <option name="SCRIPT_NAME" value="E:\MyPythonCode\类\code\单例模式new.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="函数包含retuen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyPythonCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/装饰器" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/装饰器/函数包含retuen.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -371,11 +355,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.再议装饰器" />
+        <item itemvalue="Python.函数包含retuen" />
+        <item itemvalue="Python.装饰器带参数" />
         <item itemvalue="Python.单例模式" />
         <item itemvalue="Python.单例模式new" />
-        <item itemvalue="Python.04闭包法" />
-        <item itemvalue="Python.03面向对象法" />
-        <item itemvalue="Python.02函数法" />
       </list>
     </recent_temporary>
   </component>
@@ -423,14 +407,7 @@
       <workItem from="1609672936800" duration="6336000" />
       <workItem from="1609728564561" duration="10650000" />
       <workItem from="1609772175842" duration="23000" />
-      <workItem from="1609996929621" duration="4282000" />
-    </task>
-    <task id="LOCAL-00004" summary="TCP相关的代码和小案例（文件下载器）">
-      <created>1608047938817</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1608047938817</updated>
+      <workItem from="1609996929621" duration="6546000" />
     </task>
     <task id="LOCAL-00005" summary="TCP相关知识点">
       <created>1608103696947</created>
@@ -768,7 +745,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609767353722</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="文档整理">
+      <created>1610008375537</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1610008375539</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -829,8 +813,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加单调递增数字" />
-    <MESSAGE value="修改TCP程序" />
     <MESSAGE value="删除链表中的重复元素" />
     <MESSAGE value="TCP相关的代码和小案例（文件下载器）" />
     <MESSAGE value="多线程" />
@@ -854,12 +836,14 @@
     <MESSAGE value="mysql-相关知识点" />
     <MESSAGE value="Python进阶_mysql知识点" />
     <MESSAGE value="相关课件" />
-    <option name="LAST_COMMIT_MESSAGE" value="相关课件" />
+    <MESSAGE value="文档整理" />
+    <MESSAGE value="装饰器、异常和单例模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="装饰器、异常和单例模式" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyPythonCode$01_HTTP1_0.coverage" NAME="01 最简单的HTTP服务器1.0版本 Coverage Results" MODIFIED="1609074152963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
     <SUITE FILE_PATH="coverage/MyPythonCode$one.coverage" NAME="one Coverage Results" MODIFIED="1608364120782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/49期数据库操作/线程池_py" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$.coverage" NAME="单例模式 Coverage Results" MODIFIED="1610007701953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/类/code" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$.coverage" NAME="再议装饰器 Coverage Results" MODIFIED="1610091068932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/装饰器" />
     <SUITE FILE_PATH="coverage/MyPythonCode$07_.coverage" NAME="07 斐波那契迭代器 Coverage Results" MODIFIED="1608630137986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$pre_02.coverage" NAME="pre_02 Coverage Results" MODIFIED="1609414373025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/私有化" />
     <SUITE FILE_PATH="coverage/MyPythonCode$02.coverage" NAME="02 Coverage Results" MODIFIED="1610005804667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/闭包/code" />
@@ -869,6 +853,7 @@
     <SUITE FILE_PATH="coverage/MyPythonCode$03_.coverage" NAME="03 实现多进程版服务器 Coverage Results" MODIFIED="1608980054624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
     <SUITE FILE_PATH="coverage/MyPythonCode$A.coverage" NAME="A Coverage Results" MODIFIED="1608372563745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeeCode测试题/字节比赛" />
     <SUITE FILE_PATH="coverage/MyPythonCode$02_2_.coverage" NAME="02 创建生成器方法2-实现斐波那契 Coverage Results" MODIFIED="1608631946318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$retuen.coverage" NAME="函数包含retuen Coverage Results" MODIFIED="1610090770263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/装饰器" />
     <SUITE FILE_PATH="coverage/MyPythonCode$test.coverage" NAME="test Coverage Results" MODIFIED="1609667125297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql知识点/code" />
     <SUITE FILE_PATH="coverage/MyPythonCode$jing_dong_shpping.coverage" NAME="jing_dong_shpping Coverage Results" MODIFIED="1609739287909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql知识点/code" />
     <SUITE FILE_PATH="coverage/MyPythonCode$06_.coverage" NAME="06 单进程非堵塞 Coverage Results" MODIFIED="1608992235110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
