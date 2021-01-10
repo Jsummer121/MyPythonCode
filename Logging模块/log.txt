@@ -1,0 +1,7 @@
+2021-01-10 18:39:18,967 - log2.py[line:12] - WARNING: 这是 loggging a warning message
+2021-01-10 18:39:18,968 - log2.py[line:13] - ERROR: 这是 an loggging error message
+2021-01-10 18:39:18,969 - log2.py[line:14] - CRITICAL: 这是 loggging critical message
+2021-01-10 18:40:14,253 - log3.py[line:29] - INFO: 这是 logger info message
+2021-01-10 18:40:14,254 - log3.py[line:30] - WARNING: 这是 logger warning message
+2021-01-10 18:40:14,255 - log3.py[line:31] - ERROR: 这是 logger error message
+2021-01-10 18:40:14,256 - log3.py[line:32] - CRITICAL: 这是 logger critical message

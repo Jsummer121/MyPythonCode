@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86c7daed-ec16-4fd7-befa-636b97585178" name="Default Changelist" comment="相关课件">
-      <change afterPath="$PROJECT_DIR$/mini_web/笔记/WSGI.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_web/笔记/imgs/Snip20161117_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_web/笔记/imgs/new_QQ20171102-101413@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_web/笔记/imgs/part2-after-wsgi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_web/笔记/imgs/part2-before-wsgi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_web/笔记/imgs/part2-wsgi-idea.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_web/笔记/imgs/part2-wsgi-interop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_web/笔记/imgs/web服务器示意图.002.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/异常/imgs/001_异常示意图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/异常/imgs/024_自定义异常.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/类/node/imgs/022_对象分配空间和初始化.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/类/node/imgs/023_单例流程.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/装饰器/node/new_装饰器.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/装饰器/再议装饰器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/装饰器/函数包含retuen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/装饰器/装饰器带参数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logging模块/log1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logging模块/log2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logging模块/log3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/装饰器/内置装饰器.py" beforeDir="false" afterPath="$PROJECT_DIR$/类/code/类_内置装饰器.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/装饰器/单例模式new.py" beforeDir="false" afterPath="$PROJECT_DIR$/类/code/单例模式new.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/装饰器/定制属性.py" beforeDir="false" afterPath="$PROJECT_DIR$/类/code/定制属性.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/装饰器/描述符.py" beforeDir="false" afterPath="$PROJECT_DIR$/类/code/描述符.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/装饰器/装饰器.md" beforeDir="false" afterPath="$PROJECT_DIR$/装饰器/node/装饰器.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_web/笔记/自建mini-web服务器.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +181,7 @@
       <recent name="E:\MyPythonCode\函数\code" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.再议装饰器">
+  <component name="RunManager" selected="Python.log3">
     <configuration name="单例模式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPythonCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -309,7 +292,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="单例模式new" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="log1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPythonCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -317,12 +300,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/装饰器" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Logging模块" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\MyPythonCode\类\code\单例模式new.py" />
+      <option name="SCRIPT_NAME" value="E:\MyPythonCode\Logging模块\log1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="log2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyPythonCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Logging模块" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Logging模块/log2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="log3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyPythonCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Logging模块" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Logging模块/log3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -355,11 +382,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.再议装饰器" />
+        <item itemvalue="Python.log3" />
+        <item itemvalue="Python.log2" />
+        <item itemvalue="Python.log1" />
         <item itemvalue="Python.函数包含retuen" />
-        <item itemvalue="Python.装饰器带参数" />
         <item itemvalue="Python.单例模式" />
-        <item itemvalue="Python.单例模式new" />
       </list>
     </recent_temporary>
   </component>
@@ -407,14 +434,8 @@
       <workItem from="1609672936800" duration="6336000" />
       <workItem from="1609728564561" duration="10650000" />
       <workItem from="1609772175842" duration="23000" />
-      <workItem from="1609996929621" duration="6546000" />
-    </task>
-    <task id="LOCAL-00005" summary="TCP相关知识点">
-      <created>1608103696947</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1608103696948</updated>
+      <workItem from="1609996929621" duration="6786000" />
+      <workItem from="1610274938150" duration="296000" />
     </task>
     <task id="LOCAL-00006" summary="TCP相关知识点">
       <created>1608120931642</created>
@@ -752,7 +773,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610008375539</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="装饰器、异常和单例模式">
+      <created>1610091452817</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1610091452818</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -863,6 +891,7 @@
     <SUITE FILE_PATH="coverage/MyPythonCode$02_1_.coverage" NAME="02-1 动态传参 Coverage Results" MODIFIED="1608365409611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/线程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$04_2_Queue.coverage" NAME="04-2 进程池中的Queue Coverage Results" MODIFIED="1608599941797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$Test_re.coverage" NAME="Test-re Coverage Results" MODIFIED="1608783842153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$log2.coverage" NAME="log2 Coverage Results" MODIFIED="1610275154149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Logging模块" />
     <SUITE FILE_PATH="coverage/MyPythonCode$01_5_.coverage" NAME="01-5 提前关闭子线程 Coverage Results" MODIFIED="1608598095463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$python_print.coverage" NAME="python-print Coverage Results" MODIFIED="1608703974879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python内置(库)函数" />
     <SUITE FILE_PATH="coverage/MyPythonCode$03_yield.coverage" NAME="03 探究yield的断点与挂起状态 Coverage Results" MODIFIED="1608632283705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
@@ -880,13 +909,14 @@
     <SUITE FILE_PATH="coverage/MyPythonCode$01_1.coverage" NAME="01 创建生成器方法1 Coverage Results" MODIFIED="1608631492686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
     <SUITE FILE_PATH="coverage/MyPythonCode$05_.coverage" NAME="05 判断对象是否是迭代器 Coverage Results" MODIFIED="1608629684650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$01_4_.coverage" NAME="01-4 进程阻塞 Coverage Results" MODIFIED="1608597948966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$log3.coverage" NAME="log3 Coverage Results" MODIFIED="1610275210873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Logging模块" />
     <SUITE FILE_PATH="coverage/MyPythonCode$04_send.coverage" NAME="04 send唤醒 Coverage Results" MODIFIED="1608633280924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
     <SUITE FILE_PATH="coverage/MyPythonCode$04_iternext.coverage" NAME="04 iter与next Coverage Results" MODIFIED="1608627437186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$07___.coverage" NAME="07 单进程、线程-非堵塞-长链接 Coverage Results" MODIFIED="1608993340765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
     <SUITE FILE_PATH="coverage/MyPythonCode$03_2_Queue.coverage" NAME="03-2 用Queue实现进程之间的通信 Coverage Results" MODIFIED="1608599048185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$04_gevent.coverage" NAME="04 gevent交替执行 Coverage Results" MODIFIED="1608637698657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$01_6_.coverage" NAME="01-6 获取当前进程和子进程的进程号 Coverage Results" MODIFIED="1608598380665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
-    <SUITE FILE_PATH="coverage/MyPythonCode$01.coverage" NAME="01 Coverage Results" MODIFIED="1610005766952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/闭包/code" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$01.coverage" NAME="01 Coverage Results" MODIFIED="1610275046768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Logging模块" />
     <SUITE FILE_PATH="coverage/MyPythonCode$01_.coverage" NAME="01 基本操作 Coverage Results" MODIFIED="1609667762563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql知识点/code" />
     <SUITE FILE_PATH="coverage/MyPythonCode$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1609416556684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/import模块导入" />
     <SUITE FILE_PATH="coverage/MyPythonCode$copyANDfuzhi.coverage" NAME="copyANDfuzhi Coverage Results" MODIFIED="1608211642142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/赋值与深浅拷贝" />
