@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86c7daed-ec16-4fd7-befa-636b97585178" name="Default Changelist" comment="相关课件">
-      <change afterPath="$PROJECT_DIR$/元类/code/01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/元类/code/02 动态创建类.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/元类/code/03 使用type创建类.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/元类/code/04 使用type创建带参数的类.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/元类/code/05 使用type创建带有函数的类.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/元类/code/06 元类.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/元类/code/06 完整的type创建类.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/元类/code/07 matclass属性.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ORM/node/元类实现ORM.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/内建函数/code/内建函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/内建函数/code/内建函数.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,29 +178,7 @@
       <recent name="E:\MyPythonCode\函数\code" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.08 自定义元类">
-    <configuration name="04 使用type创建带参数的类" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MyPythonCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/元类/code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/元类/code/04 使用type创建带参数的类.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.09 用class写元类">
     <configuration name="05 使用type创建带有函数的类" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPythonCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -289,6 +259,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/元类/code/08 自定义元类.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="09 用class写元类" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyPythonCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/元类/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\MyPythonCode\元类\code\09 用class写元类.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -387,11 +379,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.09 用class写元类" />
         <item itemvalue="Python.08 自定义元类" />
         <item itemvalue="Python.06 元类" />
         <item itemvalue="Python.05 使用type创建带有函数的类" />
         <item itemvalue="Python.06 完整的type创建类" />
-        <item itemvalue="Python.04 使用type创建带参数的类" />
       </list>
     </recent_temporary>
   </component>
@@ -441,14 +433,7 @@
       <workItem from="1609772175842" duration="23000" />
       <workItem from="1609996929621" duration="6786000" />
       <workItem from="1610274938150" duration="434000" />
-      <workItem from="1610337137804" duration="4523000" />
-    </task>
-    <task id="LOCAL-00009" summary="leetcode题">
-      <created>1608213433447</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1608213433447</updated>
+      <workItem from="1610337137804" duration="5454000" />
     </task>
     <task id="LOCAL-00010" summary="leetcode题">
       <created>1608214947617</created>
@@ -786,7 +771,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610338481585</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="元类">
+      <created>1610342012215</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1610342012216</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -870,9 +862,9 @@
     <MESSAGE value="文档整理" />
     <MESSAGE value="装饰器、异常和单例模式" />
     <MESSAGE value="logging模块和一些修改" />
-    <MESSAGE value="元类" />
     <MESSAGE value="内建函数" />
-    <option name="LAST_COMMIT_MESSAGE" value="内建函数" />
+    <MESSAGE value="元类" />
+    <option name="LAST_COMMIT_MESSAGE" value="元类" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyPythonCode$01_HTTP1_0.coverage" NAME="01 最简单的HTTP服务器1.0版本 Coverage Results" MODIFIED="1609074152963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
@@ -923,6 +915,7 @@
     <SUITE FILE_PATH="coverage/MyPythonCode$04_send.coverage" NAME="04 send唤醒 Coverage Results" MODIFIED="1608633280924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程/02 生成器" />
     <SUITE FILE_PATH="coverage/MyPythonCode$04_iternext.coverage" NAME="04 iter与next Coverage Results" MODIFIED="1608627437186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$07___.coverage" NAME="07 单进程、线程-非堵塞-长链接 Coverage Results" MODIFIED="1608993340765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$09_class.coverage" NAME="09 用class写 Coverage Results" MODIFIED="1610341967827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/元类/code" />
     <SUITE FILE_PATH="coverage/MyPythonCode$03_2_Queue.coverage" NAME="03-2 用Queue实现进程之间的通信 Coverage Results" MODIFIED="1608599048185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$04_gevent.coverage" NAME="04 gevent交替执行 Coverage Results" MODIFIED="1608637698657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$01_6_.coverage" NAME="01-6 获取当前进程和子进程的进程号 Coverage Results" MODIFIED="1608598380665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
@@ -930,6 +923,7 @@
     <SUITE FILE_PATH="coverage/MyPythonCode$01_.coverage" NAME="01 基本操作 Coverage Results" MODIFIED="1609667762563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql知识点/code" />
     <SUITE FILE_PATH="coverage/MyPythonCode$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1609416556684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/import模块导入" />
     <SUITE FILE_PATH="coverage/MyPythonCode$copyANDfuzhi.coverage" NAME="copyANDfuzhi Coverage Results" MODIFIED="1608211642142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/赋值与深浅拷贝" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$08_.coverage" NAME="08 自定义元类 Coverage Results" MODIFIED="1610341858143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/元类/code" />
     <SUITE FILE_PATH="coverage/MyPythonCode$2.coverage" NAME="重复元素2 Coverage Results" MODIFIED="1608003901867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeeCode测试题" />
     <SUITE FILE_PATH="coverage/MyPythonCode$04_.coverage" NAME="04 实现多线程版服务器 Coverage Results" MODIFIED="1608984415835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
     <SUITE FILE_PATH="coverage/MyPythonCode$01_3_.coverage" NAME="01-3 给子进程传参 Coverage Results" MODIFIED="1608598201769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
