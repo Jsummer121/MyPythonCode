@@ -3,9 +3,9 @@ import pymysql
 
 # 通过SSH连接云服务器
 server = SSHTunnelForwarder(
-	ssh_address_or_host=("101.200.195.98", 22),  # 云服务器地址IP和端口port
-	ssh_username="summer",  # 云服务器登录账号admin
-	ssh_password="summer",  # 云服务器登录密码password
+	ssh_address_or_host=("ip", 22),  # 云服务器地址IP和端口port
+	ssh_username="admin",  # 云服务器登录账号admin
+	ssh_password="passwd",  # 云服务器登录密码password
 	remote_bind_address=('localhost', 3306)  # 数据库服务地址ip,一般为localhost和端口port，一般为330
 )
 
