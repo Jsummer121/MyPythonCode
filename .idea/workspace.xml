@@ -150,7 +150,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Mysql知识点/code" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/前端知识点/code/JS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -164,11 +164,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyPythonCode\前端知识点\code\JS" />
       <recent name="E:\MyPythonCode\Mysql知识点\code" />
       <recent name="E:\MyPythonCode\mini_web\html" />
       <recent name="E:\MyPythonCode\mini_web" />
       <recent name="E:\MyPythonCode\python内置(库)函数" />
-      <recent name="E:\MyPythonCode\多任务\进程\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\MyPythonCode\类\code" />
@@ -414,14 +414,7 @@
       <workItem from="1610337137804" duration="5696000" />
       <workItem from="1610524670614" duration="404000" />
       <workItem from="1610525267763" duration="3751000" />
-      <workItem from="1610599850192" duration="2862000" />
-    </task>
-    <task id="LOCAL-00013" summary="多任务-线程">
-      <created>1608367594530</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1608367594530</updated>
+      <workItem from="1610599850192" duration="3644000" />
     </task>
     <task id="LOCAL-00014" summary="多任务-进程">
       <created>1608600859556</created>
@@ -759,7 +752,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610608081346</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="前端知识点-JS和JQuery">
+      <created>1610691242685</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1610691242685</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -820,7 +820,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="多任务-进程" />
     <MESSAGE value="leetcode" />
     <MESSAGE value="多任务-协程" />
     <MESSAGE value="小总结" />
@@ -845,7 +844,8 @@
     <MESSAGE value="元类实现ORM" />
     <MESSAGE value="元类" />
     <MESSAGE value="前端知识点" />
-    <option name="LAST_COMMIT_MESSAGE" value="前端知识点" />
+    <MESSAGE value="前端知识点-JS和JQuery" />
+    <option name="LAST_COMMIT_MESSAGE" value="前端知识点-JS和JQuery" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyPythonCode$01_HTTP1_0.coverage" NAME="01 最简单的HTTP服务器1.0版本 Coverage Results" MODIFIED="1609074152963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
