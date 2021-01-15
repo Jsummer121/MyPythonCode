@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    var a = 123.456;
+    // toString:转换字符串
+    var b = a.toString();
+    console.log(b);
+    console.log((typeof a));
+    console.log((typeof b));
+
+    //toFixed：小数字符串
+    var c = a.toFixed(2);
+    console.log(c);
+    console.log((typeof a));
+    console.log((typeof c));
+
+    // parseInt:整数
+    // parseFloat:浮点数
+    var d = "123456.7c9";
+    var e = "123a56.789";
+    console.log(parseInt(d)); // 123456
+    console.log(parseInt(e)); // 123
+    console.log(parseFloat(d)); // 123456.7
+    console.log(parseFloat(e)); // 123
+
+    // Number()：类型转换，其他的数据类型强制转换为数字类型
+    console.log(Number(b)); // 123.456
+    console.log(Number(e));
+    console.log(typeof Number(b))
+
+    // isNaN:判断是否为not a number
+    console.log(isNaN(e)); // true
+
+</script>
+</body>
+</html>

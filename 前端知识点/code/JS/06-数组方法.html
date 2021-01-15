@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    // 数组的创建
+    var a = [];
+    var b = new Array();
+    //数组的操作方法
+    obj = [1, 5, 8, 9];
+    console.log(obj.length);
+    // 数组的可读和可写
+    console.log(obj[2]);
+    obj[2]="c";
+    console.log(obj);
+    // 添加
+    obj.push("a", "b");
+    console.log(obj);
+    obj.unshift("e", "f");
+    console.log(obj);
+    // 移出
+    x = obj.pop();
+    console.log(x);
+    console.log(obj);
+    y = obj.shift();
+    console.log(y);
+    console.log(obj);
+    // splice()
+    console.log(obj); // ["f", 1, 5, "c", 9, "a"]
+    // 传一个参数n,表示数组从0开始截取n位
+    // obj.splice(2);
+    // console.log(obj); // ["f", 1]
+    // 传两个参数a,b,表示数组从a下标开始删除b位
+    // obj.splice(2,2);
+    // console.log(obj); //  ["f", 1, 9, "a"]
+    // 传三个参数a,b,c(替换）,表示数组从a下标开始删除b位,并在删除的位置填入了c，c可以是多个值
+    obj.splice(2,2,"f","g","h");
+    console.log(obj);
+
+    // 排序：sort（）reverse（）通过Ascii码进行排序
+    // Ascii码排序
+    var a = [0, -1, 4, -8];
+    console.log(a.sort()); //[-1, -8, 0, 4]
+    console.log(a.reverse());//[4, 0, -8, -1]
+
+    // 数学排序
+    a.sort(function (x,y) {
+        // return x-y;
+        return y-x;
+    });
+    console.log(a); //  [-8, -1, 0, 4]
+
+    // join
+    b = ["a", "b", "d","n"];
+    console.log(b.join("+"));//a+b+d+n
+</script>
+</body>
+</html>

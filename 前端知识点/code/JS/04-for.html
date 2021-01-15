@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ul{
+            list-style: none;
+        }
+        li{
+            height:15px;
+            width:15px;
+            border:1px solid black;
+            border-radius:50%;
+            float:left;
+            margin-left:5px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+<script>
+    // for(var i=1;i<10;i++){
+    //     for(var j=1;j<10;j++){
+    //         console.log(i+":"+j);
+    //     }
+    // }
+    // 原始方法
+    // var btn = document.querySelectorAll("li");
+    // btn[0].onclick = function () {
+    //     alert("1");
+    // };
+    // btn[1].onclick =function(){
+    //     alert("2");
+    // };
+    // btn[2].onclick =function(){
+    //     alert("3");
+    // };
+    // btn[3].onclick =function(){
+    //     alert("4");
+    // };
+    // for循环+点击事件
+    // let :块级作用域
+    var btn = document.querySelectorAll("li");
+    for(let i=0;i<btn.length;i++){
+        btn[i].onclick=function () {
+            console.log(i);
+        }
+    }
+    // while
+    var i = 10;
+    while(i<10){
+        console.log(i);
+        i++; // 结束条件
+    }
+    //do...while
+    var i=10;
+    do{
+        alert(i);
+        i++;
+    }while(i<10)
+</script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js操作符</title>
+</head>
+<body>
+
+    <script>
+        // 算术运算符有 ：+  、-  、 *  、 /  、 %、++、--
+        // 注意：+的拼接
+        // 数和数
+        var n1 = 5;
+        var n2 = 8;
+        console.log(n1+n2); // 13
+        console.log(n1%n2); // 5
+        // 数和字符
+        var s = "8";
+        console.log(n1+s);  // 58
+        console.log(n1-s);  // -3
+        console.log(n1*s); // 40
+        console.log(n1 - true); // 4
+        console.log(n1 + false);    // 5
+        console.log(n1 + null);// 5
+        console.log(n1 + undefined); // NaN
+        // ++、--
+        var n3 = 5;
+        // ++自增
+        console.log(n3); // 5
+        // y = n3++;    // 先返回n3的值，再n3=n3+1
+        // console.log(y); // 5
+        console.log(n3++); // 5
+        console.log(n3); // 6
+
+        console.log("我是分割线");
+        console.log(n3); // 6
+        console.log(++n3); // 7, 先n3=n3+1，再返回n3的值
+        console.log(n3); // 7
+
+        // --自减
+        console.log("我是分割线");
+        console.log(n3); // 7
+        console.log(n3--); // 7 ,先返回n3的值，再n3=n3-1
+        console.log(n3); // 6
+
+        console.log("我是分割线三");
+        console.log(n3); // 6
+        console.log(--n3); // 5，先n3=n3-1，再返回n3的值
+        console.log(n3); // 5
+        // 赋值运算符有： = 、+=、-=、 *=、/=、
+        var num=5; // 赋值
+        console.log(num);
+        num+=1; // ===>num.txt = num.txt + 1
+        console.log(num);
+        // 比较运算符有: >、>=、<、<=、==、===（全等）
+        var num = 5;
+        var str = 5;
+        console.log("我是华丽的分割线");
+        if(num === str){ // 数值和数据类型均相同
+            console.log("===");
+        }else if(num == str){ // 数值相同，但是数据类型不同
+            console.log("==");
+        }else{
+            console.log("不相等");
+        }
+        // 逻辑运算符有：&&（与）、||（或）、! （非）
+        // a&&b：假如a可以转换为false则返回a值，否则返回b；
+        console.log(10&&0&&8); // 0
+        console.log(10&&8&&undefined); // undefined
+
+        // a||b:假如a可以转换为true则返回a值，否则返回b；
+        console.log(10||0||8); // 10
+        console.log(undefined||8||10); // 8
+
+        // ！（非）取反
+        console.log(!false); // true
+        console.log(!0); // true
+        console.log(!true); // false
+    </script>
+</body>
+</html>

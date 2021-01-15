@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86c7daed-ec16-4fd7-befa-636b97585178" name="Default Changelist" comment="相关课件">
-      <change afterPath="$PROJECT_DIR$/前端知识点/node/CSS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端知识点/node/HTML.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端知识点/node/JS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端知识点/node/PS相关知识点.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +35,7 @@
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="D:\GitHub\Git\bin\git.exe" />
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
   </component>
@@ -417,14 +414,7 @@
       <workItem from="1610337137804" duration="5696000" />
       <workItem from="1610524670614" duration="404000" />
       <workItem from="1610525267763" duration="3751000" />
-      <workItem from="1610599850192" duration="2332000" />
-    </task>
-    <task id="LOCAL-00012" summary="多任务-线程">
-      <created>1608367566725</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1608367566725</updated>
+      <workItem from="1610599850192" duration="2862000" />
     </task>
     <task id="LOCAL-00013" summary="多任务-线程">
       <created>1608367594530</created>
@@ -762,7 +752,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610526413685</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="前端知识点">
+      <created>1610608081344</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1610608081346</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -823,7 +820,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="多任务-线程" />
     <MESSAGE value="多任务-进程" />
     <MESSAGE value="leetcode" />
     <MESSAGE value="多任务-协程" />
@@ -848,7 +844,8 @@
     <MESSAGE value="内建函数" />
     <MESSAGE value="元类实现ORM" />
     <MESSAGE value="元类" />
-    <option name="LAST_COMMIT_MESSAGE" value="元类" />
+    <MESSAGE value="前端知识点" />
+    <option name="LAST_COMMIT_MESSAGE" value="前端知识点" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyPythonCode$01_HTTP1_0.coverage" NAME="01 最简单的HTTP服务器1.0版本 Coverage Results" MODIFIED="1609074152963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />

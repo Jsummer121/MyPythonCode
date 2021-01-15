@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    var str = "wo xue guo python";
+    // length:包括空格
+    console.log(str.length); // 17
+    // 字符串可读
+    console.log(str[5]); // e
+    // 字符串不可写
+    str[5] = "6";
+    console.log(str[5]); // e
+    console.log(str); // e
+
+    // 索引:第一个参数，你想要查找的字符或者字符串。第二个可选参数，表示开始查找的下标。查找成功返回第一个索引，否则返回-1。
+    console.log(str.indexOf("e"));
+    console.log(str.indexOf("o"));
+    console.log(str.indexOf("o",5)); // 9
+    console.log(str.indexOf("e",6)); // -1
+
+    // split 切割
+    console.log(str.split(" "));    // 数组["wo", "xue", "guo", "python"]
+
+    // 切片：substring、slice
+    // substring
+    // 包前不包后，会比较数值的大小，小的放前面，负数变为0
+    console.log(str.substring(1,6)); //o xue
+    console.log(str.substring(-2,6)); // wo xue
+    console.log(str.substring(6,-2)); // wo xue
+    // 单参数：截取当前序列至末尾的字符串
+    console.log(str.substring(6)); //  guo python
+
+    // slice
+    // 包前不包后，不会进行数值的自动转换（必须是前小后大，否则拿不到值），负数表示从后往前数
+    console.log(str.slice(1,6)); //o xue
+    console.log(str.slice(-2,6)); // 无
+    console.log(str.slice(6,-2)); //  guo pyth
+    // 单参数：截取当前序列至末尾的字符串
+    console.log(str.slice(6)); // guo python
+</script>
+</body>
+</html>

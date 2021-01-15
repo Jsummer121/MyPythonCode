@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    // 获取时间对象
+    var time = new Date();
+    // 当前的时间
+    console.log(time);
+    // 时间戳
+    console.log(time.getTime());
+    // 年月日时分秒,月份和星期都是从0开始计算。
+    var year = time.getFullYear();
+    var month = time.getMonth()+1;
+    var date = time.getDate();
+    var hour = time.getHours();
+    var min = time.getMinutes();
+    var sec = time.getSeconds();
+    // 打印
+    console.log(year+"年"+month+"月"+date+"日"+hour+"时"+min+"分"+sec+"秒"); // 2019年7月20日21时44分35秒
+    // 页面显示
+    document.body.innerText=year+"年"+month+"月"+date+"日"+hour+"时"+min+"分"+sec+"秒";
+
+</script>
+</body>
+</html>
