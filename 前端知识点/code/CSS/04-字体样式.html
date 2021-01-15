@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>字体样式</title>
+    <style>
+        div{
+            /*
+            font-family:字体
+            默认微软雅黑，可以同时设置多个字体，只有前面的字体没有，就用后面的字体
+            */
+            font-family: 华文中宋,华文彩云,华文楷体;
+            /*
+            font-size:字体大小（单位：px rem % em)
+            px: 谷歌浏览器默认字体大小16px，最小是12px
+            rem：16px*n
+            em：父级字体*n
+            %：父级字体*%
+            */
+            font-size:30px;
+            /*
+            font-weight:字体粗细
+            给值：100-900的整百数
+            400=正常粗细， 700=bold
+            */
+            font-weight: bolder;
+            /*
+            font-style:字体样式
+            normal:文字正常，默认
+            italic/oblique:斜体
+            */
+            font-style: italic;
+            /*
+            color:文字颜色
+            1.颜色单词
+            2.#16进制
+            3.rgb
+            4.rgba a:0-1(0完全透明，1完全不透明）
+            */
+            color:rgba(199,21,133,0.5);
+        }
+    </style>
+</head>
+<body>
+    <div>测<span>试</span>对象</div>
+</body>
+</html>

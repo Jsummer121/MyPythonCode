@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>相对定位</title>
+    <style>
+        div{
+            height:200px;
+            width:200px;
+            background: peru;
+        }
+        .test{
+            background: red;
+            position:relative;
+            left:300px;
+            top:300px;
+        }
+    </style>
+</head>
+<body>
+    <!--相对定位：以自身为参照物，不脱离文档流，偏移前的位置保留不动-->
+<div class="test"></div>
+<div class="tar">参照物</div>
+</body>
+</html>
