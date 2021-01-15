@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86c7daed-ec16-4fd7-befa-636b97585178" name="Default Changelist" comment="相关课件" />
+    <list default="true" id="86c7daed-ec16-4fd7-befa-636b97585178" name="Default Changelist" comment="相关课件">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python内置(库)函数/python-print函数.md" beforeDir="false" afterPath="$PROJECT_DIR$/python内置(库)函数/python-datetime库.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,7 +151,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/前端知识点/code/JS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/前端知识点/code/CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -162,11 +165,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyPythonCode\前端知识点\code\CSS" />
+      <recent name="E:\MyPythonCode\前端知识点\code\HTML" />
       <recent name="E:\MyPythonCode\前端知识点\code\JS" />
       <recent name="E:\MyPythonCode\Mysql知识点\code" />
       <recent name="E:\MyPythonCode\mini_web\html" />
-      <recent name="E:\MyPythonCode\mini_web" />
-      <recent name="E:\MyPythonCode\python内置(库)函数" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\MyPythonCode\类\code" />
@@ -413,14 +416,7 @@
       <workItem from="1610524670614" duration="404000" />
       <workItem from="1610525267763" duration="3751000" />
       <workItem from="1610599850192" duration="3644000" />
-      <workItem from="1610693856633" duration="280000" />
-    </task>
-    <task id="LOCAL-00016" summary="leetcode">
-      <created>1608604354492</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1608604354492</updated>
+      <workItem from="1610693856633" duration="1473000" />
     </task>
     <task id="LOCAL-00017" summary="多任务-协程">
       <created>1608640365228</created>
@@ -758,7 +754,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610694080419</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="前端知识点：HTML-CSS">
+      <created>1610694547137</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1610694547137</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -819,7 +822,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="小总结" />
     <MESSAGE value="自写nimi版的服务器" />
     <MESSAGE value="TCP相关知识点" />
     <MESSAGE value="自写mini服务器" />
@@ -844,7 +846,8 @@
     <MESSAGE value="前端知识点-JS和JQuery" />
     <MESSAGE value="文件修改" />
     <MESSAGE value="Docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Docker" />
+    <MESSAGE value="前端知识点：HTML-CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="前端知识点：HTML-CSS" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyPythonCode$01_HTTP1_0.coverage" NAME="01 最简单的HTTP服务器1.0版本 Coverage Results" MODIFIED="1609074152963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
