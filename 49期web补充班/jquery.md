@@ -287,8 +287,8 @@ $("button").eq(2).click(function () {
 
 ### 4.1 获取样式
 
-console.log($("div").css("background-color")); //rgb(135, 206, 235)
-console.log($("div").css(["background-color","height", "width"])); 
+`console.log($("div").css("background-color")); //rgb(135, 206, 235)`
+`console.log($("div").css(["background-color","height", "width"])); `
 
 // {background-color: "rgb(135, 206, 235)", height: "200px", width: "200px"}
 
@@ -313,19 +313,23 @@ offset()/position()/scrollTop/scrollLeft
 
 #### offset():距离窗口的top/left值
 
+```javascript
 var $obj=$(".two").offset();
 console.log($obj); // {top: 92.53125, left: 8}
 console.log($obj.left);
 console.log($obj.top);
+```
 
 #### position():定位
 
 **设置多少拿到多少**
 
+```javascript
 var $obj1=$(".two").position();
 console.log($obj1); // {top: 20, left: 20}
 console.log($obj1.left);
 console.log($obj1.top);
+```
 
 ###  scrollTop()：滚动条
 
@@ -434,30 +438,40 @@ $("button").eq(1).click(function () {
 
 ### 5.1 jq--->js
 #### 1.利用数组下标
-​    var $div = $("div"); //jq对象
-​    var div = $div[0]; // 转换为js对象
-​    div.style.color = "red"; // js操作方法
+
+```javascrapt
+var $div = $("div"); //jq对象
+var div = $div[0]; // 转换为js对象
+div.style.color = "red"; // js操作方法
+```
 
 #### 2.通过jq的get方法
+
+```javascrapt
  var $div = $("div"); //jq对象
  var div = $div.get(1); // 转换为js对象
  div.style.color = "skyblue";// js操作方法
+```
 
 ### 5.2 js--->jq
 
 **js情况下**
 
+```javascrapt
 var div = document.getElementsByTagName("div");//js对象
 var $div = $(div);//jq对象
 $div.last().css("color","blue");
+```
 
 **jQuery情况下**
 
+```javascrapt
 var $obj = $(".box");
     $obj.click(function(){
         var $this = $(this);
         $this.css("fontSize","50px");
     });
+```
 
 ### 5.4 this
 
@@ -512,49 +526,45 @@ obj.onclick=function () {
 
 #### 1.append()：在目标元素的内容后添加一个"<p>append</p>"
 
-$(".div3").append("<p>append</p>");
+`$(".div3").append("<p>append</p>");`
 
 #### 2.appendTo()：将"<p>appendTo</p>"添加到目标元素的内容后
 
-$("<p>appendTo</p>").appendTo(".div3");
+`$("<p>appendTo</p>").appendTo(".div3");`
 
 #### 3.prepend()：在目标元素的内容前添加一个"<p>prepend</p>"
 
-$(".div3").prepend("<p>prepend</p>")
+`$(".div3").prepend("<p>prepend</p>")`
 
-显示为：<p>append</p>
+显示为：``<p>append</p>``
 
 #### 4.prependTo()：将"<p>prependTo</p>"添加到目标元素的内容前
 
-$("<p>appendTo</p>").appendTo(".div3");
-
-
+`$("<p>appendTo</p>").appendTo(".div3");`
 
 ### 6.2 外部插入：在元素的前后插入
 
 #### 1.after:在目标元素后添加一个"<p>after</p>"
 
-$(".div4").after("<p>after</p>");
+`$(".div4").after("<p>after</p>");`
 
 ###  2.before:在目标元素前添加一个"<p>before</p>"
 
-$(".div4").before("<p>before</p>");
+`$(".div4").before("<p>before</p>");`
 
 #### 3.insertBefore()：把"<p>insertBefore</p>"插入到目标元素
 
- $("<p>insertBefore</p>").insertBefore(".div4");
+`` $("<p>insertBefore</p>").insertBefore(".div4");``
 
 #### 4. insertAfter()：把"<p>insertAfter</p>"插入到目标元素
 
-$("<p>insertAfter</p>").insertAfter(".div4");
-
-
+`$("<p>insertAfter</p>").insertAfter(".div4");`
 
  ### 6.3
 
 #### 1.replaceWith():替换标签及内容
 
-$(".div3").replaceWith("<p>我是来替换div3的</p>")
+`$(".div3").replaceWith("<p>我是来替换div3的</p>")`
 
 #### 2.remove():移除标签及内容
 
@@ -718,7 +728,7 @@ $("div").hover(function () {
 
 ### 8.1隐藏和显示
 
-var $box = $(".box1");
+`var $box = $(".box1");`
 
 #### 1.隐藏hide（）里面可以设置动画时间
 $("button").first().click(function () {
@@ -737,11 +747,9 @@ $("button").eq(2).click(function () {
     $box.toggle(3000);
 });
 
-
-
 ### 8.2淡入淡出：括号里面的数字为时间
 
-var $button = $(".box3>button");
+`var $button = $(".box3>button");`
 
 ### 1.淡出fadeOut
 
@@ -774,9 +782,9 @@ $button.eq(3).click(function () {
 
 ### 8.3.滑动
 
-var $button = $(".box5>button");
+`var $button = $(".box5>button");`
 
-var $box = $(".box4");
+`var $box = $(".box4");`
 
 #### 1.下滑
 
@@ -796,7 +804,7 @@ $button.eq(2).click(function () {
     $box.slideToggle("slow");
 });
 
-## 8.4 自定义动画animate
+### 8.4 自定义动画animate
 
 var $button = $(".box6>button");
 
@@ -999,8 +1007,6 @@ var obj = JSON.parse(str);
 #### 页面渲染
 
 self.render("login.html")
-
-
 
 #### 拿参
 

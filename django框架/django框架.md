@@ -69,7 +69,7 @@ url：https://docs.djangoproject.com/en/2.1/topics/http/urls/
 
 2.创建新的虚拟环境：
 
-mkvirtualenv /p /usr/bin/python3 diangoApp
+mkvirtualenv -p /usr/bin/python3 diangoApp
 
 3.退出虚拟环境：deactivate
 

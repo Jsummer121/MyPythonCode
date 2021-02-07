@@ -827,7 +827,7 @@ a.sort(function(s,y)){
 </script>
 ```
 
-## 十六、：定时器
+## 十六、定时器
 
 ### 设置延时器：setTimeout(f,毫秒)
 

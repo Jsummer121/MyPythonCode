@@ -1,5 +1,13 @@
 # json-ajax
 
+​		ajax全称 Ansync JavaScript and XML，是一门异步的加载技术，局部刷新
+
+**步骤**：
+
+第一步：创建需要的对象，这里主要用到的是XMLHttpRequest，注意需要考虑早期的IE；
+第二步：连接和发送；
+第三步：接收；
+
 **作用：局部刷新**
 
 ```
@@ -26,7 +34,7 @@
 					$input.eq(2).val(data["return"])
 				}//成功的函数
 				"error":
-{}//错误的函数
+				{}//错误的函数
 			});
 		});
 	</script>
