@@ -1,33 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86c7daed-ec16-4fd7-befa-636b97585178" name="Default Changelist" comment="相关课件">
-      <change afterPath="$PROJECT_DIR$/实验/王者荣耀Python版/Client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/实验/王者荣耀Python版/Hero.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/实验/王者荣耀Python版/Server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MyPythonCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyPythonCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="86c7daed-ec16-4fd7-befa-636b97585178" name="Default Changelist" comment="python写一个小型王者荣耀">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/49期web补充班/ajxj.md" beforeDir="false" afterPath="$PROJECT_DIR$/49期web补充班/ajxj.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/49期web补充班/jquery.md" beforeDir="false" afterPath="$PROJECT_DIR$/49期web补充班/jquery.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/49期web补充班/js.md" beforeDir="false" afterPath="$PROJECT_DIR$/49期web补充班/js.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django框架/9.10笔记.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/django框架/9.12笔记.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/django框架/9.16笔记.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/django框架/9.17笔记.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/django框架/9.21笔记.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/django框架/9.23笔记.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/django框架/9.24笔记.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/django框架/9.9笔记.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/django框架/django框架.md" beforeDir="false" afterPath="$PROJECT_DIR$/django框架/django框架.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django框架/开始笔记.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/django框架/第三天笔记.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/django框架/第二天笔记.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/django框架/第五天笔记.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/django框架/第四天笔记.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/django框架/老师9.7笔记.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_web/笔记/Docker精解.md" beforeDir="false" afterPath="$PROJECT_DIR$/mini_web/笔记/Docker精解.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/实验/王者荣耀Python版/node/Python写王者荣耀小游戏.md" beforeDir="false" afterPath="$PROJECT_DIR$/实验/王者荣耀Python版/node/Python写王者荣耀小游戏.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,8 +180,8 @@
       <recent name="E:\MyPythonCode\函数\code" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Client">
-    <configuration name="多线程死循环" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.11">
+    <configuration name="多进程死循环" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyPythonCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -217,7 +194,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GIL/多线程死循环.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GIL/多进程死循环.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -240,6 +217,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/多任务/进程/03-2 用Queue实现进程之间的通信.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyPythonCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/装饰器" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/装饰器/11.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -292,28 +291,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="多进程死循环" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyPythonCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GIL" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GIL/多进程死循环.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="文件下载器_Client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPythonCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -336,35 +313,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="文件下载器_Server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MyPythonCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-socket" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-socket/文件下载器_Server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.11" />
         <item itemvalue="Python.Client" />
         <item itemvalue="Python.Server" />
         <item itemvalue="Python.03-2 用Queue实现进程之间的通信" />
         <item itemvalue="Python.文件下载器_Client" />
-        <item itemvalue="Python.文件下载器_Server" />
       </list>
     </recent_temporary>
   </component>
@@ -421,21 +376,10 @@
       <workItem from="1610693856633" duration="2179000" />
       <workItem from="1610700541825" duration="2120000" />
       <workItem from="1612580795800" duration="37938000" />
-      <workItem from="1612673539774" duration="19877000" />
-    </task>
-    <task id="LOCAL-00018" summary="小总结">
-      <created>1608784928788</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1608784928788</updated>
-    </task>
-    <task id="LOCAL-00019" summary="自写nimi版的服务器">
-      <created>1608787808811</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1608787808811</updated>
+      <workItem from="1612673539774" duration="20048000" />
+      <workItem from="1612771366428" duration="1663000" />
+      <workItem from="1613371382984" duration="1257000" />
+      <workItem from="1614688048239" duration="527000" />
     </task>
     <task id="LOCAL-00020" summary="TCP相关知识点">
       <created>1608787956690</created>
@@ -766,7 +710,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610695495270</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="相关课件">
+      <created>1612693774209</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1612693774210</updated>
+    </task>
+    <task id="LOCAL-00068" summary="python写一个小型王者荣耀">
+      <created>1612693812667</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1612693812667</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -827,7 +785,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TCP相关知识点" />
     <MESSAGE value="自写mini服务器" />
     <MESSAGE value="GIL理解" />
     <MESSAGE value="Python进阶" />
@@ -839,7 +796,6 @@
     <MESSAGE value="Python进阶_上下文与魔法属性" />
     <MESSAGE value="mysql-相关知识点" />
     <MESSAGE value="Python进阶_mysql知识点" />
-    <MESSAGE value="相关课件" />
     <MESSAGE value="文档整理" />
     <MESSAGE value="装饰器、异常和单例模式" />
     <MESSAGE value="logging模块和一些修改" />
@@ -852,7 +808,9 @@
     <MESSAGE value="Docker" />
     <MESSAGE value="前端知识点：HTML-CSS" />
     <MESSAGE value="python内置库与函数" />
-    <option name="LAST_COMMIT_MESSAGE" value="python内置库与函数" />
+    <MESSAGE value="相关课件" />
+    <MESSAGE value="python写一个小型王者荣耀" />
+    <option name="LAST_COMMIT_MESSAGE" value="python写一个小型王者荣耀" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -872,6 +830,7 @@
     <SUITE FILE_PATH="coverage/MyPythonCode$07_.coverage" NAME="07 斐波那契迭代器 Coverage Results" MODIFIED="1608630137986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/协程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$pre_02.coverage" NAME="pre_02 Coverage Results" MODIFIED="1609414373025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python进阶/私有化" />
     <SUITE FILE_PATH="coverage/MyPythonCode$02.coverage" NAME="02 Coverage Results" MODIFIED="1610005804667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/闭包/code" />
+    <SUITE FILE_PATH="coverage/MyPythonCode$11.coverage" NAME="11 Coverage Results" MODIFIED="1612772837588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/装饰器" />
     <SUITE FILE_PATH="coverage/MyPythonCode$two.coverage" NAME="two Coverage Results" MODIFIED="1608364024446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/49期数据库操作/线程池_py" />
     <SUITE FILE_PATH="coverage/MyPythonCode$01_2_.coverage" NAME="01-2 主进程与子进程之间的关系 Coverage Results" MODIFIED="1608597029691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多任务/进程" />
     <SUITE FILE_PATH="coverage/MyPythonCode$05_gevent.coverage" NAME="05 实现gevent版服务器 Coverage Results" MODIFIED="1608988067313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_web" />
